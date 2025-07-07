@@ -1,0 +1,11 @@
+<h2> {{ club.name }} --- squad </h2>
+<ul>
+    {% for player in players %}
+    <li>
+        <a href="{% url 'player_detailed' club_name player_name %}">
+        {{ player.name }}
+        {{ player.position }}
+        </a>
+    </li>
+    {% end for %}
+</ul>

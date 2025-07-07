@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'clubs/style.css' %}">
+   
+
+    <title>crit_ur_club</title>
+</head>
+<body>
+    <h1>Welcome to Crit_ur_club</h1>
+    <p style="text-align: center;">Click on a club to leave or read criticism about its performance.</p>
+    <ul>
+      
+        {% for club in all_clubs %}
+        <li>
+          <a href="{% url 'club_detailed' club.name %}">{{ club.name }}</a>
+        </li>
+        {% endfor %}
+
+      </li>
+    </ul>
+    
+</body>
+</html>

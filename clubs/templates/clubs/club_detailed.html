@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'clubs/style.css' %}">
+    
+    <title>
+        {{ club.name }} - Club Details
+    </title>
+</head>
+<body>
+    <h1>{{ club_name }} - Club Details</h1>
+
+<p>Select a category to view or criticize:</p>
+<ul>
+  <li><a href="{{ manager_url }}">Coach</a></li>
+  <li><a href="{% url 'club_players' club_name=club_name %}">Players</a></li>
+  <li><a href="#">Owners</a></li>
+</ul>
+
+</body>
+</html>
