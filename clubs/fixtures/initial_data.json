@@ -3,18 +3,18 @@
     "model": "clubs.owner",
     "pk": "Robert Williams (Owner of Arsenal)",
     "fields": {
-      "age": 74,
+      "age": 60,
       "slug": "robert-williams-owner-of-arsenal"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Tom Jones (Manager of Arsenal)",
+    "pk": "Nathan Taylor (Manager of Arsenal)",
     "fields": {
-      "age": 38,
+      "age": 42,
       "nationality": "England",
-      "matches_played": 240,
-      "slug": "tom-jones-manager-of-arsenal"
+      "matches_played": 290,
+      "slug": "nathan-taylor-manager-of-arsenal"
     }
   },
   {
@@ -22,148 +22,148 @@
     "pk": "Arsenal",
     "fields": {
       "slug": "arsenal",
-      "manager": "Tom Jones (Manager of Arsenal)",
+      "manager": "Nathan Taylor (Manager of Arsenal)",
       "owner": "Robert Williams (Owner of Arsenal)",
-      "form": "DDWLL"
+      "form": "WLLDW"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Daniel Clark (Arsenal)",
+    "pk": "Robert Taylor (GK of Arsenal)",
     "fields": {
-      "age": 31,
+      "age": 21,
       "position": "GK",
-      "avr_rating": 6.8,
+      "avr_rating": 6.1,
       "club": "Arsenal",
-      "slug": "daniel-clark-arsenal"
+      "slug": "robert-taylor-gk-of-arsenal"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Johnson (Arsenal)",
-    "fields": {
-      "age": 31,
-      "position": "CBL",
-      "avr_rating": 7.0,
-      "club": "Arsenal",
-      "slug": "tom-johnson-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Daniel Miller (Arsenal)",
-    "fields": {
-      "age": 28,
-      "position": "CBR",
-      "avr_rating": 7.7,
-      "club": "Arsenal",
-      "slug": "daniel-miller-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Wilson (Arsenal)",
-    "fields": {
-      "age": 25,
-      "position": "LB",
-      "avr_rating": 6.9,
-      "club": "Arsenal",
-      "slug": "robert-wilson-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Brown (Arsenal)",
-    "fields": {
-      "age": 25,
-      "position": "RB",
-      "avr_rating": 7.8,
-      "club": "Arsenal",
-      "slug": "david-brown-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Clark (Arsenal)",
-    "fields": {
-      "age": 28,
-      "position": "DM",
-      "avr_rating": 8.2,
-      "club": "Arsenal",
-      "slug": "david-clark-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Jones (Arsenal)",
-    "fields": {
-      "age": 30,
-      "position": "CM",
-      "avr_rating": 6.6,
-      "club": "Arsenal",
-      "slug": "david-jones-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Johnson (Arsenal)",
-    "fields": {
-      "age": 33,
-      "position": "AM",
-      "avr_rating": 8.1,
-      "club": "Arsenal",
-      "slug": "ryan-johnson-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Miller (Arsenal)",
-    "fields": {
-      "age": 18,
-      "position": "LW",
-      "avr_rating": 7.6,
-      "club": "Arsenal",
-      "slug": "david-miller-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Miller (Arsenal)",
-    "fields": {
-      "age": 32,
-      "position": "RW",
-      "avr_rating": 8.9,
-      "club": "Arsenal",
-      "slug": "james-miller-arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Luke Johnson (Arsenal)",
+    "pk": "Leo Miller (CBL of Arsenal)",
     "fields": {
       "age": 34,
-      "position": "ST",
+      "position": "CBL",
+      "avr_rating": 7.4,
+      "club": "Arsenal",
+      "slug": "leo-miller-cbl-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Tom Young (CBR of Arsenal)",
+    "fields": {
+      "age": 32,
+      "position": "CBR",
+      "avr_rating": 7.0,
+      "club": "Arsenal",
+      "slug": "tom-young-cbr-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason Wright (LB of Arsenal)",
+    "fields": {
+      "age": 33,
+      "position": "LB",
+      "avr_rating": 6.6,
+      "club": "Arsenal",
+      "slug": "jason-wright-lb-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Ryan Jones (RB of Arsenal)",
+    "fields": {
+      "age": 30,
+      "position": "RB",
+      "avr_rating": 8.0,
+      "club": "Arsenal",
+      "slug": "ryan-jones-rb-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Luke Wilson (DM of Arsenal)",
+    "fields": {
+      "age": 32,
+      "position": "DM",
+      "avr_rating": 7.9,
+      "club": "Arsenal",
+      "slug": "luke-wilson-dm-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "James Williams (CM of Arsenal)",
+    "fields": {
+      "age": 33,
+      "position": "CM",
+      "avr_rating": 6.3,
+      "club": "Arsenal",
+      "slug": "james-williams-cm-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Leo Taylor (AM of Arsenal)",
+    "fields": {
+      "age": 24,
+      "position": "AM",
       "avr_rating": 7.5,
       "club": "Arsenal",
-      "slug": "luke-johnson-arsenal"
+      "slug": "leo-taylor-am-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Michael King (LW of Arsenal)",
+    "fields": {
+      "age": 23,
+      "position": "LW",
+      "avr_rating": 6.5,
+      "club": "Arsenal",
+      "slug": "michael-king-lw-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Luke Jones (RW of Arsenal)",
+    "fields": {
+      "age": 21,
+      "position": "RW",
+      "avr_rating": 6.5,
+      "club": "Arsenal",
+      "slug": "luke-jones-rw-of-arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason Mitchell (ST of Arsenal)",
+    "fields": {
+      "age": 22,
+      "position": "ST",
+      "avr_rating": 8.4,
+      "club": "Arsenal",
+      "slug": "jason-mitchell-st-of-arsenal"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Chris Taylor (Owner of Manchester United)",
+    "pk": "Sam Clark (Owner of Manchester United)",
     "fields": {
-      "age": 48,
-      "slug": "chris-taylor-owner-of-manchester-united"
+      "age": 72,
+      "slug": "sam-clark-owner-of-manchester-united"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Tom Johnson (Manager of Manchester United)",
+    "pk": "Henry Smith (Manager of Manchester United)",
     "fields": {
-      "age": 50,
+      "age": 55,
       "nationality": "England",
-      "matches_played": 188,
-      "slug": "tom-johnson-manager-of-manchester-united"
+      "matches_played": 106,
+      "slug": "henry-smith-manager-of-manchester-united"
     }
   },
   {
@@ -171,148 +171,148 @@
     "pk": "Manchester United",
     "fields": {
       "slug": "manchester-united",
-      "manager": "Tom Johnson (Manager of Manchester United)",
-      "owner": "Chris Taylor (Owner of Manchester United)",
-      "form": "LLLWW"
+      "manager": "Henry Smith (Manager of Manchester United)",
+      "owner": "Sam Clark (Owner of Manchester United)",
+      "form": "LDDLW"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Davis (Manchester United)",
+    "pk": "Tom Mitchell (GK of Manchester United)",
     "fields": {
-      "age": 23,
+      "age": 28,
       "position": "GK",
-      "avr_rating": 7.1,
+      "avr_rating": 6.7,
       "club": "Manchester United",
-      "slug": "ryan-davis-manchester-united"
+      "slug": "tom-mitchell-gk-of-manchester-united"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Brown (Manchester United)",
+    "pk": "Daniel Wright (CBL of Manchester United)",
     "fields": {
-      "age": 26,
+      "age": 20,
       "position": "CBL",
-      "avr_rating": 6.0,
+      "avr_rating": 6.7,
       "club": "Manchester United",
-      "slug": "james-brown-manchester-united"
+      "slug": "daniel-wright-cbl-of-manchester-united"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Daniel Clark (Manchester United)",
-    "fields": {
-      "age": 25,
-      "position": "CBR",
-      "avr_rating": 8.3,
-      "club": "Manchester United",
-      "slug": "daniel-clark-manchester-united"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Davis (Manchester United)",
-    "fields": {
-      "age": 21,
-      "position": "LB",
-      "avr_rating": 7.0,
-      "club": "Manchester United",
-      "slug": "james-davis-manchester-united"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Jones (Manchester United)",
+    "pk": "George King (CBR of Manchester United)",
     "fields": {
       "age": 22,
+      "position": "CBR",
+      "avr_rating": 7.8,
+      "club": "Manchester United",
+      "slug": "george-king-cbr-of-manchester-united"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "James Young (LB of Manchester United)",
+    "fields": {
+      "age": 29,
+      "position": "LB",
+      "avr_rating": 8.2,
+      "club": "Manchester United",
+      "slug": "james-young-lb-of-manchester-united"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Nathan Hall (RB of Manchester United)",
+    "fields": {
+      "age": 32,
       "position": "RB",
       "avr_rating": 8.4,
       "club": "Manchester United",
-      "slug": "robert-jones-manchester-united"
+      "slug": "nathan-hall-rb-of-manchester-united"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Williams (Manchester United)",
+    "pk": "Anthony Mitchell (DM of Manchester United)",
     "fields": {
-      "age": 19,
+      "age": 35,
       "position": "DM",
-      "avr_rating": 8.7,
-      "club": "Manchester United",
-      "slug": "john-williams-manchester-united"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Daniel Brown (Manchester United)",
-    "fields": {
-      "age": 28,
-      "position": "CM",
-      "avr_rating": 7.0,
-      "club": "Manchester United",
-      "slug": "daniel-brown-manchester-united"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Miller (Manchester United)",
-    "fields": {
-      "age": 32,
-      "position": "AM",
-      "avr_rating": 6.1,
-      "club": "Manchester United",
-      "slug": "james-miller-manchester-united"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Wilson (Manchester United)",
-    "fields": {
-      "age": 24,
-      "position": "LW",
       "avr_rating": 8.5,
       "club": "Manchester United",
-      "slug": "chris-wilson-manchester-united"
+      "slug": "anthony-mitchell-dm-of-manchester-united"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Miller (Manchester United)",
+    "pk": "Robert Walker (CM of Manchester United)",
     "fields": {
       "age": 20,
-      "position": "RW",
-      "avr_rating": 8.8,
+      "position": "CM",
+      "avr_rating": 7.6,
       "club": "Manchester United",
-      "slug": "michael-miller-manchester-united"
+      "slug": "robert-walker-cm-of-manchester-united"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Clark (Manchester United)",
+    "pk": "Luke Hall (AM of Manchester United)",
     "fields": {
-      "age": 32,
-      "position": "ST",
-      "avr_rating": 8.7,
+      "age": 28,
+      "position": "AM",
+      "avr_rating": 7.8,
       "club": "Manchester United",
-      "slug": "michael-clark-manchester-united"
+      "slug": "luke-hall-am-of-manchester-united"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Elijah Smith (LW of Manchester United)",
+    "fields": {
+      "age": 19,
+      "position": "LW",
+      "avr_rating": 8.1,
+      "club": "Manchester United",
+      "slug": "elijah-smith-lw-of-manchester-united"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Daniel Brown (RW of Manchester United)",
+    "fields": {
+      "age": 22,
+      "position": "RW",
+      "avr_rating": 7.3,
+      "club": "Manchester United",
+      "slug": "daniel-brown-rw-of-manchester-united"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Tom King (ST of Manchester United)",
+    "fields": {
+      "age": 20,
+      "position": "ST",
+      "avr_rating": 8.1,
+      "club": "Manchester United",
+      "slug": "tom-king-st-of-manchester-united"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "John Miller (Owner of Manchester City)",
+    "pk": "David Mitchell (Owner of Manchester City)",
     "fields": {
-      "age": 65,
-      "slug": "john-miller-owner-of-manchester-city"
+      "age": 66,
+      "slug": "david-mitchell-owner-of-manchester-city"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Robert Williams (Manager of Manchester City)",
+    "pk": "Ryan Hall (Manager of Manchester City)",
     "fields": {
-      "age": 61,
+      "age": 47,
       "nationality": "England",
-      "matches_played": 273,
-      "slug": "robert-williams-manager-of-manchester-city"
+      "matches_played": 274,
+      "slug": "ryan-hall-manager-of-manchester-city"
     }
   },
   {
@@ -320,148 +320,148 @@
     "pk": "Manchester City",
     "fields": {
       "slug": "manchester-city",
-      "manager": "Robert Williams (Manager of Manchester City)",
-      "owner": "John Miller (Owner of Manchester City)",
-      "form": "LLWLD"
+      "manager": "Ryan Hall (Manager of Manchester City)",
+      "owner": "David Mitchell (Owner of Manchester City)",
+      "form": "DDDWW"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Brown (Manchester City)",
+    "pk": "Robert Hall (GK of Manchester City)",
     "fields": {
-      "age": 20,
+      "age": 29,
       "position": "GK",
+      "avr_rating": 7.8,
+      "club": "Manchester City",
+      "slug": "robert-hall-gk-of-manchester-city"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Oliver Wilson (CBL of Manchester City)",
+    "fields": {
+      "age": 35,
+      "position": "CBL",
       "avr_rating": 6.4,
       "club": "Manchester City",
-      "slug": "ryan-brown-manchester-city"
+      "slug": "oliver-wilson-cbl-of-manchester-city"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Wilson (Manchester City)",
-    "fields": {
-      "age": 20,
-      "position": "CBL",
-      "avr_rating": 6.6,
-      "club": "Manchester City",
-      "slug": "chris-wilson-manchester-city"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Johnson (Manchester City)",
+    "pk": "Oliver Williams (CBR of Manchester City)",
     "fields": {
       "age": 29,
       "position": "CBR",
-      "avr_rating": 8.8,
+      "avr_rating": 6.1,
       "club": "Manchester City",
-      "slug": "ryan-johnson-manchester-city"
+      "slug": "oliver-williams-cbr-of-manchester-city"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Clark (Manchester City)",
+    "pk": "Daniel Smith (LB of Manchester City)",
+    "fields": {
+      "age": 35,
+      "position": "LB",
+      "avr_rating": 7.7,
+      "club": "Manchester City",
+      "slug": "daniel-smith-lb-of-manchester-city"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "David Taylor (RB of Manchester City)",
     "fields": {
       "age": 18,
-      "position": "LB",
-      "avr_rating": 6.7,
-      "club": "Manchester City",
-      "slug": "michael-clark-manchester-city"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Miller (Manchester City)",
-    "fields": {
-      "age": 32,
       "position": "RB",
-      "avr_rating": 8.3,
-      "club": "Manchester City",
-      "slug": "john-miller-manchester-city"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Johnson (Manchester City)",
-    "fields": {
-      "age": 23,
-      "position": "DM",
       "avr_rating": 8.0,
       "club": "Manchester City",
-      "slug": "tom-johnson-manchester-city"
+      "slug": "david-taylor-rb-of-manchester-city"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Brown (Manchester City)",
-    "fields": {
-      "age": 25,
-      "position": "CM",
-      "avr_rating": 7.5,
-      "club": "Manchester City",
-      "slug": "tom-brown-manchester-city"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Brown (Manchester City)",
+    "pk": "Victor Clark (DM of Manchester City)",
     "fields": {
       "age": 19,
-      "position": "AM",
-      "avr_rating": 8.7,
-      "club": "Manchester City",
-      "slug": "david-brown-manchester-city"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Brown (Manchester City)",
-    "fields": {
-      "age": 29,
-      "position": "LW",
-      "avr_rating": 8.9,
-      "club": "Manchester City",
-      "slug": "chris-brown-manchester-city"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Johnson (Manchester City)",
-    "fields": {
-      "age": 27,
-      "position": "RW",
+      "position": "DM",
       "avr_rating": 8.1,
       "club": "Manchester City",
-      "slug": "david-johnson-manchester-city"
+      "slug": "victor-clark-dm-of-manchester-city"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Miller (Manchester City)",
+    "pk": "John Clark (CM of Manchester City)",
     "fields": {
-      "age": 27,
-      "position": "ST",
-      "avr_rating": 8.0,
+      "age": 22,
+      "position": "CM",
+      "avr_rating": 7.7,
       "club": "Manchester City",
-      "slug": "robert-miller-manchester-city"
+      "slug": "john-clark-cm-of-manchester-city"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Nathan Miller (AM of Manchester City)",
+    "fields": {
+      "age": 30,
+      "position": "AM",
+      "avr_rating": 6.9,
+      "club": "Manchester City",
+      "slug": "nathan-miller-am-of-manchester-city"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Oliver Miller (LW of Manchester City)",
+    "fields": {
+      "age": 34,
+      "position": "LW",
+      "avr_rating": 8.5,
+      "club": "Manchester City",
+      "slug": "oliver-miller-lw-of-manchester-city"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Ryan Clark (RW of Manchester City)",
+    "fields": {
+      "age": 31,
+      "position": "RW",
+      "avr_rating": 6.9,
+      "club": "Manchester City",
+      "slug": "ryan-clark-rw-of-manchester-city"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "George Bennett (ST of Manchester City)",
+    "fields": {
+      "age": 35,
+      "position": "ST",
+      "avr_rating": 6.5,
+      "club": "Manchester City",
+      "slug": "george-bennett-st-of-manchester-city"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Daniel Smith (Owner of Chelsea)",
+    "pk": "Chris Clark (Owner of Chelsea)",
     "fields": {
-      "age": 52,
-      "slug": "daniel-smith-owner-of-chelsea"
+      "age": 71,
+      "slug": "chris-clark-owner-of-chelsea"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "David Smith (Manager of Chelsea)",
+    "pk": "Elijah Davis (Manager of Chelsea)",
     "fields": {
-      "age": 58,
+      "age": 44,
       "nationality": "England",
-      "matches_played": 142,
-      "slug": "david-smith-manager-of-chelsea"
+      "matches_played": 90,
+      "slug": "elijah-davis-manager-of-chelsea"
     }
   },
   {
@@ -469,148 +469,148 @@
     "pk": "Chelsea",
     "fields": {
       "slug": "chelsea",
-      "manager": "David Smith (Manager of Chelsea)",
-      "owner": "Daniel Smith (Owner of Chelsea)",
-      "form": "WWDWL"
+      "manager": "Elijah Davis (Manager of Chelsea)",
+      "owner": "Chris Clark (Owner of Chelsea)",
+      "form": "DWLWL"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Davis (Chelsea)",
-    "fields": {
-      "age": 30,
-      "position": "GK",
-      "avr_rating": 7.2,
-      "club": "Chelsea",
-      "slug": "tom-davis-chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Smith (Chelsea)",
+    "pk": "John Wright (GK of Chelsea)",
     "fields": {
       "age": 34,
-      "position": "CBL",
-      "avr_rating": 8.7,
+      "position": "GK",
+      "avr_rating": 7.5,
       "club": "Chelsea",
-      "slug": "david-smith-chelsea"
+      "slug": "john-wright-gk-of-chelsea"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Daniel Smith (Chelsea)",
-    "fields": {
-      "age": 21,
-      "position": "CBR",
-      "avr_rating": 7.6,
-      "club": "Chelsea",
-      "slug": "daniel-smith-chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Brown (Chelsea)",
+    "pk": "Tom Davis (CBL of Chelsea)",
     "fields": {
       "age": 18,
+      "position": "CBL",
+      "avr_rating": 8.3,
+      "club": "Chelsea",
+      "slug": "tom-davis-cbl-of-chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Nathan Clark (CBR of Chelsea)",
+    "fields": {
+      "age": 33,
+      "position": "CBR",
+      "avr_rating": 8.4,
+      "club": "Chelsea",
+      "slug": "nathan-clark-cbr-of-chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "David Jones (LB of Chelsea)",
+    "fields": {
+      "age": 33,
       "position": "LB",
       "avr_rating": 8.6,
       "club": "Chelsea",
-      "slug": "chris-brown-chelsea"
+      "slug": "david-jones-lb-of-chelsea"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Jones (Chelsea)",
+    "pk": "Henry Walker (RB of Chelsea)",
     "fields": {
-      "age": 35,
+      "age": 21,
       "position": "RB",
-      "avr_rating": 7.7,
-      "club": "Chelsea",
-      "slug": "john-jones-chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Clark (Chelsea)",
-    "fields": {
-      "age": 24,
-      "position": "DM",
-      "avr_rating": 8.4,
-      "club": "Chelsea",
-      "slug": "david-clark-chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Williams (Chelsea)",
-    "fields": {
-      "age": 19,
-      "position": "CM",
       "avr_rating": 6.5,
       "club": "Chelsea",
-      "slug": "chris-williams-chelsea"
+      "slug": "henry-walker-rb-of-chelsea"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Jones (Chelsea)",
+    "pk": "Daniel Miller (DM of Chelsea)",
     "fields": {
-      "age": 35,
-      "position": "AM",
+      "age": 31,
+      "position": "DM",
       "avr_rating": 7.2,
       "club": "Chelsea",
-      "slug": "tom-jones-chelsea"
+      "slug": "daniel-miller-dm-of-chelsea"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Brown (Chelsea)",
+    "pk": "Jason Scott (CM of Chelsea)",
     "fields": {
-      "age": 22,
-      "position": "LW",
-      "avr_rating": 8.0,
+      "age": 25,
+      "position": "CM",
+      "avr_rating": 7.3,
       "club": "Chelsea",
-      "slug": "john-brown-chelsea"
+      "slug": "jason-scott-cm-of-chelsea"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Luke Brown (Chelsea)",
+    "pk": "Luke Walker (AM of Chelsea)",
+    "fields": {
+      "age": 20,
+      "position": "AM",
+      "avr_rating": 7.0,
+      "club": "Chelsea",
+      "slug": "luke-walker-am-of-chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "David Wilson (LW of Chelsea)",
+    "fields": {
+      "age": 29,
+      "position": "LW",
+      "avr_rating": 7.5,
+      "club": "Chelsea",
+      "slug": "david-wilson-lw-of-chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Oliver Young (RW of Chelsea)",
     "fields": {
       "age": 34,
       "position": "RW",
-      "avr_rating": 6.3,
+      "avr_rating": 6.2,
       "club": "Chelsea",
-      "slug": "luke-brown-chelsea"
+      "slug": "oliver-young-rw-of-chelsea"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Johnson (Chelsea)",
+    "pk": "Michael Smith (ST of Chelsea)",
     "fields": {
-      "age": 22,
+      "age": 34,
       "position": "ST",
-      "avr_rating": 6.5,
+      "avr_rating": 7.0,
       "club": "Chelsea",
-      "slug": "tom-johnson-chelsea"
+      "slug": "michael-smith-st-of-chelsea"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "John Johnson (Owner of Liverpool)",
+    "pk": "Ryan Lewis (Owner of Liverpool)",
     "fields": {
-      "age": 60,
-      "slug": "john-johnson-owner-of-liverpool"
+      "age": 71,
+      "slug": "ryan-lewis-owner-of-liverpool"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Ryan Taylor (Manager of Liverpool)",
+    "pk": "Elijah Young (Manager of Liverpool)",
     "fields": {
-      "age": 44,
+      "age": 39,
       "nationality": "England",
-      "matches_played": 127,
-      "slug": "ryan-taylor-manager-of-liverpool"
+      "matches_played": 188,
+      "slug": "elijah-young-manager-of-liverpool"
     }
   },
   {
@@ -618,148 +618,148 @@
     "pk": "Liverpool",
     "fields": {
       "slug": "liverpool",
-      "manager": "Ryan Taylor (Manager of Liverpool)",
-      "owner": "John Johnson (Owner of Liverpool)",
-      "form": "LDLWW"
+      "manager": "Elijah Young (Manager of Liverpool)",
+      "owner": "Ryan Lewis (Owner of Liverpool)",
+      "form": "WLWDW"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Taylor (Liverpool)",
+    "pk": "Chris King (GK of Liverpool)",
     "fields": {
-      "age": 19,
+      "age": 20,
       "position": "GK",
-      "avr_rating": 6.4,
+      "avr_rating": 8.9,
       "club": "Liverpool",
-      "slug": "chris-taylor-liverpool"
+      "slug": "chris-king-gk-of-liverpool"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Davis (Liverpool)",
+    "pk": "Henry Lewis (CBL of Liverpool)",
     "fields": {
-      "age": 34,
+      "age": 31,
       "position": "CBL",
-      "avr_rating": 7.8,
-      "club": "Liverpool",
-      "slug": "robert-davis-liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Clark (Liverpool)",
-    "fields": {
-      "age": 23,
-      "position": "CBR",
-      "avr_rating": 7.3,
-      "club": "Liverpool",
-      "slug": "john-clark-liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Michael Wilson (Liverpool)",
-    "fields": {
-      "age": 21,
-      "position": "LB",
-      "avr_rating": 6.4,
-      "club": "Liverpool",
-      "slug": "michael-wilson-liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Williams (Liverpool)",
-    "fields": {
-      "age": 35,
-      "position": "RB",
-      "avr_rating": 7.8,
-      "club": "Liverpool",
-      "slug": "chris-williams-liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Davis (Liverpool)",
-    "fields": {
-      "age": 22,
-      "position": "DM",
-      "avr_rating": 7.7,
-      "club": "Liverpool",
-      "slug": "ryan-davis-liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Jones (Liverpool)",
-    "fields": {
-      "age": 18,
-      "position": "CM",
       "avr_rating": 8.2,
       "club": "Liverpool",
-      "slug": "john-jones-liverpool"
+      "slug": "henry-lewis-cbl-of-liverpool"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Miller (Liverpool)",
-    "fields": {
-      "age": 21,
-      "position": "AM",
-      "avr_rating": 6.3,
-      "club": "Liverpool",
-      "slug": "robert-miller-liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Taylor (Liverpool)",
-    "fields": {
-      "age": 30,
-      "position": "LW",
-      "avr_rating": 7.6,
-      "club": "Liverpool",
-      "slug": "james-taylor-liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Smith (Liverpool)",
+    "pk": "Luke Lewis (CBR of Liverpool)",
     "fields": {
       "age": 26,
-      "position": "RW",
-      "avr_rating": 7.4,
+      "position": "CBR",
+      "avr_rating": 8.7,
       "club": "Liverpool",
-      "slug": "david-smith-liverpool"
+      "slug": "luke-lewis-cbr-of-liverpool"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Jones (Liverpool)",
+    "pk": "Victor Jones (LB of Liverpool)",
     "fields": {
-      "age": 22,
-      "position": "ST",
+      "age": 28,
+      "position": "LB",
+      "avr_rating": 8.8,
+      "club": "Liverpool",
+      "slug": "victor-jones-lb-of-liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "John Jones (RB of Liverpool)",
+    "fields": {
+      "age": 26,
+      "position": "RB",
+      "avr_rating": 6.0,
+      "club": "Liverpool",
+      "slug": "john-jones-rb-of-liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Daniel Hall (DM of Liverpool)",
+    "fields": {
+      "age": 27,
+      "position": "DM",
+      "avr_rating": 6.4,
+      "club": "Liverpool",
+      "slug": "daniel-hall-dm-of-liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Daniel Lewis (CM of Liverpool)",
+    "fields": {
+      "age": 25,
+      "position": "CM",
       "avr_rating": 7.7,
       "club": "Liverpool",
-      "slug": "robert-jones-liverpool"
+      "slug": "daniel-lewis-cm-of-liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Luke Smith (AM of Liverpool)",
+    "fields": {
+      "age": 24,
+      "position": "AM",
+      "avr_rating": 8.8,
+      "club": "Liverpool",
+      "slug": "luke-smith-am-of-liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "James Smith (LW of Liverpool)",
+    "fields": {
+      "age": 24,
+      "position": "LW",
+      "avr_rating": 8.0,
+      "club": "Liverpool",
+      "slug": "james-smith-lw-of-liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "John Walker (RW of Liverpool)",
+    "fields": {
+      "age": 33,
+      "position": "RW",
+      "avr_rating": 8.5,
+      "club": "Liverpool",
+      "slug": "john-walker-rw-of-liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Ryan Wright (ST of Liverpool)",
+    "fields": {
+      "age": 35,
+      "position": "ST",
+      "avr_rating": 7.0,
+      "club": "Liverpool",
+      "slug": "ryan-wright-st-of-liverpool"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Chris Clark (Owner of Tottenham)",
+    "pk": "Victor Walker (Owner of Tottenham)",
     "fields": {
-      "age": 73,
-      "slug": "chris-clark-owner-of-tottenham"
+      "age": 61,
+      "slug": "victor-walker-owner-of-tottenham"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "James Wilson (Manager of Tottenham)",
+    "pk": "Henry Davis (Manager of Tottenham)",
     "fields": {
-      "age": 41,
+      "age": 39,
       "nationality": "England",
-      "matches_played": 84,
-      "slug": "james-wilson-manager-of-tottenham"
+      "matches_played": 144,
+      "slug": "henry-davis-manager-of-tottenham"
     }
   },
   {
@@ -767,148 +767,148 @@
     "pk": "Tottenham",
     "fields": {
       "slug": "tottenham",
-      "manager": "James Wilson (Manager of Tottenham)",
-      "owner": "Chris Clark (Owner of Tottenham)",
-      "form": "LDDWW"
+      "manager": "Henry Davis (Manager of Tottenham)",
+      "owner": "Victor Walker (Owner of Tottenham)",
+      "form": "LLDDL"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Clark (Tottenham)",
+    "pk": "Victor Scott (GK of Tottenham)",
     "fields": {
-      "age": 27,
+      "age": 20,
       "position": "GK",
-      "avr_rating": 8.5,
+      "avr_rating": 8.2,
       "club": "Tottenham",
-      "slug": "robert-clark-tottenham"
+      "slug": "victor-scott-gk-of-tottenham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Wilson (Tottenham)",
+    "pk": "James Wright (CBL of Tottenham)",
+    "fields": {
+      "age": 26,
+      "position": "CBL",
+      "avr_rating": 6.8,
+      "club": "Tottenham",
+      "slug": "james-wright-cbl-of-tottenham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Michael Johnson (CBR of Tottenham)",
+    "fields": {
+      "age": 28,
+      "position": "CBR",
+      "avr_rating": 6.6,
+      "club": "Tottenham",
+      "slug": "michael-johnson-cbr-of-tottenham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Daniel King (LB of Tottenham)",
     "fields": {
       "age": 31,
-      "position": "CBL",
-      "avr_rating": 7.7,
+      "position": "LB",
+      "avr_rating": 8.2,
       "club": "Tottenham",
-      "slug": "michael-wilson-tottenham"
+      "slug": "daniel-king-lb-of-tottenham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Wilson (Tottenham)",
+    "pk": "Elijah Scott (RB of Tottenham)",
     "fields": {
-      "age": 29,
-      "position": "CBR",
-      "avr_rating": 8.8,
+      "age": 20,
+      "position": "RB",
+      "avr_rating": 8.0,
       "club": "Tottenham",
-      "slug": "ryan-wilson-tottenham"
+      "slug": "elijah-scott-rb-of-tottenham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Brown (Tottenham)",
+    "pk": "Anthony Lewis (DM of Tottenham)",
     "fields": {
       "age": 35,
-      "position": "LB",
-      "avr_rating": 7.3,
+      "position": "DM",
+      "avr_rating": 6.1,
       "club": "Tottenham",
-      "slug": "james-brown-tottenham"
+      "slug": "anthony-lewis-dm-of-tottenham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Miller (Tottenham)",
+    "pk": "Daniel Johnson (CM of Tottenham)",
     "fields": {
-      "age": 21,
-      "position": "RB",
-      "avr_rating": 6.6,
+      "age": 22,
+      "position": "CM",
+      "avr_rating": 6.1,
       "club": "Tottenham",
-      "slug": "tom-miller-tottenham"
+      "slug": "daniel-johnson-cm-of-tottenham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Daniel Johnson (Tottenham)",
+    "pk": "Chris Mitchell (AM of Tottenham)",
+    "fields": {
+      "age": 33,
+      "position": "AM",
+      "avr_rating": 8.4,
+      "club": "Tottenham",
+      "slug": "chris-mitchell-am-of-tottenham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Tom Hall (LW of Tottenham)",
+    "fields": {
+      "age": 22,
+      "position": "LW",
+      "avr_rating": 8.0,
+      "club": "Tottenham",
+      "slug": "tom-hall-lw-of-tottenham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "John Miller (RW of Tottenham)",
+    "fields": {
+      "age": 19,
+      "position": "RW",
+      "avr_rating": 7.5,
+      "club": "Tottenham",
+      "slug": "john-miller-rw-of-tottenham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "John Smith (ST of Tottenham)",
     "fields": {
       "age": 27,
-      "position": "DM",
+      "position": "ST",
       "avr_rating": 7.7,
       "club": "Tottenham",
-      "slug": "daniel-johnson-tottenham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Brown (Tottenham)",
-    "fields": {
-      "age": 35,
-      "position": "CM",
-      "avr_rating": 6.5,
-      "club": "Tottenham",
-      "slug": "john-brown-tottenham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Luke Smith (Tottenham)",
-    "fields": {
-      "age": 25,
-      "position": "AM",
-      "avr_rating": 7.9,
-      "club": "Tottenham",
-      "slug": "luke-smith-tottenham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Miller (Tottenham)",
-    "fields": {
-      "age": 30,
-      "position": "LW",
-      "avr_rating": 7.6,
-      "club": "Tottenham",
-      "slug": "john-miller-tottenham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Taylor (Tottenham)",
-    "fields": {
-      "age": 29,
-      "position": "RW",
-      "avr_rating": 6.6,
-      "club": "Tottenham",
-      "slug": "tom-taylor-tottenham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Luke Clark (Tottenham)",
-    "fields": {
-      "age": 34,
-      "position": "ST",
-      "avr_rating": 8.1,
-      "club": "Tottenham",
-      "slug": "luke-clark-tottenham"
+      "slug": "john-smith-st-of-tottenham"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Michael Taylor (Owner of Newcastle)",
+    "pk": "Robert Wright (Owner of Newcastle)",
     "fields": {
-      "age": 62,
-      "slug": "michael-taylor-owner-of-newcastle"
+      "age": 46,
+      "slug": "robert-wright-owner-of-newcastle"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "James Smith (Manager of Newcastle)",
+    "pk": "Sam Brown (Manager of Newcastle)",
     "fields": {
-      "age": 40,
+      "age": 57,
       "nationality": "England",
-      "matches_played": 267,
-      "slug": "james-smith-manager-of-newcastle"
+      "matches_played": 123,
+      "slug": "sam-brown-manager-of-newcastle"
     }
   },
   {
@@ -916,148 +916,148 @@
     "pk": "Newcastle",
     "fields": {
       "slug": "newcastle",
-      "manager": "James Smith (Manager of Newcastle)",
-      "owner": "Michael Taylor (Owner of Newcastle)",
-      "form": "WWLDD"
+      "manager": "Sam Brown (Manager of Newcastle)",
+      "owner": "Robert Wright (Owner of Newcastle)",
+      "form": "DDWWL"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "David Davis (Newcastle)",
+    "pk": "Tom Taylor (GK of Newcastle)",
     "fields": {
-      "age": 20,
+      "age": 26,
       "position": "GK",
-      "avr_rating": 8.2,
+      "avr_rating": 6.7,
       "club": "Newcastle",
-      "slug": "david-davis-newcastle"
+      "slug": "tom-taylor-gk-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Smith (Newcastle)",
+    "pk": "Ryan Mitchell (CBL of Newcastle)",
     "fields": {
       "age": 35,
       "position": "CBL",
-      "avr_rating": 6.2,
+      "avr_rating": 6.5,
       "club": "Newcastle",
-      "slug": "michael-smith-newcastle"
+      "slug": "ryan-mitchell-cbl-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Smith (Newcastle)",
+    "pk": "Daniel Jones (CBR of Newcastle)",
     "fields": {
-      "age": 34,
+      "age": 29,
       "position": "CBR",
-      "avr_rating": 7.7,
+      "avr_rating": 6.6,
       "club": "Newcastle",
-      "slug": "john-smith-newcastle"
+      "slug": "daniel-jones-cbr-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Miller (Newcastle)",
+    "pk": "Luke Bennett (LB of Newcastle)",
     "fields": {
       "age": 26,
       "position": "LB",
-      "avr_rating": 8.4,
+      "avr_rating": 6.1,
       "club": "Newcastle",
-      "slug": "robert-miller-newcastle"
+      "slug": "luke-bennett-lb-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Wilson (Newcastle)",
+    "pk": "John Young (RB of Newcastle)",
     "fields": {
-      "age": 33,
+      "age": 19,
       "position": "RB",
       "avr_rating": 7.1,
       "club": "Newcastle",
-      "slug": "chris-wilson-newcastle"
+      "slug": "john-young-rb-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Wilson (Newcastle)",
-    "fields": {
-      "age": 18,
-      "position": "DM",
-      "avr_rating": 8.4,
-      "club": "Newcastle",
-      "slug": "robert-wilson-newcastle"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Taylor (Newcastle)",
+    "pk": "James Lewis (DM of Newcastle)",
     "fields": {
       "age": 21,
+      "position": "DM",
+      "avr_rating": 8.6,
+      "club": "Newcastle",
+      "slug": "james-lewis-dm-of-newcastle"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Sam Jones (CM of Newcastle)",
+    "fields": {
+      "age": 22,
       "position": "CM",
-      "avr_rating": 6.2,
+      "avr_rating": 8.8,
       "club": "Newcastle",
-      "slug": "robert-taylor-newcastle"
+      "slug": "sam-jones-cm-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Taylor (Newcastle)",
+    "pk": "John Lewis (AM of Newcastle)",
     "fields": {
-      "age": 20,
+      "age": 27,
       "position": "AM",
-      "avr_rating": 6.3,
+      "avr_rating": 7.8,
       "club": "Newcastle",
-      "slug": "john-taylor-newcastle"
+      "slug": "john-lewis-am-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Williams (Newcastle)",
+    "pk": "Sam Walker (LW of Newcastle)",
     "fields": {
-      "age": 29,
+      "age": 26,
       "position": "LW",
-      "avr_rating": 8.9,
+      "avr_rating": 8.6,
       "club": "Newcastle",
-      "slug": "tom-williams-newcastle"
+      "slug": "sam-walker-lw-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Miller (Newcastle)",
+    "pk": "David Miller (RW of Newcastle)",
     "fields": {
-      "age": 20,
+      "age": 21,
       "position": "RW",
-      "avr_rating": 6.1,
+      "avr_rating": 6.4,
       "club": "Newcastle",
-      "slug": "james-miller-newcastle"
+      "slug": "david-miller-rw-of-newcastle"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Brown (Newcastle)",
+    "pk": "Robert Davis (ST of Newcastle)",
     "fields": {
-      "age": 23,
+      "age": 31,
       "position": "ST",
-      "avr_rating": 8.7,
+      "avr_rating": 8.2,
       "club": "Newcastle",
-      "slug": "robert-brown-newcastle"
+      "slug": "robert-davis-st-of-newcastle"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "James Wilson (Owner of Aston Villa)",
+    "pk": "Sam Davis (Owner of Aston Villa)",
     "fields": {
-      "age": 58,
-      "slug": "james-wilson-owner-of-aston-villa"
+      "age": 53,
+      "slug": "sam-davis-owner-of-aston-villa"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Ryan Brown (Manager of Aston Villa)",
+    "pk": "James Johnson (Manager of Aston Villa)",
     "fields": {
-      "age": 64,
+      "age": 52,
       "nationality": "England",
-      "matches_played": 112,
-      "slug": "ryan-brown-manager-of-aston-villa"
+      "matches_played": 122,
+      "slug": "james-johnson-manager-of-aston-villa"
     }
   },
   {
@@ -1065,148 +1065,148 @@
     "pk": "Aston Villa",
     "fields": {
       "slug": "aston-villa",
-      "manager": "Ryan Brown (Manager of Aston Villa)",
-      "owner": "James Wilson (Owner of Aston Villa)",
-      "form": "DWLWW"
+      "manager": "James Johnson (Manager of Aston Villa)",
+      "owner": "Sam Davis (Owner of Aston Villa)",
+      "form": "DWWWL"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Miller (Aston Villa)",
+    "pk": "Leo Jones (GK of Aston Villa)",
     "fields": {
-      "age": 27,
+      "age": 29,
       "position": "GK",
-      "avr_rating": 7.1,
-      "club": "Aston Villa",
-      "slug": "tom-miller-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Michael Clark (Aston Villa)",
-    "fields": {
-      "age": 21,
-      "position": "CBL",
-      "avr_rating": 8.3,
-      "club": "Aston Villa",
-      "slug": "michael-clark-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Daniel Jones (Aston Villa)",
-    "fields": {
-      "age": 32,
-      "position": "CBR",
-      "avr_rating": 8.8,
-      "club": "Aston Villa",
-      "slug": "daniel-jones-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Davis (Aston Villa)",
-    "fields": {
-      "age": 31,
-      "position": "LB",
-      "avr_rating": 8.6,
-      "club": "Aston Villa",
-      "slug": "john-davis-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Williams (Aston Villa)",
-    "fields": {
-      "age": 26,
-      "position": "RB",
       "avr_rating": 7.3,
       "club": "Aston Villa",
-      "slug": "ryan-williams-aston-villa"
+      "slug": "leo-jones-gk-of-aston-villa"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Brown (Aston Villa)",
-    "fields": {
-      "age": 21,
-      "position": "DM",
-      "avr_rating": 7.2,
-      "club": "Aston Villa",
-      "slug": "james-brown-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Johnson (Aston Villa)",
-    "fields": {
-      "age": 18,
-      "position": "CM",
-      "avr_rating": 7.4,
-      "club": "Aston Villa",
-      "slug": "ryan-johnson-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Taylor (Aston Villa)",
-    "fields": {
-      "age": 26,
-      "position": "AM",
-      "avr_rating": 7.1,
-      "club": "Aston Villa",
-      "slug": "ryan-taylor-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Luke Johnson (Aston Villa)",
-    "fields": {
-      "age": 22,
-      "position": "LW",
-      "avr_rating": 8.3,
-      "club": "Aston Villa",
-      "slug": "luke-johnson-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Michael Williams (Aston Villa)",
-    "fields": {
-      "age": 30,
-      "position": "RW",
-      "avr_rating": 8.5,
-      "club": "Aston Villa",
-      "slug": "michael-williams-aston-villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Daniel Johnson (Aston Villa)",
+    "pk": "Sam Wilson (CBL of Aston Villa)",
     "fields": {
       "age": 25,
-      "position": "ST",
-      "avr_rating": 6.5,
+      "position": "CBL",
+      "avr_rating": 7.8,
       "club": "Aston Villa",
-      "slug": "daniel-johnson-aston-villa"
+      "slug": "sam-wilson-cbl-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "George Davis (CBR of Aston Villa)",
+    "fields": {
+      "age": 27,
+      "position": "CBR",
+      "avr_rating": 7.1,
+      "club": "Aston Villa",
+      "slug": "george-davis-cbr-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "James Scott (LB of Aston Villa)",
+    "fields": {
+      "age": 19,
+      "position": "LB",
+      "avr_rating": 9.0,
+      "club": "Aston Villa",
+      "slug": "james-scott-lb-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Nathan Johnson (RB of Aston Villa)",
+    "fields": {
+      "age": 19,
+      "position": "RB",
+      "avr_rating": 6.6,
+      "club": "Aston Villa",
+      "slug": "nathan-johnson-rb-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "George Allen (DM of Aston Villa)",
+    "fields": {
+      "age": 31,
+      "position": "DM",
+      "avr_rating": 7.7,
+      "club": "Aston Villa",
+      "slug": "george-allen-dm-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "David Clark (CM of Aston Villa)",
+    "fields": {
+      "age": 20,
+      "position": "CM",
+      "avr_rating": 7.5,
+      "club": "Aston Villa",
+      "slug": "david-clark-cm-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Sam Smith (AM of Aston Villa)",
+    "fields": {
+      "age": 35,
+      "position": "AM",
+      "avr_rating": 8.9,
+      "club": "Aston Villa",
+      "slug": "sam-smith-am-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Oliver Walker (LW of Aston Villa)",
+    "fields": {
+      "age": 23,
+      "position": "LW",
+      "avr_rating": 6.3,
+      "club": "Aston Villa",
+      "slug": "oliver-walker-lw-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Oliver Mitchell (RW of Aston Villa)",
+    "fields": {
+      "age": 24,
+      "position": "RW",
+      "avr_rating": 8.8,
+      "club": "Aston Villa",
+      "slug": "oliver-mitchell-rw-of-aston-villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Anthony Clark (ST of Aston Villa)",
+    "fields": {
+      "age": 23,
+      "position": "ST",
+      "avr_rating": 6.6,
+      "club": "Aston Villa",
+      "slug": "anthony-clark-st-of-aston-villa"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "John Clark (Owner of West Ham)",
+    "pk": "Oliver Smith (Owner of West Ham)",
     "fields": {
-      "age": 60,
-      "slug": "john-clark-owner-of-west-ham"
+      "age": 61,
+      "slug": "oliver-smith-owner-of-west-ham"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Daniel Smith (Manager of West Ham)",
+    "pk": "Luke Williams (Manager of West Ham)",
     "fields": {
-      "age": 48,
+      "age": 61,
       "nationality": "England",
-      "matches_played": 181,
-      "slug": "daniel-smith-manager-of-west-ham"
+      "matches_played": 220,
+      "slug": "luke-williams-manager-of-west-ham"
     }
   },
   {
@@ -1214,148 +1214,148 @@
     "pk": "West Ham",
     "fields": {
       "slug": "west-ham",
-      "manager": "Daniel Smith (Manager of West Ham)",
-      "owner": "John Clark (Owner of West Ham)",
-      "form": "LLLLW"
+      "manager": "Luke Williams (Manager of West Ham)",
+      "owner": "Oliver Smith (Owner of West Ham)",
+      "form": "DLWLW"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Williams (West Ham)",
+    "pk": "Ryan Bennett (GK of West Ham)",
+    "fields": {
+      "age": 26,
+      "position": "GK",
+      "avr_rating": 8.8,
+      "club": "West Ham",
+      "slug": "ryan-bennett-gk-of-west-ham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason Johnson (CBL of West Ham)",
     "fields": {
       "age": 29,
-      "position": "GK",
-      "avr_rating": 6.3,
+      "position": "CBL",
+      "avr_rating": 7.7,
       "club": "West Ham",
-      "slug": "chris-williams-west-ham"
+      "slug": "jason-johnson-cbl-of-west-ham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Miller (West Ham)",
+    "pk": "Jason Jones (CBR of West Ham)",
     "fields": {
       "age": 22,
-      "position": "CBL",
-      "avr_rating": 8.6,
+      "position": "CBR",
+      "avr_rating": 8.9,
       "club": "West Ham",
-      "slug": "tom-miller-west-ham"
+      "slug": "jason-jones-cbr-of-west-ham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Wilson (West Ham)",
+    "pk": "Nathan Bennett (LB of West Ham)",
+    "fields": {
+      "age": 18,
+      "position": "LB",
+      "avr_rating": 6.4,
+      "club": "West Ham",
+      "slug": "nathan-bennett-lb-of-west-ham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "John Davis (RB of West Ham)",
+    "fields": {
+      "age": 25,
+      "position": "RB",
+      "avr_rating": 7.7,
+      "club": "West Ham",
+      "slug": "john-davis-rb-of-west-ham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Leo Williams (DM of West Ham)",
     "fields": {
       "age": 19,
-      "position": "CBR",
-      "avr_rating": 7.1,
-      "club": "West Ham",
-      "slug": "michael-wilson-west-ham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Davis (West Ham)",
-    "fields": {
-      "age": 23,
-      "position": "LB",
-      "avr_rating": 8.4,
-      "club": "West Ham",
-      "slug": "chris-davis-west-ham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Daniel Davis (West Ham)",
-    "fields": {
-      "age": 35,
-      "position": "RB",
-      "avr_rating": 7.9,
-      "club": "West Ham",
-      "slug": "daniel-davis-west-ham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Taylor (West Ham)",
-    "fields": {
-      "age": 31,
       "position": "DM",
-      "avr_rating": 7.5,
+      "avr_rating": 6.7,
       "club": "West Ham",
-      "slug": "tom-taylor-west-ham"
+      "slug": "leo-williams-dm-of-west-ham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Brown (West Ham)",
+    "pk": "John Taylor (CM of West Ham)",
     "fields": {
-      "age": 32,
+      "age": 25,
       "position": "CM",
-      "avr_rating": 8.7,
+      "avr_rating": 6.7,
       "club": "West Ham",
-      "slug": "michael-brown-west-ham"
+      "slug": "john-taylor-cm-of-west-ham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Williams (West Ham)",
+    "pk": "James Wilson (AM of West Ham)",
     "fields": {
       "age": 23,
       "position": "AM",
-      "avr_rating": 8.5,
+      "avr_rating": 8.9,
       "club": "West Ham",
-      "slug": "john-williams-west-ham"
+      "slug": "james-wilson-am-of-west-ham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Luke Taylor (West Ham)",
+    "pk": "Victor Bennett (LW of West Ham)",
     "fields": {
-      "age": 25,
+      "age": 34,
       "position": "LW",
-      "avr_rating": 6.6,
+      "avr_rating": 6.2,
       "club": "West Ham",
-      "slug": "luke-taylor-west-ham"
+      "slug": "victor-bennett-lw-of-west-ham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Clark (West Ham)",
+    "pk": "Michael Wilson (RW of West Ham)",
     "fields": {
-      "age": 31,
+      "age": 18,
       "position": "RW",
-      "avr_rating": 7.8,
+      "avr_rating": 7.3,
       "club": "West Ham",
-      "slug": "james-clark-west-ham"
+      "slug": "michael-wilson-rw-of-west-ham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Smith (West Ham)",
+    "pk": "Robert Johnson (ST of West Ham)",
     "fields": {
-      "age": 19,
+      "age": 21,
       "position": "ST",
-      "avr_rating": 7.7,
+      "avr_rating": 6.5,
       "club": "West Ham",
-      "slug": "ryan-smith-west-ham"
+      "slug": "robert-johnson-st-of-west-ham"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Robert Miller (Owner of Brighton)",
+    "pk": "George Walker (Owner of Brighton)",
     "fields": {
-      "age": 73,
-      "slug": "robert-miller-owner-of-brighton"
+      "age": 51,
+      "slug": "george-walker-owner-of-brighton"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Chris Wilson (Manager of Brighton)",
+    "pk": "Elijah Jones (Manager of Brighton)",
     "fields": {
-      "age": 36,
+      "age": 49,
       "nationality": "England",
-      "matches_played": 130,
-      "slug": "chris-wilson-manager-of-brighton"
+      "matches_played": 282,
+      "slug": "elijah-jones-manager-of-brighton"
     }
   },
   {
@@ -1363,148 +1363,148 @@
     "pk": "Brighton",
     "fields": {
       "slug": "brighton",
-      "manager": "Chris Wilson (Manager of Brighton)",
-      "owner": "Robert Miller (Owner of Brighton)",
-      "form": "LWDDL"
+      "manager": "Elijah Jones (Manager of Brighton)",
+      "owner": "George Walker (Owner of Brighton)",
+      "form": "DLLLD"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Davis (Brighton)",
+    "pk": "Jason Walker (GK of Brighton)",
     "fields": {
-      "age": 19,
+      "age": 24,
       "position": "GK",
-      "avr_rating": 6.3,
+      "avr_rating": 7.2,
       "club": "Brighton",
-      "slug": "tom-davis-brighton"
+      "slug": "jason-walker-gk-of-brighton"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Clark (Brighton)",
-    "fields": {
-      "age": 19,
-      "position": "CBL",
-      "avr_rating": 7.1,
-      "club": "Brighton",
-      "slug": "michael-clark-brighton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Johnson (Brighton)",
-    "fields": {
-      "age": 21,
-      "position": "CBR",
-      "avr_rating": 6.5,
-      "club": "Brighton",
-      "slug": "tom-johnson-brighton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Clark (Brighton)",
-    "fields": {
-      "age": 19,
-      "position": "LB",
-      "avr_rating": 7.9,
-      "club": "Brighton",
-      "slug": "david-clark-brighton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Brown (Brighton)",
-    "fields": {
-      "age": 34,
-      "position": "RB",
-      "avr_rating": 6.1,
-      "club": "Brighton",
-      "slug": "chris-brown-brighton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Daniel Jones (Brighton)",
-    "fields": {
-      "age": 28,
-      "position": "DM",
-      "avr_rating": 8.0,
-      "club": "Brighton",
-      "slug": "daniel-jones-brighton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Taylor (Brighton)",
-    "fields": {
-      "age": 30,
-      "position": "CM",
-      "avr_rating": 6.3,
-      "club": "Brighton",
-      "slug": "ryan-taylor-brighton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Smith (Brighton)",
-    "fields": {
-      "age": 20,
-      "position": "AM",
-      "avr_rating": 7.8,
-      "club": "Brighton",
-      "slug": "david-smith-brighton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Taylor (Brighton)",
-    "fields": {
-      "age": 26,
-      "position": "LW",
-      "avr_rating": 6.6,
-      "club": "Brighton",
-      "slug": "john-taylor-brighton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Jones (Brighton)",
+    "pk": "Daniel Walker (CBL of Brighton)",
     "fields": {
       "age": 18,
-      "position": "RW",
-      "avr_rating": 7.0,
+      "position": "CBL",
+      "avr_rating": 8.3,
       "club": "Brighton",
-      "slug": "robert-jones-brighton"
+      "slug": "daniel-walker-cbl-of-brighton"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Wilson (Brighton)",
+    "pk": "Sam Johnson (CBR of Brighton)",
     "fields": {
-      "age": 28,
-      "position": "ST",
-      "avr_rating": 6.2,
+      "age": 27,
+      "position": "CBR",
+      "avr_rating": 6.3,
       "club": "Brighton",
-      "slug": "ryan-wilson-brighton"
+      "slug": "sam-johnson-cbr-of-brighton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "George Brown (LB of Brighton)",
+    "fields": {
+      "age": 35,
+      "position": "LB",
+      "avr_rating": 8.3,
+      "club": "Brighton",
+      "slug": "george-brown-lb-of-brighton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Anthony Brown (RB of Brighton)",
+    "fields": {
+      "age": 33,
+      "position": "RB",
+      "avr_rating": 8.1,
+      "club": "Brighton",
+      "slug": "anthony-brown-rb-of-brighton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason Taylor (DM of Brighton)",
+    "fields": {
+      "age": 18,
+      "position": "DM",
+      "avr_rating": 7.0,
+      "club": "Brighton",
+      "slug": "jason-taylor-dm-of-brighton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "David Williams (CM of Brighton)",
+    "fields": {
+      "age": 24,
+      "position": "CM",
+      "avr_rating": 8.4,
+      "club": "Brighton",
+      "slug": "david-williams-cm-of-brighton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "George Scott (AM of Brighton)",
+    "fields": {
+      "age": 23,
+      "position": "AM",
+      "avr_rating": 8.4,
+      "club": "Brighton",
+      "slug": "george-scott-am-of-brighton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Nathan Young (LW of Brighton)",
+    "fields": {
+      "age": 22,
+      "position": "LW",
+      "avr_rating": 6.0,
+      "club": "Brighton",
+      "slug": "nathan-young-lw-of-brighton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Anthony King (RW of Brighton)",
+    "fields": {
+      "age": 34,
+      "position": "RW",
+      "avr_rating": 8.5,
+      "club": "Brighton",
+      "slug": "anthony-king-rw-of-brighton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Chris Taylor (ST of Brighton)",
+    "fields": {
+      "age": 24,
+      "position": "ST",
+      "avr_rating": 8.7,
+      "club": "Brighton",
+      "slug": "chris-taylor-st-of-brighton"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Daniel Clark (Owner of Brentford)",
+    "pk": "John Allen (Owner of Brentford)",
     "fields": {
-      "age": 61,
-      "slug": "daniel-clark-owner-of-brentford"
+      "age": 66,
+      "slug": "john-allen-owner-of-brentford"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Luke Johnson (Manager of Brentford)",
+    "pk": "Nathan Walker (Manager of Brentford)",
     "fields": {
-      "age": 53,
+      "age": 43,
       "nationality": "England",
-      "matches_played": 150,
-      "slug": "luke-johnson-manager-of-brentford"
+      "matches_played": 289,
+      "slug": "nathan-walker-manager-of-brentford"
     }
   },
   {
@@ -1512,148 +1512,148 @@
     "pk": "Brentford",
     "fields": {
       "slug": "brentford",
-      "manager": "Luke Johnson (Manager of Brentford)",
-      "owner": "Daniel Clark (Owner of Brentford)",
-      "form": "DWDLW"
+      "manager": "Nathan Walker (Manager of Brentford)",
+      "owner": "John Allen (Owner of Brentford)",
+      "form": "DDLLL"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Jones (Brentford)",
+    "pk": "George Johnson (GK of Brentford)",
     "fields": {
-      "age": 27,
+      "age": 35,
       "position": "GK",
-      "avr_rating": 8.0,
+      "avr_rating": 6.8,
       "club": "Brentford",
-      "slug": "michael-jones-brentford"
+      "slug": "george-johnson-gk-of-brentford"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "David Clark (Brentford)",
-    "fields": {
-      "age": 29,
-      "position": "CBL",
-      "avr_rating": 6.3,
-      "club": "Brentford",
-      "slug": "david-clark-brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Williams (Brentford)",
+    "pk": "George Smith (CBL of Brentford)",
     "fields": {
       "age": 18,
-      "position": "CBR",
-      "avr_rating": 6.4,
+      "position": "CBL",
+      "avr_rating": 8.5,
       "club": "Brentford",
-      "slug": "john-williams-brentford"
+      "slug": "george-smith-cbl-of-brentford"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "David Davis (Brentford)",
+    "pk": "Sam Mitchell (CBR of Brentford)",
     "fields": {
-      "age": 20,
+      "age": 22,
+      "position": "CBR",
+      "avr_rating": 7.6,
+      "club": "Brentford",
+      "slug": "sam-mitchell-cbr-of-brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "George Williams (LB of Brentford)",
+    "fields": {
+      "age": 31,
       "position": "LB",
       "avr_rating": 7.3,
       "club": "Brentford",
-      "slug": "david-davis-brentford"
+      "slug": "george-williams-lb-of-brentford"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Williams (Brentford)",
+    "pk": "Michael Mitchell (RB of Brentford)",
     "fields": {
-      "age": 21,
+      "age": 18,
       "position": "RB",
-      "avr_rating": 9.0,
-      "club": "Brentford",
-      "slug": "james-williams-brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Davis (Brentford)",
-    "fields": {
-      "age": 22,
-      "position": "DM",
-      "avr_rating": 6.3,
-      "club": "Brentford",
-      "slug": "tom-davis-brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Daniel Davis (Brentford)",
-    "fields": {
-      "age": 35,
-      "position": "CM",
       "avr_rating": 7.9,
       "club": "Brentford",
-      "slug": "daniel-davis-brentford"
+      "slug": "michael-mitchell-rb-of-brentford"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Luke Davis (Brentford)",
+    "pk": "George Jones (DM of Brentford)",
     "fields": {
-      "age": 20,
+      "age": 18,
+      "position": "DM",
+      "avr_rating": 7.0,
+      "club": "Brentford",
+      "slug": "george-jones-dm-of-brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Daniel Bennett (CM of Brentford)",
+    "fields": {
+      "age": 26,
+      "position": "CM",
+      "avr_rating": 7.1,
+      "club": "Brentford",
+      "slug": "daniel-bennett-cm-of-brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason Clark (AM of Brentford)",
+    "fields": {
+      "age": 22,
       "position": "AM",
       "avr_rating": 8.5,
       "club": "Brentford",
-      "slug": "luke-davis-brentford"
+      "slug": "jason-clark-am-of-brentford"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Luke Miller (Brentford)",
+    "pk": "Chris Johnson (LW of Brentford)",
     "fields": {
       "age": 21,
       "position": "LW",
-      "avr_rating": 8.8,
-      "club": "Brentford",
-      "slug": "luke-miller-brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Williams (Brentford)",
-    "fields": {
-      "age": 26,
-      "position": "RW",
-      "avr_rating": 6.3,
-      "club": "Brentford",
-      "slug": "chris-williams-brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Taylor (Brentford)",
-    "fields": {
-      "age": 34,
-      "position": "ST",
       "avr_rating": 7.1,
       "club": "Brentford",
-      "slug": "john-taylor-brentford"
+      "slug": "chris-johnson-lw-of-brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Oliver Davis (RW of Brentford)",
+    "fields": {
+      "age": 19,
+      "position": "RW",
+      "avr_rating": 6.2,
+      "club": "Brentford",
+      "slug": "oliver-davis-rw-of-brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Oliver Taylor (ST of Brentford)",
+    "fields": {
+      "age": 19,
+      "position": "ST",
+      "avr_rating": 6.5,
+      "club": "Brentford",
+      "slug": "oliver-taylor-st-of-brentford"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Ryan Jones (Owner of Wolves)",
+    "pk": "Oliver Bennett (Owner of Wolves)",
     "fields": {
-      "age": 49,
-      "slug": "ryan-jones-owner-of-wolves"
+      "age": 66,
+      "slug": "oliver-bennett-owner-of-wolves"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "David Brown (Manager of Wolves)",
+    "pk": "Victor Allen (Manager of Wolves)",
     "fields": {
-      "age": 47,
+      "age": 38,
       "nationality": "England",
-      "matches_played": 97,
-      "slug": "david-brown-manager-of-wolves"
+      "matches_played": 107,
+      "slug": "victor-allen-manager-of-wolves"
     }
   },
   {
@@ -1661,148 +1661,148 @@
     "pk": "Wolves",
     "fields": {
       "slug": "wolves",
-      "manager": "David Brown (Manager of Wolves)",
-      "owner": "Ryan Jones (Owner of Wolves)",
-      "form": "DWDWW"
+      "manager": "Victor Allen (Manager of Wolves)",
+      "owner": "Oliver Bennett (Owner of Wolves)",
+      "form": "WDLLW"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Daniel Clark (Wolves)",
+    "pk": "Anthony Young (GK of Wolves)",
     "fields": {
-      "age": 25,
+      "age": 18,
       "position": "GK",
-      "avr_rating": 8.5,
-      "club": "Wolves",
-      "slug": "daniel-clark-wolves"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Davis (Wolves)",
-    "fields": {
-      "age": 32,
-      "position": "CBL",
-      "avr_rating": 7.9,
-      "club": "Wolves",
-      "slug": "tom-davis-wolves"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Williams (Wolves)",
-    "fields": {
-      "age": 29,
-      "position": "CBR",
-      "avr_rating": 7.7,
-      "club": "Wolves",
-      "slug": "james-williams-wolves"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Michael Brown (Wolves)",
-    "fields": {
-      "age": 31,
-      "position": "LB",
-      "avr_rating": 8.9,
-      "club": "Wolves",
-      "slug": "michael-brown-wolves"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Miller (Wolves)",
-    "fields": {
-      "age": 31,
-      "position": "RB",
-      "avr_rating": 7.9,
-      "club": "Wolves",
-      "slug": "chris-miller-wolves"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Johnson (Wolves)",
-    "fields": {
-      "age": 24,
-      "position": "DM",
       "avr_rating": 6.3,
       "club": "Wolves",
-      "slug": "david-johnson-wolves"
+      "slug": "anthony-young-gk-of-wolves"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "David Smith (Wolves)",
+    "pk": "Leo Hall (CBL of Wolves)",
     "fields": {
       "age": 33,
-      "position": "CM",
-      "avr_rating": 8.5,
+      "position": "CBL",
+      "avr_rating": 6.6,
       "club": "Wolves",
-      "slug": "david-smith-wolves"
+      "slug": "leo-hall-cbl-of-wolves"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Johnson (Wolves)",
+    "pk": "Sam Wright (CBR of Wolves)",
     "fields": {
-      "age": 25,
-      "position": "AM",
-      "avr_rating": 6.8,
-      "club": "Wolves",
-      "slug": "john-johnson-wolves"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Williams (Wolves)",
-    "fields": {
-      "age": 25,
-      "position": "LW",
+      "age": 18,
+      "position": "CBR",
       "avr_rating": 7.4,
       "club": "Wolves",
-      "slug": "tom-williams-wolves"
+      "slug": "sam-wright-cbr-of-wolves"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "David Wilson (Wolves)",
+    "pk": "Oliver King (LB of Wolves)",
     "fields": {
-      "age": 20,
-      "position": "RW",
+      "age": 29,
+      "position": "LB",
       "avr_rating": 8.4,
       "club": "Wolves",
-      "slug": "david-wilson-wolves"
+      "slug": "oliver-king-lb-of-wolves"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Davis (Wolves)",
+    "pk": "Michael Wright (RB of Wolves)",
     "fields": {
-      "age": 23,
-      "position": "ST",
-      "avr_rating": 7.6,
+      "age": 27,
+      "position": "RB",
+      "avr_rating": 6.6,
       "club": "Wolves",
-      "slug": "james-davis-wolves"
+      "slug": "michael-wright-rb-of-wolves"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Nathan Jones (DM of Wolves)",
+    "fields": {
+      "age": 31,
+      "position": "DM",
+      "avr_rating": 7.0,
+      "club": "Wolves",
+      "slug": "nathan-jones-dm-of-wolves"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Anthony Jones (CM of Wolves)",
+    "fields": {
+      "age": 20,
+      "position": "CM",
+      "avr_rating": 7.5,
+      "club": "Wolves",
+      "slug": "anthony-jones-cm-of-wolves"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "James Brown (AM of Wolves)",
+    "fields": {
+      "age": 27,
+      "position": "AM",
+      "avr_rating": 7.5,
+      "club": "Wolves",
+      "slug": "james-brown-am-of-wolves"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "James Walker (LW of Wolves)",
+    "fields": {
+      "age": 27,
+      "position": "LW",
+      "avr_rating": 8.9,
+      "club": "Wolves",
+      "slug": "james-walker-lw-of-wolves"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "James Hall (RW of Wolves)",
+    "fields": {
+      "age": 21,
+      "position": "RW",
+      "avr_rating": 8.8,
+      "club": "Wolves",
+      "slug": "james-hall-rw-of-wolves"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Robert King (ST of Wolves)",
+    "fields": {
+      "age": 26,
+      "position": "ST",
+      "avr_rating": 7.2,
+      "club": "Wolves",
+      "slug": "robert-king-st-of-wolves"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "David Taylor (Owner of Crystal Palace)",
+    "pk": "Oliver Johnson (Owner of Crystal Palace)",
     "fields": {
-      "age": 75,
-      "slug": "david-taylor-owner-of-crystal-palace"
+      "age": 48,
+      "slug": "oliver-johnson-owner-of-crystal-palace"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "John Brown (Manager of Crystal Palace)",
+    "pk": "Victor Johnson (Manager of Crystal Palace)",
     "fields": {
-      "age": 59,
+      "age": 64,
       "nationality": "England",
-      "matches_played": 118,
-      "slug": "john-brown-manager-of-crystal-palace"
+      "matches_played": 141,
+      "slug": "victor-johnson-manager-of-crystal-palace"
     }
   },
   {
@@ -1810,148 +1810,148 @@
     "pk": "Crystal Palace",
     "fields": {
       "slug": "crystal-palace",
-      "manager": "John Brown (Manager of Crystal Palace)",
-      "owner": "David Taylor (Owner of Crystal Palace)",
-      "form": "WDWLL"
+      "manager": "Victor Johnson (Manager of Crystal Palace)",
+      "owner": "Oliver Johnson (Owner of Crystal Palace)",
+      "form": "WLLWL"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Wilson (Crystal Palace)",
-    "fields": {
-      "age": 18,
-      "position": "GK",
-      "avr_rating": 7.7,
-      "club": "Crystal Palace",
-      "slug": "tom-wilson-crystal-palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Brown (Crystal Palace)",
-    "fields": {
-      "age": 22,
-      "position": "CBL",
-      "avr_rating": 8.4,
-      "club": "Crystal Palace",
-      "slug": "john-brown-crystal-palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Taylor (Crystal Palace)",
-    "fields": {
-      "age": 18,
-      "position": "CBR",
-      "avr_rating": 7.0,
-      "club": "Crystal Palace",
-      "slug": "james-taylor-crystal-palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Wilson (Crystal Palace)",
-    "fields": {
-      "age": 26,
-      "position": "LB",
-      "avr_rating": 6.2,
-      "club": "Crystal Palace",
-      "slug": "ryan-wilson-crystal-palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Miller (Crystal Palace)",
-    "fields": {
-      "age": 22,
-      "position": "RB",
-      "avr_rating": 7.5,
-      "club": "Crystal Palace",
-      "slug": "john-miller-crystal-palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Clark (Crystal Palace)",
+    "pk": "Michael Hall (GK of Crystal Palace)",
     "fields": {
       "age": 28,
-      "position": "DM",
-      "avr_rating": 7.9,
+      "position": "GK",
+      "avr_rating": 6.4,
       "club": "Crystal Palace",
-      "slug": "robert-clark-crystal-palace"
+      "slug": "michael-hall-gk-of-crystal-palace"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Taylor (Crystal Palace)",
+    "pk": "Anthony Scott (CBL of Crystal Palace)",
+    "fields": {
+      "age": 18,
+      "position": "CBL",
+      "avr_rating": 7.2,
+      "club": "Crystal Palace",
+      "slug": "anthony-scott-cbl-of-crystal-palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Michael Taylor (CBR of Crystal Palace)",
     "fields": {
       "age": 23,
-      "position": "CM",
-      "avr_rating": 6.3,
+      "position": "CBR",
+      "avr_rating": 7.9,
       "club": "Crystal Palace",
-      "slug": "john-taylor-crystal-palace"
+      "slug": "michael-taylor-cbr-of-crystal-palace"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Taylor (Crystal Palace)",
+    "pk": "Elijah Taylor (LB of Crystal Palace)",
     "fields": {
-      "age": 20,
+      "age": 35,
+      "position": "LB",
+      "avr_rating": 6.7,
+      "club": "Crystal Palace",
+      "slug": "elijah-taylor-lb-of-crystal-palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Ryan Taylor (RB of Crystal Palace)",
+    "fields": {
+      "age": 28,
+      "position": "RB",
+      "avr_rating": 6.2,
+      "club": "Crystal Palace",
+      "slug": "ryan-taylor-rb-of-crystal-palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Elijah Allen (DM of Crystal Palace)",
+    "fields": {
+      "age": 35,
+      "position": "DM",
+      "avr_rating": 8.4,
+      "club": "Crystal Palace",
+      "slug": "elijah-allen-dm-of-crystal-palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Luke Miller (CM of Crystal Palace)",
+    "fields": {
+      "age": 24,
+      "position": "CM",
+      "avr_rating": 7.8,
+      "club": "Crystal Palace",
+      "slug": "luke-miller-cm-of-crystal-palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Robert Wilson (AM of Crystal Palace)",
+    "fields": {
+      "age": 18,
       "position": "AM",
       "avr_rating": 8.5,
       "club": "Crystal Palace",
-      "slug": "chris-taylor-crystal-palace"
+      "slug": "robert-wilson-am-of-crystal-palace"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Smith (Crystal Palace)",
+    "pk": "Daniel Allen (LW of Crystal Palace)",
     "fields": {
-      "age": 20,
+      "age": 18,
       "position": "LW",
-      "avr_rating": 7.5,
+      "avr_rating": 7.4,
       "club": "Crystal Palace",
-      "slug": "ryan-smith-crystal-palace"
+      "slug": "daniel-allen-lw-of-crystal-palace"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Jones (Crystal Palace)",
+    "pk": "Tom Wilson (RW of Crystal Palace)",
     "fields": {
-      "age": 23,
+      "age": 35,
       "position": "RW",
-      "avr_rating": 8.2,
+      "avr_rating": 6.6,
       "club": "Crystal Palace",
-      "slug": "michael-jones-crystal-palace"
+      "slug": "tom-wilson-rw-of-crystal-palace"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Clark (Crystal Palace)",
+    "pk": "Leo Wright (ST of Crystal Palace)",
     "fields": {
-      "age": 33,
+      "age": 34,
       "position": "ST",
-      "avr_rating": 7.2,
+      "avr_rating": 6.3,
       "club": "Crystal Palace",
-      "slug": "tom-clark-crystal-palace"
+      "slug": "leo-wright-st-of-crystal-palace"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Tom Johnson (Owner of Fulham)",
+    "pk": "Victor Wright (Owner of Fulham)",
     "fields": {
-      "age": 71,
-      "slug": "tom-johnson-owner-of-fulham"
+      "age": 51,
+      "slug": "victor-wright-owner-of-fulham"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "David Wilson (Manager of Fulham)",
+    "pk": "Elijah King (Manager of Fulham)",
     "fields": {
-      "age": 43,
+      "age": 40,
       "nationality": "England",
-      "matches_played": 170,
-      "slug": "david-wilson-manager-of-fulham"
+      "matches_played": 204,
+      "slug": "elijah-king-manager-of-fulham"
     }
   },
   {
@@ -1959,148 +1959,148 @@
     "pk": "Fulham",
     "fields": {
       "slug": "fulham",
-      "manager": "David Wilson (Manager of Fulham)",
-      "owner": "Tom Johnson (Owner of Fulham)",
-      "form": "DLLDL"
+      "manager": "Elijah King (Manager of Fulham)",
+      "owner": "Victor Wright (Owner of Fulham)",
+      "form": "DDLDD"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Clark (Fulham)",
+    "pk": "Anthony Smith (GK of Fulham)",
     "fields": {
-      "age": 33,
+      "age": 20,
       "position": "GK",
-      "avr_rating": 8.1,
+      "avr_rating": 7.2,
       "club": "Fulham",
-      "slug": "robert-clark-fulham"
+      "slug": "anthony-smith-gk-of-fulham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Daniel Jones (Fulham)",
-    "fields": {
-      "age": 29,
-      "position": "CBL",
-      "avr_rating": 8.5,
-      "club": "Fulham",
-      "slug": "daniel-jones-fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Jones (Fulham)",
+    "pk": "Jason Smith (CBL of Fulham)",
     "fields": {
       "age": 19,
-      "position": "CBR",
-      "avr_rating": 7.8,
-      "club": "Fulham",
-      "slug": "robert-jones-fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Jones (Fulham)",
-    "fields": {
-      "age": 18,
-      "position": "LB",
+      "position": "CBL",
       "avr_rating": 8.0,
       "club": "Fulham",
-      "slug": "john-jones-fulham"
+      "slug": "jason-smith-cbl-of-fulham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Miller (Fulham)",
+    "pk": "Robert Clark (CBR of Fulham)",
     "fields": {
-      "age": 27,
+      "age": 32,
+      "position": "CBR",
+      "avr_rating": 7.1,
+      "club": "Fulham",
+      "slug": "robert-clark-cbr-of-fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Leo Bennett (LB of Fulham)",
+    "fields": {
+      "age": 23,
+      "position": "LB",
+      "avr_rating": 6.8,
+      "club": "Fulham",
+      "slug": "leo-bennett-lb-of-fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Chris Allen (RB of Fulham)",
+    "fields": {
+      "age": 19,
       "position": "RB",
-      "avr_rating": 8.4,
+      "avr_rating": 8.8,
       "club": "Fulham",
-      "slug": "michael-miller-fulham"
+      "slug": "chris-allen-rb-of-fulham"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Wilson (Fulham)",
+    "pk": "Nathan Allen (DM of Fulham)",
     "fields": {
-      "age": 31,
+      "age": 18,
       "position": "DM",
-      "avr_rating": 8.2,
-      "club": "Fulham",
-      "slug": "john-wilson-fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Williams (Fulham)",
-    "fields": {
-      "age": 34,
-      "position": "CM",
-      "avr_rating": 8.5,
-      "club": "Fulham",
-      "slug": "robert-williams-fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Luke Davis (Fulham)",
-    "fields": {
-      "age": 21,
-      "position": "AM",
-      "avr_rating": 8.3,
-      "club": "Fulham",
-      "slug": "luke-davis-fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Clark (Fulham)",
-    "fields": {
-      "age": 30,
-      "position": "LW",
-      "avr_rating": 8.4,
-      "club": "Fulham",
-      "slug": "chris-clark-fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Jones (Fulham)",
-    "fields": {
-      "age": 31,
-      "position": "RW",
-      "avr_rating": 6.3,
-      "club": "Fulham",
-      "slug": "james-jones-fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Wilson (Fulham)",
-    "fields": {
-      "age": 22,
-      "position": "ST",
       "avr_rating": 7.9,
       "club": "Fulham",
-      "slug": "robert-wilson-fulham"
+      "slug": "nathan-allen-dm-of-fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "David Davis (CM of Fulham)",
+    "fields": {
+      "age": 32,
+      "position": "CM",
+      "avr_rating": 8.4,
+      "club": "Fulham",
+      "slug": "david-davis-cm-of-fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason King (AM of Fulham)",
+    "fields": {
+      "age": 32,
+      "position": "AM",
+      "avr_rating": 8.1,
+      "club": "Fulham",
+      "slug": "jason-king-am-of-fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Henry Young (LW of Fulham)",
+    "fields": {
+      "age": 31,
+      "position": "LW",
+      "avr_rating": 6.5,
+      "club": "Fulham",
+      "slug": "henry-young-lw-of-fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Victor King (RW of Fulham)",
+    "fields": {
+      "age": 24,
+      "position": "RW",
+      "avr_rating": 7.3,
+      "club": "Fulham",
+      "slug": "victor-king-rw-of-fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason Allen (ST of Fulham)",
+    "fields": {
+      "age": 26,
+      "position": "ST",
+      "avr_rating": 8.4,
+      "club": "Fulham",
+      "slug": "jason-allen-st-of-fulham"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Tom Miller (Owner of Everton)",
+    "pk": "Luke Young (Owner of Everton)",
     "fields": {
-      "age": 46,
-      "slug": "tom-miller-owner-of-everton"
+      "age": 45,
+      "slug": "luke-young-owner-of-everton"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Luke Johnson (Manager of Everton)",
+    "pk": "Ryan Allen (Manager of Everton)",
     "fields": {
-      "age": 54,
+      "age": 46,
       "nationality": "England",
-      "matches_played": 127,
-      "slug": "luke-johnson-manager-of-everton"
+      "matches_played": 112,
+      "slug": "ryan-allen-manager-of-everton"
     }
   },
   {
@@ -2108,148 +2108,148 @@
     "pk": "Everton",
     "fields": {
       "slug": "everton",
-      "manager": "Luke Johnson (Manager of Everton)",
-      "owner": "Tom Miller (Owner of Everton)",
-      "form": "WLWWW"
+      "manager": "Ryan Allen (Manager of Everton)",
+      "owner": "Luke Young (Owner of Everton)",
+      "form": "DDWDL"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Jones (Everton)",
-    "fields": {
-      "age": 31,
-      "position": "GK",
-      "avr_rating": 6.4,
-      "club": "Everton",
-      "slug": "ryan-jones-everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Jones (Everton)",
-    "fields": {
-      "age": 35,
-      "position": "CBL",
-      "avr_rating": 7.0,
-      "club": "Everton",
-      "slug": "david-jones-everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Williams (Everton)",
-    "fields": {
-      "age": 31,
-      "position": "CBR",
-      "avr_rating": 6.0,
-      "club": "Everton",
-      "slug": "tom-williams-everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Daniel Johnson (Everton)",
-    "fields": {
-      "age": 27,
-      "position": "LB",
-      "avr_rating": 8.1,
-      "club": "Everton",
-      "slug": "daniel-johnson-everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Williams (Everton)",
-    "fields": {
-      "age": 19,
-      "position": "RB",
-      "avr_rating": 6.9,
-      "club": "Everton",
-      "slug": "john-williams-everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Taylor (Everton)",
+    "pk": "Elijah Miller (GK of Everton)",
     "fields": {
       "age": 30,
-      "position": "DM",
-      "avr_rating": 8.8,
+      "position": "GK",
+      "avr_rating": 6.0,
       "club": "Everton",
-      "slug": "james-taylor-everton"
+      "slug": "elijah-miller-gk-of-everton"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Wilson (Everton)",
+    "pk": "Daniel Williams (CBL of Everton)",
+    "fields": {
+      "age": 29,
+      "position": "CBL",
+      "avr_rating": 8.2,
+      "club": "Everton",
+      "slug": "daniel-williams-cbl-of-everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "George Miller (CBR of Everton)",
     "fields": {
       "age": 33,
+      "position": "CBR",
+      "avr_rating": 7.7,
+      "club": "Everton",
+      "slug": "george-miller-cbr-of-everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Oliver Lewis (LB of Everton)",
+    "fields": {
+      "age": 23,
+      "position": "LB",
+      "avr_rating": 8.2,
+      "club": "Everton",
+      "slug": "oliver-lewis-lb-of-everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "David Johnson (RB of Everton)",
+    "fields": {
+      "age": 22,
+      "position": "RB",
+      "avr_rating": 7.6,
+      "club": "Everton",
+      "slug": "david-johnson-rb-of-everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Nathan Davis (DM of Everton)",
+    "fields": {
+      "age": 22,
+      "position": "DM",
+      "avr_rating": 7.0,
+      "club": "Everton",
+      "slug": "nathan-davis-dm-of-everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "John King (CM of Everton)",
+    "fields": {
+      "age": 22,
       "position": "CM",
-      "avr_rating": 6.3,
+      "avr_rating": 6.2,
       "club": "Everton",
-      "slug": "ryan-wilson-everton"
+      "slug": "john-king-cm-of-everton"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Davis (Everton)",
+    "pk": "John Brown (AM of Everton)",
     "fields": {
-      "age": 29,
+      "age": 24,
       "position": "AM",
-      "avr_rating": 7.5,
+      "avr_rating": 7.0,
       "club": "Everton",
-      "slug": "chris-davis-everton"
+      "slug": "john-brown-am-of-everton"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Johnson (Everton)",
-    "fields": {
-      "age": 26,
-      "position": "LW",
-      "avr_rating": 8.3,
-      "club": "Everton",
-      "slug": "john-johnson-everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Davis (Everton)",
-    "fields": {
-      "age": 21,
-      "position": "RW",
-      "avr_rating": 8.9,
-      "club": "Everton",
-      "slug": "ryan-davis-everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Johnson (Everton)",
+    "pk": "Jason Wilson (LW of Everton)",
     "fields": {
       "age": 29,
-      "position": "ST",
-      "avr_rating": 8.1,
+      "position": "LW",
+      "avr_rating": 8.8,
       "club": "Everton",
-      "slug": "ryan-johnson-everton"
+      "slug": "jason-wilson-lw-of-everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Ryan Miller (RW of Everton)",
+    "fields": {
+      "age": 23,
+      "position": "RW",
+      "avr_rating": 7.4,
+      "club": "Everton",
+      "slug": "ryan-miller-rw-of-everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Leo Clark (ST of Everton)",
+    "fields": {
+      "age": 31,
+      "position": "ST",
+      "avr_rating": 8.0,
+      "club": "Everton",
+      "slug": "leo-clark-st-of-everton"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Chris Brown (Owner of Nottingham Forest)",
+    "pk": "Victor Brown (Owner of Nottingham Forest)",
     "fields": {
-      "age": 74,
-      "slug": "chris-brown-owner-of-nottingham-forest"
+      "age": 75,
+      "slug": "victor-brown-owner-of-nottingham-forest"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Luke Davis (Manager of Nottingham Forest)",
+    "pk": "Sam Lewis (Manager of Nottingham Forest)",
     "fields": {
-      "age": 39,
+      "age": 58,
       "nationality": "England",
-      "matches_played": 253,
-      "slug": "luke-davis-manager-of-nottingham-forest"
+      "matches_played": 133,
+      "slug": "sam-lewis-manager-of-nottingham-forest"
     }
   },
   {
@@ -2257,148 +2257,148 @@
     "pk": "Nottingham Forest",
     "fields": {
       "slug": "nottingham-forest",
-      "manager": "Luke Davis (Manager of Nottingham Forest)",
-      "owner": "Chris Brown (Owner of Nottingham Forest)",
-      "form": "DWLWW"
+      "manager": "Sam Lewis (Manager of Nottingham Forest)",
+      "owner": "Victor Brown (Owner of Nottingham Forest)",
+      "form": "DWDWD"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Johnson (Nottingham Forest)",
-    "fields": {
-      "age": 34,
-      "position": "GK",
-      "avr_rating": 6.9,
-      "club": "Nottingham Forest",
-      "slug": "robert-johnson-nottingham-forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "James Clark (Nottingham Forest)",
-    "fields": {
-      "age": 32,
-      "position": "CBL",
-      "avr_rating": 8.9,
-      "club": "Nottingham Forest",
-      "slug": "james-clark-nottingham-forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Wilson (Nottingham Forest)",
-    "fields": {
-      "age": 23,
-      "position": "CBR",
-      "avr_rating": 6.1,
-      "club": "Nottingham Forest",
-      "slug": "ryan-wilson-nottingham-forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Michael Taylor (Nottingham Forest)",
-    "fields": {
-      "age": 27,
-      "position": "LB",
-      "avr_rating": 7.2,
-      "club": "Nottingham Forest",
-      "slug": "michael-taylor-nottingham-forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Luke Wilson (Nottingham Forest)",
+    "pk": "Chris Lewis (GK of Nottingham Forest)",
     "fields": {
       "age": 31,
-      "position": "RB",
-      "avr_rating": 8.8,
+      "position": "GK",
+      "avr_rating": 8.6,
       "club": "Nottingham Forest",
-      "slug": "luke-wilson-nottingham-forest"
+      "slug": "chris-lewis-gk-of-nottingham-forest"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Wilson (Nottingham Forest)",
+    "pk": "Luke Brown (CBL of Nottingham Forest)",
     "fields": {
-      "age": 28,
-      "position": "DM",
-      "avr_rating": 9.0,
+      "age": 22,
+      "position": "CBL",
+      "avr_rating": 7.0,
       "club": "Nottingham Forest",
-      "slug": "michael-wilson-nottingham-forest"
+      "slug": "luke-brown-cbl-of-nottingham-forest"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Davis (Nottingham Forest)",
+    "pk": "Chris Smith (CBR of Nottingham Forest)",
     "fields": {
-      "age": 20,
-      "position": "CM",
-      "avr_rating": 6.6,
+      "age": 29,
+      "position": "CBR",
+      "avr_rating": 7.4,
       "club": "Nottingham Forest",
-      "slug": "james-davis-nottingham-forest"
+      "slug": "chris-smith-cbr-of-nottingham-forest"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Luke Davis (Nottingham Forest)",
+    "pk": "Michael Brown (LB of Nottingham Forest)",
     "fields": {
-      "age": 23,
-      "position": "AM",
-      "avr_rating": 8.4,
-      "club": "Nottingham Forest",
-      "slug": "luke-davis-nottingham-forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Robert Jones (Nottingham Forest)",
-    "fields": {
-      "age": 18,
-      "position": "LW",
-      "avr_rating": 7.5,
-      "club": "Nottingham Forest",
-      "slug": "robert-jones-nottingham-forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Johnson (Nottingham Forest)",
-    "fields": {
-      "age": 28,
-      "position": "RW",
-      "avr_rating": 7.5,
-      "club": "Nottingham Forest",
-      "slug": "david-johnson-nottingham-forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Luke Williams (Nottingham Forest)",
-    "fields": {
-      "age": 35,
-      "position": "ST",
+      "age": 31,
+      "position": "LB",
       "avr_rating": 7.8,
       "club": "Nottingham Forest",
-      "slug": "luke-williams-nottingham-forest"
+      "slug": "michael-brown-lb-of-nottingham-forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Elijah Lewis (RB of Nottingham Forest)",
+    "fields": {
+      "age": 23,
+      "position": "RB",
+      "avr_rating": 7.9,
+      "club": "Nottingham Forest",
+      "slug": "elijah-lewis-rb-of-nottingham-forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Daniel Taylor (DM of Nottingham Forest)",
+    "fields": {
+      "age": 34,
+      "position": "DM",
+      "avr_rating": 7.2,
+      "club": "Nottingham Forest",
+      "slug": "daniel-taylor-dm-of-nottingham-forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Henry Taylor (CM of Nottingham Forest)",
+    "fields": {
+      "age": 30,
+      "position": "CM",
+      "avr_rating": 8.8,
+      "club": "Nottingham Forest",
+      "slug": "henry-taylor-cm-of-nottingham-forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "John Bennett (AM of Nottingham Forest)",
+    "fields": {
+      "age": 24,
+      "position": "AM",
+      "avr_rating": 6.6,
+      "club": "Nottingham Forest",
+      "slug": "john-bennett-am-of-nottingham-forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "John Williams (LW of Nottingham Forest)",
+    "fields": {
+      "age": 27,
+      "position": "LW",
+      "avr_rating": 6.5,
+      "club": "Nottingham Forest",
+      "slug": "john-williams-lw-of-nottingham-forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Chris Jones (RW of Nottingham Forest)",
+    "fields": {
+      "age": 24,
+      "position": "RW",
+      "avr_rating": 8.7,
+      "club": "Nottingham Forest",
+      "slug": "chris-jones-rw-of-nottingham-forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Sam Taylor (ST of Nottingham Forest)",
+    "fields": {
+      "age": 26,
+      "position": "ST",
+      "avr_rating": 8.2,
+      "club": "Nottingham Forest",
+      "slug": "sam-taylor-st-of-nottingham-forest"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Luke Wilson (Owner of Bournemouth)",
+    "pk": "Henry Williams (Owner of Bournemouth)",
     "fields": {
-      "age": 47,
-      "slug": "luke-wilson-owner-of-bournemouth"
+      "age": 55,
+      "slug": "henry-williams-owner-of-bournemouth"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "James Williams (Manager of Bournemouth)",
+    "pk": "Leo Mitchell (Manager of Bournemouth)",
     "fields": {
-      "age": 65,
+      "age": 35,
       "nationality": "England",
-      "matches_played": 142,
-      "slug": "james-williams-manager-of-bournemouth"
+      "matches_played": 199,
+      "slug": "leo-mitchell-manager-of-bournemouth"
     }
   },
   {
@@ -2406,148 +2406,148 @@
     "pk": "Bournemouth",
     "fields": {
       "slug": "bournemouth",
-      "manager": "James Williams (Manager of Bournemouth)",
-      "owner": "Luke Wilson (Owner of Bournemouth)",
-      "form": "WDWDL"
+      "manager": "Leo Mitchell (Manager of Bournemouth)",
+      "owner": "Henry Williams (Owner of Bournemouth)",
+      "form": "DLLDW"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Luke Clark (Bournemouth)",
+    "pk": "John Mitchell (GK of Bournemouth)",
     "fields": {
-      "age": 23,
+      "age": 26,
       "position": "GK",
-      "avr_rating": 6.8,
+      "avr_rating": 8.7,
       "club": "Bournemouth",
-      "slug": "luke-clark-bournemouth"
+      "slug": "john-mitchell-gk-of-bournemouth"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Clark (Bournemouth)",
+    "pk": "Chris Wilson (CBL of Bournemouth)",
     "fields": {
-      "age": 31,
+      "age": 35,
       "position": "CBL",
       "avr_rating": 7.4,
       "club": "Bournemouth",
-      "slug": "john-clark-bournemouth"
+      "slug": "chris-wilson-cbl-of-bournemouth"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Luke Jones (Bournemouth)",
+    "pk": "Nathan King (CBR of Bournemouth)",
     "fields": {
-      "age": 32,
+      "age": 18,
       "position": "CBR",
-      "avr_rating": 6.6,
-      "club": "Bournemouth",
-      "slug": "luke-jones-bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Chris Brown (Bournemouth)",
-    "fields": {
-      "age": 30,
-      "position": "LB",
-      "avr_rating": 6.7,
-      "club": "Bournemouth",
-      "slug": "chris-brown-bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "John Brown (Bournemouth)",
-    "fields": {
-      "age": 25,
-      "position": "RB",
-      "avr_rating": 6.8,
-      "club": "Bournemouth",
-      "slug": "john-brown-bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Williams (Bournemouth)",
-    "fields": {
-      "age": 29,
-      "position": "DM",
       "avr_rating": 8.9,
       "club": "Bournemouth",
-      "slug": "ryan-williams-bournemouth"
+      "slug": "nathan-king-cbr-of-bournemouth"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Luke Smith (Bournemouth)",
+    "pk": "Chris Scott (LB of Bournemouth)",
     "fields": {
-      "age": 23,
-      "position": "CM",
-      "avr_rating": 7.2,
+      "age": 31,
+      "position": "LB",
+      "avr_rating": 7.0,
       "club": "Bournemouth",
-      "slug": "luke-smith-bournemouth"
+      "slug": "chris-scott-lb-of-bournemouth"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Taylor (Bournemouth)",
-    "fields": {
-      "age": 25,
-      "position": "AM",
-      "avr_rating": 7.9,
-      "club": "Bournemouth",
-      "slug": "chris-taylor-bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Taylor (Bournemouth)",
-    "fields": {
-      "age": 24,
-      "position": "LW",
-      "avr_rating": 6.2,
-      "club": "Bournemouth",
-      "slug": "ryan-taylor-bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Brown (Bournemouth)",
+    "pk": "George Wilson (RB of Bournemouth)",
     "fields": {
       "age": 29,
-      "position": "RW",
-      "avr_rating": 6.0,
+      "position": "RB",
+      "avr_rating": 7.4,
       "club": "Bournemouth",
-      "slug": "david-brown-bournemouth"
+      "slug": "george-wilson-rb-of-bournemouth"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "David Smith (Bournemouth)",
+    "pk": "Robert Mitchell (DM of Bournemouth)",
     "fields": {
-      "age": 34,
-      "position": "ST",
-      "avr_rating": 6.7,
+      "age": 32,
+      "position": "DM",
+      "avr_rating": 6.1,
       "club": "Bournemouth",
-      "slug": "david-smith-bournemouth"
+      "slug": "robert-mitchell-dm-of-bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Daniel Clark (CM of Bournemouth)",
+    "fields": {
+      "age": 22,
+      "position": "CM",
+      "avr_rating": 6.9,
+      "club": "Bournemouth",
+      "slug": "daniel-clark-cm-of-bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason Young (AM of Bournemouth)",
+    "fields": {
+      "age": 19,
+      "position": "AM",
+      "avr_rating": 6.5,
+      "club": "Bournemouth",
+      "slug": "jason-young-am-of-bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Henry Wilson (LW of Bournemouth)",
+    "fields": {
+      "age": 26,
+      "position": "LW",
+      "avr_rating": 7.3,
+      "club": "Bournemouth",
+      "slug": "henry-wilson-lw-of-bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Nathan Wright (RW of Bournemouth)",
+    "fields": {
+      "age": 31,
+      "position": "RW",
+      "avr_rating": 6.6,
+      "club": "Bournemouth",
+      "slug": "nathan-wright-rw-of-bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Michael Clark (ST of Bournemouth)",
+    "fields": {
+      "age": 22,
+      "position": "ST",
+      "avr_rating": 8.3,
+      "club": "Bournemouth",
+      "slug": "michael-clark-st-of-bournemouth"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "John Davis (Owner of Burnley)",
+    "pk": "Ryan Davis (Owner of Burnley)",
     "fields": {
-      "age": 74,
-      "slug": "john-davis-owner-of-burnley"
+      "age": 62,
+      "slug": "ryan-davis-owner-of-burnley"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "James Clark (Manager of Burnley)",
+    "pk": "Elijah Bennett (Manager of Burnley)",
     "fields": {
-      "age": 63,
+      "age": 42,
       "nationality": "England",
-      "matches_played": 69,
-      "slug": "james-clark-manager-of-burnley"
+      "matches_played": 80,
+      "slug": "elijah-bennett-manager-of-burnley"
     }
   },
   {
@@ -2555,148 +2555,148 @@
     "pk": "Burnley",
     "fields": {
       "slug": "burnley",
-      "manager": "James Clark (Manager of Burnley)",
-      "owner": "John Davis (Owner of Burnley)",
-      "form": "LLDLW"
+      "manager": "Elijah Bennett (Manager of Burnley)",
+      "owner": "Ryan Davis (Owner of Burnley)",
+      "form": "WWDDL"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Wilson (Burnley)",
+    "pk": "Henry Bennett (GK of Burnley)",
     "fields": {
-      "age": 24,
+      "age": 27,
       "position": "GK",
-      "avr_rating": 7.9,
+      "avr_rating": 8.9,
       "club": "Burnley",
-      "slug": "ryan-wilson-burnley"
+      "slug": "henry-bennett-gk-of-burnley"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Taylor (Burnley)",
+    "pk": "Anthony Allen (CBL of Burnley)",
     "fields": {
       "age": 18,
       "position": "CBL",
-      "avr_rating": 8.3,
+      "avr_rating": 7.3,
       "club": "Burnley",
-      "slug": "michael-taylor-burnley"
+      "slug": "anthony-allen-cbl-of-burnley"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Taylor (Burnley)",
+    "pk": "Anthony Davis (CBR of Burnley)",
     "fields": {
-      "age": 31,
+      "age": 34,
       "position": "CBR",
-      "avr_rating": 8.6,
+      "avr_rating": 6.0,
       "club": "Burnley",
-      "slug": "ryan-taylor-burnley"
+      "slug": "anthony-davis-cbr-of-burnley"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Wilson (Burnley)",
+    "pk": "Chris Davis (LB of Burnley)",
     "fields": {
       "age": 29,
       "position": "LB",
-      "avr_rating": 8.8,
+      "avr_rating": 7.8,
       "club": "Burnley",
-      "slug": "james-wilson-burnley"
+      "slug": "chris-davis-lb-of-burnley"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Smith (Burnley)",
+    "pk": "David Hall (RB of Burnley)",
     "fields": {
-      "age": 21,
+      "age": 24,
       "position": "RB",
-      "avr_rating": 8.1,
+      "avr_rating": 8.2,
       "club": "Burnley",
-      "slug": "ryan-smith-burnley"
+      "slug": "david-hall-rb-of-burnley"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Miller (Burnley)",
+    "pk": "Henry Hall (DM of Burnley)",
     "fields": {
-      "age": 22,
+      "age": 18,
       "position": "DM",
-      "avr_rating": 6.7,
+      "avr_rating": 6.1,
       "club": "Burnley",
-      "slug": "tom-miller-burnley"
+      "slug": "henry-hall-dm-of-burnley"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Jones (Burnley)",
+    "pk": "Elijah Wilson (CM of Burnley)",
     "fields": {
-      "age": 31,
+      "age": 27,
       "position": "CM",
-      "avr_rating": 8.6,
-      "club": "Burnley",
-      "slug": "chris-jones-burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Miller (Burnley)",
-    "fields": {
-      "age": 35,
-      "position": "AM",
-      "avr_rating": 7.7,
-      "club": "Burnley",
-      "slug": "ryan-miller-burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Ryan Jones (Burnley)",
-    "fields": {
-      "age": 32,
-      "position": "LW",
       "avr_rating": 7.2,
       "club": "Burnley",
-      "slug": "ryan-jones-burnley"
+      "slug": "elijah-wilson-cm-of-burnley"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Smith (Burnley)",
+    "pk": "Jason Davis (AM of Burnley)",
     "fields": {
-      "age": 33,
+      "age": 34,
+      "position": "AM",
+      "avr_rating": 7.4,
+      "club": "Burnley",
+      "slug": "jason-davis-am-of-burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Henry Mitchell (LW of Burnley)",
+    "fields": {
+      "age": 30,
+      "position": "LW",
+      "avr_rating": 8.3,
+      "club": "Burnley",
+      "slug": "henry-mitchell-lw-of-burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Michael Williams (RW of Burnley)",
+    "fields": {
+      "age": 35,
       "position": "RW",
-      "avr_rating": 8.6,
+      "avr_rating": 7.1,
       "club": "Burnley",
-      "slug": "tom-smith-burnley"
+      "slug": "michael-williams-rw-of-burnley"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Johnson (Burnley)",
+    "pk": "Robert Lewis (ST of Burnley)",
     "fields": {
-      "age": 23,
+      "age": 22,
       "position": "ST",
-      "avr_rating": 6.2,
+      "avr_rating": 6.4,
       "club": "Burnley",
-      "slug": "chris-johnson-burnley"
+      "slug": "robert-lewis-st-of-burnley"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Chris Brown (Owner of Luton Town)",
+    "pk": "Tom Lewis (Owner of Luton Town)",
     "fields": {
-      "age": 61,
-      "slug": "chris-brown-owner-of-luton-town"
+      "age": 67,
+      "slug": "tom-lewis-owner-of-luton-town"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "David Davis (Manager of Luton Town)",
+    "pk": "Daniel Mitchell (Manager of Luton Town)",
     "fields": {
-      "age": 40,
+      "age": 65,
       "nationality": "England",
-      "matches_played": 134,
-      "slug": "david-davis-manager-of-luton-town"
+      "matches_played": 290,
+      "slug": "daniel-mitchell-manager-of-luton-town"
     }
   },
   {
@@ -2704,148 +2704,148 @@
     "pk": "Luton Town",
     "fields": {
       "slug": "luton-town",
-      "manager": "David Davis (Manager of Luton Town)",
-      "owner": "Chris Brown (Owner of Luton Town)",
-      "form": "DDWDW"
+      "manager": "Daniel Mitchell (Manager of Luton Town)",
+      "owner": "Tom Lewis (Owner of Luton Town)",
+      "form": "LLLLD"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Daniel Miller (Luton Town)",
+    "pk": "James Davis (GK of Luton Town)",
     "fields": {
-      "age": 26,
+      "age": 18,
       "position": "GK",
-      "avr_rating": 7.5,
+      "avr_rating": 8.6,
       "club": "Luton Town",
-      "slug": "daniel-miller-luton-town"
+      "slug": "james-davis-gk-of-luton-town"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Tom Smith (Luton Town)",
+    "pk": "Henry Scott (CBL of Luton Town)",
     "fields": {
-      "age": 34,
+      "age": 32,
       "position": "CBL",
-      "avr_rating": 7.1,
+      "avr_rating": 8.6,
       "club": "Luton Town",
-      "slug": "tom-smith-luton-town"
+      "slug": "henry-scott-cbl-of-luton-town"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "John Brown (Luton Town)",
+    "pk": "George Taylor (CBR of Luton Town)",
     "fields": {
-      "age": 22,
+      "age": 28,
       "position": "CBR",
-      "avr_rating": 6.0,
+      "avr_rating": 6.9,
       "club": "Luton Town",
-      "slug": "john-brown-luton-town"
+      "slug": "george-taylor-cbr-of-luton-town"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Brown (Luton Town)",
+    "pk": "Elijah Clark (LB of Luton Town)",
     "fields": {
       "age": 27,
       "position": "LB",
-      "avr_rating": 8.0,
+      "avr_rating": 7.9,
       "club": "Luton Town",
-      "slug": "robert-brown-luton-town"
+      "slug": "elijah-clark-lb-of-luton-town"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Wilson (Luton Town)",
-    "fields": {
-      "age": 23,
-      "position": "RB",
-      "avr_rating": 8.8,
-      "club": "Luton Town",
-      "slug": "robert-wilson-luton-town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Michael Jones (Luton Town)",
+    "pk": "Chris Wright (RB of Luton Town)",
     "fields": {
       "age": 31,
-      "position": "DM",
-      "avr_rating": 6.5,
+      "position": "RB",
+      "avr_rating": 6.2,
       "club": "Luton Town",
-      "slug": "michael-jones-luton-town"
+      "slug": "chris-wright-rb-of-luton-town"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Robert Smith (Luton Town)",
+    "pk": "Leo Lewis (DM of Luton Town)",
     "fields": {
-      "age": 34,
-      "position": "CM",
-      "avr_rating": 6.7,
+      "age": 20,
+      "position": "DM",
+      "avr_rating": 8.9,
       "club": "Luton Town",
-      "slug": "robert-smith-luton-town"
+      "slug": "leo-lewis-dm-of-luton-town"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Taylor (Luton Town)",
+    "pk": "Anthony Taylor (CM of Luton Town)",
     "fields": {
       "age": 29,
+      "position": "CM",
+      "avr_rating": 7.2,
+      "club": "Luton Town",
+      "slug": "anthony-taylor-cm-of-luton-town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Chris Williams (AM of Luton Town)",
+    "fields": {
+      "age": 18,
       "position": "AM",
-      "avr_rating": 8.2,
+      "avr_rating": 8.3,
       "club": "Luton Town",
-      "slug": "michael-taylor-luton-town"
+      "slug": "chris-williams-am-of-luton-town"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Michael Miller (Luton Town)",
-    "fields": {
-      "age": 33,
-      "position": "LW",
-      "avr_rating": 8.1,
-      "club": "Luton Town",
-      "slug": "michael-miller-luton-town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Michael Johnson (Luton Town)",
-    "fields": {
-      "age": 24,
-      "position": "RW",
-      "avr_rating": 9.0,
-      "club": "Luton Town",
-      "slug": "michael-johnson-luton-town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "David Davis (Luton Town)",
+    "pk": "David Smith (LW of Luton Town)",
     "fields": {
       "age": 32,
-      "position": "ST",
+      "position": "LW",
+      "avr_rating": 8.7,
+      "club": "Luton Town",
+      "slug": "david-smith-lw-of-luton-town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Jason Bennett (RW of Luton Town)",
+    "fields": {
+      "age": 27,
+      "position": "RW",
       "avr_rating": 8.6,
       "club": "Luton Town",
-      "slug": "david-davis-luton-town"
+      "slug": "jason-bennett-rw-of-luton-town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Chris Young (ST of Luton Town)",
+    "fields": {
+      "age": 28,
+      "position": "ST",
+      "avr_rating": 7.0,
+      "club": "Luton Town",
+      "slug": "chris-young-st-of-luton-town"
     }
   },
   {
     "model": "clubs.owner",
-    "pk": "Luke Smith (Owner of Sheffield)",
+    "pk": "Nathan Williams (Owner of Sheffield)",
     "fields": {
-      "age": 57,
-      "slug": "luke-smith-owner-of-sheffield"
+      "age": 66,
+      "slug": "nathan-williams-owner-of-sheffield"
     }
   },
   {
     "model": "clubs.manager",
-    "pk": "Robert Jones (Manager of Sheffield)",
+    "pk": "John Wilson (Manager of Sheffield)",
     "fields": {
-      "age": 42,
+      "age": 64,
       "nationality": "England",
-      "matches_played": 73,
-      "slug": "robert-jones-manager-of-sheffield"
+      "matches_played": 204,
+      "slug": "john-wilson-manager-of-sheffield"
     }
   },
   {
@@ -2853,130 +2853,130 @@
     "pk": "Sheffield",
     "fields": {
       "slug": "sheffield",
-      "manager": "Robert Jones (Manager of Sheffield)",
-      "owner": "Luke Smith (Owner of Sheffield)",
-      "form": "LDLDW"
+      "manager": "John Wilson (Manager of Sheffield)",
+      "owner": "Nathan Williams (Owner of Sheffield)",
+      "form": "LDWLD"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Ryan Clark (Sheffield)",
+    "pk": "Jason Brown (GK of Sheffield)",
     "fields": {
-      "age": 30,
+      "age": 24,
       "position": "GK",
-      "avr_rating": 6.4,
+      "avr_rating": 8.3,
       "club": "Sheffield",
-      "slug": "ryan-clark-sheffield"
+      "slug": "jason-brown-gk-of-sheffield"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Wilson (Sheffield)",
+    "pk": "Daniel Davis (CBL of Sheffield)",
     "fields": {
-      "age": 29,
+      "age": 32,
       "position": "CBL",
-      "avr_rating": 7.1,
+      "avr_rating": 7.8,
       "club": "Sheffield",
-      "slug": "chris-wilson-sheffield"
+      "slug": "daniel-davis-cbl-of-sheffield"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "David Taylor (Sheffield)",
+    "pk": "Victor Young (CBR of Sheffield)",
+    "fields": {
+      "age": 27,
+      "position": "CBR",
+      "avr_rating": 6.0,
+      "club": "Sheffield",
+      "slug": "victor-young-cbr-of-sheffield"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Victor Taylor (LB of Sheffield)",
+    "fields": {
+      "age": 22,
+      "position": "LB",
+      "avr_rating": 7.4,
+      "club": "Sheffield",
+      "slug": "victor-taylor-lb-of-sheffield"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Leo Allen (RB of Sheffield)",
+    "fields": {
+      "age": 28,
+      "position": "RB",
+      "avr_rating": 7.8,
+      "club": "Sheffield",
+      "slug": "leo-allen-rb-of-sheffield"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "pk": "Michael Allen (DM of Sheffield)",
     "fields": {
       "age": 26,
-      "position": "CBR",
-      "avr_rating": 7.0,
-      "club": "Sheffield",
-      "slug": "david-taylor-sheffield"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Jones (Sheffield)",
-    "fields": {
-      "age": 25,
-      "position": "LB",
-      "avr_rating": 8.8,
-      "club": "Sheffield",
-      "slug": "tom-jones-sheffield"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Williams (Sheffield)",
-    "fields": {
-      "age": 32,
-      "position": "RB",
-      "avr_rating": 8.4,
-      "club": "Sheffield",
-      "slug": "tom-williams-sheffield"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "pk": "Tom Brown (Sheffield)",
-    "fields": {
-      "age": 32,
       "position": "DM",
-      "avr_rating": 7.6,
+      "avr_rating": 6.7,
       "club": "Sheffield",
-      "slug": "tom-brown-sheffield"
+      "slug": "michael-allen-dm-of-sheffield"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Davis (Sheffield)",
+    "pk": "Victor Lewis (CM of Sheffield)",
     "fields": {
       "age": 35,
       "position": "CM",
-      "avr_rating": 8.2,
+      "avr_rating": 7.3,
       "club": "Sheffield",
-      "slug": "james-davis-sheffield"
+      "slug": "victor-lewis-cm-of-sheffield"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "James Brown (Sheffield)",
+    "pk": "Nathan Brown (AM of Sheffield)",
     "fields": {
-      "age": 25,
+      "age": 18,
       "position": "AM",
-      "avr_rating": 8.9,
+      "avr_rating": 8.5,
       "club": "Sheffield",
-      "slug": "james-brown-sheffield"
+      "slug": "nathan-brown-am-of-sheffield"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Clark (Sheffield)",
+    "pk": "Henry Miller (LW of Sheffield)",
     "fields": {
       "age": 26,
       "position": "LW",
-      "avr_rating": 7.5,
+      "avr_rating": 8.5,
       "club": "Sheffield",
-      "slug": "chris-clark-sheffield"
+      "slug": "henry-miller-lw-of-sheffield"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Miller (Sheffield)",
+    "pk": "Leo Johnson (RW of Sheffield)",
     "fields": {
-      "age": 30,
+      "age": 33,
       "position": "RW",
-      "avr_rating": 6.7,
+      "avr_rating": 8.9,
       "club": "Sheffield",
-      "slug": "chris-miller-sheffield"
+      "slug": "leo-johnson-rw-of-sheffield"
     }
   },
   {
     "model": "clubs.player",
-    "pk": "Chris Davis (Sheffield)",
+    "pk": "Jason Miller (ST of Sheffield)",
     "fields": {
-      "age": 27,
+      "age": 22,
       "position": "ST",
-      "avr_rating": 7.7,
+      "avr_rating": 6.1,
       "club": "Sheffield",
-      "slug": "chris-davis-sheffield"
+      "slug": "jason-miller-st-of-sheffield"
     }
   }
 ]

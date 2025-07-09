@@ -10,16 +10,31 @@ CLUBS = [
     "Nottingham Forest", "Bournemouth", "Burnley", "Luton Town", "Sheffield"
 ]
 
-# Expanded and adjusted positions (11 per club)
+# Exactly 11 positions per club
 POSITIONS = ["GK", "CBL", "CBR", "LB", "RB", "DM", "CM", "AM", "LW", "RW", "ST"]
 FORM_CHARS = ['W', 'D', 'L']
 
-# Expanded name pool for uniqueness
-FIRST_NAMES = ["James", "John", "Michael", "David", "Chris", "Ryan", "Daniel", "Tom", "Robert", "Luke"]
-LAST_NAMES = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Davis", "Miller", "Wilson", "Taylor", "Clark"]
+# Expanded name pools for uniqueness (20 x 20 = 400 unique combinations)
+FIRST_NAMES = [
+    "James", "John", "Michael", "David", "Chris", "Ryan", "Daniel", "Tom", "Robert", "Luke",
+    "Henry", "George", "Leo", "Nathan", "Sam", "Victor", "Anthony", "Jason", "Oliver", "Elijah"
+]
+
+LAST_NAMES = [
+    "Smith", "Johnson", "Williams", "Brown", "Jones", "Davis", "Miller", "Wilson", "Taylor", "Clark",
+    "Young", "Lewis", "Walker", "Hall", "Allen", "Wright", "King", "Scott", "Mitchell", "Bennett"
+]
+
+# Pre-generate all unique names
+name_pool = [f"{first} {last}" for first in FIRST_NAMES for last in LAST_NAMES]
+random.shuffle(name_pool)
+name_index = 0
 
 def random_name():
-    return f"{random.choice(FIRST_NAMES)} {random.choice(LAST_NAMES)}"
+    global name_index
+    name = name_pool[name_index]
+    name_index += 1
+    return name
 
 def random_form():
     return ''.join(random.choices(FORM_CHARS, k=5))
@@ -29,7 +44,7 @@ def generate_fixtures():
     player_count = 0
 
     for club_name in CLUBS:
-        # Generate unique owner
+        # Create unique owner name per club
         owner_name = f"{random_name()} (Owner of {club_name})"
         owner = {
             "model": "clubs.owner",
@@ -41,7 +56,7 @@ def generate_fixtures():
         }
         data.append(owner)
 
-        # Generate unique manager
+        # Create unique manager name per club
         manager_name = f"{random_name()} (Manager of {club_name})"
         manager = {
             "model": "clubs.manager",
@@ -55,7 +70,7 @@ def generate_fixtures():
         }
         data.append(manager)
 
-        # Generate club
+        # Create the club
         club = {
             "model": "clubs.club",
             "pk": club_name,
@@ -68,17 +83,10 @@ def generate_fixtures():
         }
         data.append(club)
 
-        # Generate 11 players, 1 per position
-        used_names = set()
-        for i, position in enumerate(POSITIONS):
-            while True:
-                base_name = random_name()
-                player_name = f"{base_name} ({club_name})"
-                if player_name not in used_names:
-                    used_names.add(player_name)
-                    break
-
-            player_count += 1
+        # 11 unique players per club (1 per position)
+        for position in POSITIONS:
+            base_name = random_name()
+            player_name = f"{base_name} ({position} of {club_name})"
             player = {
                 "model": "clubs.player",
                 "pk": player_name,
@@ -91,12 +99,14 @@ def generate_fixtures():
                 }
             }
             data.append(player)
+            player_count += 1
 
-    # Save fixtures
+    # Save to fixture file
     with open("clubs/fixtures/initial_data.json", "w") as f:
         json.dump(data, f, indent=2)
 
-    print(f" Fixture file generated with:")
+    # Summary printout
+    print("✅ Fixture file generated with:")
     print(f"  - {len(CLUBS)} Clubs")
     print(f"  - {len(CLUBS)} Managers")
     print(f"  - {len(CLUBS)} Owners")
