@@ -32,7 +32,7 @@ class Manager(models.Model):
 class Club(models.Model):
     name = models.CharField(max_length=100, primary_key=True)
     slug = models.SlugField(unique=True, blank=True)
-    manager = models.ForeignKey(Manager, on_delete=models.CASCADE)
+    manager = models.OneToOneField(Manager, on_delete=models.CASCADE, related_name="club")
     owner = models.ForeignKey(Owner, on_delete=models.CASCADE)
     form = models.CharField(max_length=5)
 

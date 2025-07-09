@@ -22,8 +22,6 @@ def club_detailed(request, club_slug):
        'manager': manager,
        'owner' : owner,
        'players' : players,
-      
-
     }
     return render(request, 'clubs/club_detailed.html', context)
 
