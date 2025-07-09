@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, Http404
 from django.urls import reverse
 from .models import Club, Manager, Owner, Player
 
@@ -29,6 +29,8 @@ def club_manager(request, club_slug, manager_slug):
     club = get_object_or_404(Club, slug= club_slug)
     manager = get_object_or_404(Manager, slug=manager_slug)
 
+    if manager != club.manager:
+        raise Http404("manager does not belong to this club")
     
     context = {
         'club': club,
@@ -43,6 +45,8 @@ def club_owner(request, club_slug, owner_slug):
     club = get_object_or_404(Club, slug=club_slug)
     owner = get_object_or_404(Owner, slug=owner_slug)
     
+    if owner != club.owner:
+        raise Http404("Owner does not belong to this club.")
     context = {
         'club': club,
         'owner': owner,

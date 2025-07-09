@@ -9,9 +9,11 @@ class Owner(models.Model):
 
     def get_absolute_url(self):
         return reverse('club_owner', kwargs={
-            'club_slug': self.club_set.first().slug,
+            'club_slug': self.club.slug,
             'owner_slug':self.slug,
         })
+    def __str__(self):
+        return self.name
 
     
 
@@ -27,13 +29,15 @@ class Manager(models.Model):
             'club_slug': self.club.slug,  # Assumes 1 club per manager
             'manager_slug': self.slug
         })
+    def __str__(self):
+        return self.name
    
 
 class Club(models.Model):
     name = models.CharField(max_length=100, primary_key=True)
     slug = models.SlugField(unique=True, blank=True)
     manager = models.OneToOneField(Manager, on_delete=models.CASCADE, related_name="club")
-    owner = models.ForeignKey(Owner, on_delete=models.CASCADE)
+    owner = models.OneToOneField(Owner, on_delete=models.CASCADE, related_name="club")
     form = models.CharField(max_length=5)
 
     def get_absolute_url(self):
