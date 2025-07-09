@@ -15,9 +15,9 @@
 
 <p>Select a category to view or criticize:</p>
 <ul>
-  <li><a href="{{ manager_url }}">Coach</a></li>
-  <li><a href="{% url 'club_players' club_name=club_name %}">Players</a></li>
-  <li><a href="#">Owners</a></li>
+    <li><a href="{{ manager.get_absolute_url }}">View Manager</a></li>
+    <li><a href="{{ owner.get_absolute_url }}">View Owner</a></li>
+    <li><a href="{% url 'club_players' club_slug=club.slug %}">View All Players</a></li>  
 </ul>
 
 </body>

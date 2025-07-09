@@ -1,11 +1,7 @@
 <h2> {{ club.name }} --- squad </h2>
+<p>Select a player</p>
 <ul>
     {% for player in players %}
-    <li>
-        <a href="{% url 'player_detailed' club_name player_name %}">
-        {{ player.name }}
-        {{ player.position }}
-        </a>
-    </li>
-    {% end for %}
+        <a href="{{ player.get_absolute_url }}">{{ player.name }}</a>
+    {% endfor %}
 </ul>

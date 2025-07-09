@@ -16,7 +16,7 @@
       
         {% for club in all_clubs %}
         <li>
-          <a href="{% url 'club_detailed' club.name %}">{{ club.name }}</a>
+          <a href="{% url 'club_detailed' club_slug=club.slug %}">{{ club.name }}</a>
         </li>
         {% endfor %}
 

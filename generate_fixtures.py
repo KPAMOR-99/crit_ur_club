@@ -2,140 +2,105 @@ import json
 import random
 from django.utils.text import slugify
 
-# Constants
+# List of clubs
 CLUBS = [
     "Arsenal", "Manchester United", "Manchester City", "Chelsea", "Liverpool",
-    "Tottenham Hotspur", "Newcastle United", "Aston Villa", "West Ham United", 
-    "Brighton & Hove Albion", "Brentford", "Wolverhampton Wanderers", 
-    "Crystal Palace", "Fulham", "Everton", "Nottingham Forest", 
-    "Bournemouth", "Burnley", "Luton Town", "Sheffield United"
+    "Tottenham", "Newcastle", "Aston Villa", "West Ham", "Brighton",
+    "Brentford", "Wolves", "Crystal Palace", "Fulham", "Everton",
+    "Nottingham Forest", "Bournemouth", "Burnley", "Luton Town", "Sheffield"
 ]
 
-POSITIONS = ["GK", "CB", "LB", "RB", "DM", "CM", "AM", "LW", "RW", "ST", "CF"]
-NATIONALITIES = ["England", "Spain", "France", "Germany", "Brazil", "Argentina", 
-                "Portugal", "Netherlands", "Italy", "Belgium"]
+# Expanded and adjusted positions (11 per club)
+POSITIONS = ["GK", "CBL", "CBR", "LB", "RB", "DM", "CM", "AM", "LW", "RW", "ST"]
 FORM_CHARS = ['W', 'D', 'L']
 
-# Name generation with football-appropriate names
-FIRST_NAMES = {
-    "English": ["Harry", "Jack", "Phil", "Jordan", "Kyle", "Marcus", "Declan", "Jude"],
-    "Spanish": ["Javier", "Sergio", "David", "Carlos", "Juan", "Pedro", "Diego"],
-    "French": ["Kylian", "Antoine", "Paul", "N'Golo", "Olivier", "Hugo"],
-    "Brazilian": ["Neymar", "Vinicius", "Casemiro", "Alisson", "Gabriel", "Richarlison"]
-}
-LAST_NAMES = {
-    "English": ["Kane", "Henderson", "Rice", "Bellingham", "Walker", "Shaw"],
-    "Spanish": ["Ramos", "Busquets", "Alba", "Torres", "Gavi", "Pedri"],
-    "French": ["Mbappé", "Griezmann", "Pogba", "Kanté", "Giroud", "Lloris"],
-    "Brazilian": ["Junior", "Silva", "Santos", "Jesus", "Firmino", "Rodrygo"]
-}
+# Expanded name pool for uniqueness
+FIRST_NAMES = ["James", "John", "Michael", "David", "Chris", "Ryan", "Daniel", "Tom", "Robert", "Luke"]
+LAST_NAMES = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Davis", "Miller", "Wilson", "Taylor", "Clark"]
 
-def random_name(nationality):
-    """Generate realistic football names based on nationality"""
-    nationality_group = "English" if nationality == "England" else nationality
-    first = random.choice(FIRST_NAMES.get(nationality_group, FIRST_NAMES["English"]))
-    last = random.choice(LAST_NAMES.get(nationality_group, LAST_NAMES["English"]))
-    return f"{first} {last}"
+def random_name():
+    return f"{random.choice(FIRST_NAMES)} {random.choice(LAST_NAMES)}"
 
 def random_form():
-    """Generate recent form string (e.g., WWDLW)"""
-    return ''.join(random.choices(FORM_CHARS, weights=[5, 3, 2], k=5))
+    return ''.join(random.choices(FORM_CHARS, k=5))
 
-def generate_players(club, nationality, count=11):
-    """Generate realistic squad with balanced positions"""
-    players = []
-    positions = POSITIONS.copy()
-    
-    # Ensure at least 1 goalkeeper
-    players.append({
-        "model": "clubs.player",
-        "fields": {
-            "name": random_name(nationality) + " (GK)",
-            "age": random.randint(18, 35),
-            "position": "GK",
-            "avr_rating": round(random.uniform(6.0, 7.5), 1),
-           # "form": random_form(),
-            "club": club["fields"]["name"]
-        }
-    })
-    
-    # Generate remaining players with position distribution
-    for i in range(count - 1):
-        position = random.choice(positions)
-        if position == "GK":  # Already have our GK
-            position = random.choice([p for p in positions if p != "GK"])
-            
-        players.append({
-            "model": "clubs.player",
-            "fields": {
-                "name": random_name(nationality) + f" ({position})",
-                "age": random.randint(18, 35),
-                "position": position,
-                "avr_rating": round(random.uniform(6.0, 9.0), 1),
-               # "form": random_form(),
-                "club": club["fields"]["name"]
-            }
-        })
-    return players
+def generate_fixtures():
+    data = []
+    player_count = 0
 
-def main():
-    fixture = []
-    
     for club_name in CLUBS:
-        # Generate consistent nationality for club's staff/players
-        nationality = random.choice(NATIONALITIES)
-        
-        # Owner
+        # Generate unique owner
+        owner_name = f"{random_name()} (Owner of {club_name})"
         owner = {
             "model": "clubs.owner",
+            "pk": owner_name,
             "fields": {
-                "name": f"{random_name(nationality)} (Owner)",
                 "age": random.randint(45, 75),
-               # "nationality": nationality
+                "slug": slugify(owner_name)
             }
         }
-        fixture.append(owner)
-        
-        # Manager
+        data.append(owner)
+
+        # Generate unique manager
+        manager_name = f"{random_name()} (Manager of {club_name})"
         manager = {
             "model": "clubs.manager",
+            "pk": manager_name,
             "fields": {
-                "name": random_name(nationality) + " (Manager)",
                 "age": random.randint(35, 65),
-               
-                "nationality": nationality,
-                "matches_played": random.randint(50, 500),
-                
+                "nationality": "England",
+                "matches_played": random.randint(50, 300),
+                "slug": slugify(manager_name)
             }
         }
-        fixture.append(manager)
-        
-        # Club
+        data.append(manager)
+
+        # Generate club
         club = {
             "model": "clubs.club",
+            "pk": club_name,
             "fields": {
-                "name": club_name,
                 "slug": slugify(club_name),
-                "manager": manager["fields"]["name"],
-                "owner": owner["fields"]["name"],
+                "manager": manager_name,
+                "owner": owner_name,
                 "form": random_form()
-                
             }
         }
-        fixture.append(club)
-        
-        # Players
-        fixture.extend(generate_players(club, nationality))
-    
-    # Save to JSON
-    with open('clubs/fixtures/initial_data.json', 'w') as f:
-        json.dump(fixture, f, indent=2)
-    
-    print(f" Generated fixture with:")
-    print(f"- {len(CLUBS)} clubs")
-    print(f"- {len(CLUBS)} owners")
-    print(f"- {len(CLUBS)} managers")
-    print(f"- {len(CLUBS)*11} players")
+        data.append(club)
+
+        # Generate 11 players, 1 per position
+        used_names = set()
+        for i, position in enumerate(POSITIONS):
+            while True:
+                base_name = random_name()
+                player_name = f"{base_name} ({club_name})"
+                if player_name not in used_names:
+                    used_names.add(player_name)
+                    break
+
+            player_count += 1
+            player = {
+                "model": "clubs.player",
+                "pk": player_name,
+                "fields": {
+                    "age": random.randint(18, 35),
+                    "position": position,
+                    "avr_rating": round(random.uniform(6.0, 9.0), 1),
+                    "club": club_name,
+                    "slug": slugify(player_name)
+                }
+            }
+            data.append(player)
+
+    # Save fixtures
+    with open("clubs/fixtures/initial_data.json", "w") as f:
+        json.dump(data, f, indent=2)
+
+    print(f" Fixture file generated with:")
+    print(f"  - {len(CLUBS)} Clubs")
+    print(f"  - {len(CLUBS)} Managers")
+    print(f"  - {len(CLUBS)} Owners")
+    print(f"  - {player_count} Players")
 
 if __name__ == "__main__":
-    main()
+    generate_fixtures()
