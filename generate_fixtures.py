@@ -102,9 +102,10 @@ def main():
             "fields": {
                 "name": random_name(nationality) + " (Manager)",
                 "age": random.randint(35, 65),
+               
                 "nationality": nationality,
                 "matches_played": random.randint(50, 500),
-                "form": random_form()
+                
             }
         }
         fixture.append(manager)

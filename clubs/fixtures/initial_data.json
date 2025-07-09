@@ -2,18 +2,17 @@
   {
     "model": "clubs.owner",
     "fields": {
-      "name": "Phil Shaw (Owner)",
-      "age": 52
+      "name": "Jack Shaw (Owner)",
+      "age": 73
     }
   },
   {
     "model": "clubs.manager",
     "fields": {
-      "name": "Jude Henderson (Manager)",
-      "age": 54,
-      "nationality": "France",
-      "matches_played": 113,
-      "form": "LLDWW"
+      "name": "Declan Rice (Manager)",
+      "age": 51,
+      "nationality": "Argentina",
+      "matches_played": 255
     }
   },
   {
@@ -21,764 +20,69 @@
     "fields": {
       "name": "Arsenal",
       "slug": "arsenal",
-      "manager": "Jude Henderson (Manager)",
-      "owner": "Phil Shaw (Owner)",
-      "form": "DWWDD"
+      "manager": "Declan Rice (Manager)",
+      "owner": "Jack Shaw (Owner)",
+      "form": "WDWDD"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jordan Henderson (GK)",
-      "age": 25,
-      "position": "GK",
-      "avr_rating": 6.9,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (LW)",
-      "age": 27,
-      "position": "LW",
-      "avr_rating": 6.0,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (CB)",
-      "age": 30,
-      "position": "CB",
-      "avr_rating": 6.2,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Bellingham (DM)",
+      "name": "Jack Rice (GK)",
       "age": 26,
-      "position": "DM",
-      "avr_rating": 8.6,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Henderson (ST)",
-      "age": 19,
-      "position": "ST",
-      "avr_rating": 8.3,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Shaw (DM)",
-      "age": 32,
-      "position": "DM",
-      "avr_rating": 6.4,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Henderson (RB)",
-      "age": 27,
-      "position": "RB",
-      "avr_rating": 6.6,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Shaw (CM)",
-      "age": 33,
-      "position": "CM",
-      "avr_rating": 7.5,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Bellingham (CB)",
-      "age": 32,
-      "position": "CB",
-      "avr_rating": 6.6,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Rice (RW)",
-      "age": 30,
-      "position": "RW",
-      "avr_rating": 7.1,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Walker (CB)",
-      "age": 26,
-      "position": "CB",
-      "avr_rating": 7.4,
-      "club": "Arsenal"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Jordan Henderson (Owner)",
-      "age": 48
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Jude Rice (Manager)",
-      "age": 50,
-      "nationality": "Spain",
-      "matches_played": 237,
-      "form": "DLLWL"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Manchester United",
-      "slug": "manchester-united",
-      "manager": "Jude Rice (Manager)",
-      "owner": "Jordan Henderson (Owner)",
-      "form": "WDWDW"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Walker (GK)",
-      "age": 25,
       "position": "GK",
-      "avr_rating": 7.1,
-      "club": "Manchester United"
+      "avr_rating": 7.2,
+      "club": "Arsenal"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Walker (LB)",
-      "age": 19,
-      "position": "LB",
-      "avr_rating": 8.4,
-      "club": "Manchester United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (LW)",
+      "name": "Declan Walker (LB)",
       "age": 23,
-      "position": "LW",
-      "avr_rating": 6.7,
-      "club": "Manchester United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Kane (AM)",
-      "age": 18,
-      "position": "AM",
-      "avr_rating": 6.0,
-      "club": "Manchester United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Rice (LW)",
-      "age": 31,
-      "position": "LW",
-      "avr_rating": 8.9,
-      "club": "Manchester United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Kane (LB)",
-      "age": 35,
       "position": "LB",
-      "avr_rating": 7.5,
-      "club": "Manchester United"
+      "avr_rating": 7.6,
+      "club": "Arsenal"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Bellingham (RB)",
-      "age": 18,
-      "position": "RB",
-      "avr_rating": 8.1,
-      "club": "Manchester United"
+      "name": "Declan Henderson (LB)",
+      "age": 33,
+      "position": "LB",
+      "avr_rating": 8.2,
+      "club": "Arsenal"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Declan Bellingham (ST)",
+      "name": "Phil Kane (AM)",
+      "age": 28,
+      "position": "AM",
+      "avr_rating": 7.2,
+      "club": "Arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Shaw (DM)",
       "age": 31,
-      "position": "ST",
+      "position": "DM",
       "avr_rating": 6.5,
-      "club": "Manchester United"
+      "club": "Arsenal"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Declan Walker (ST)",
-      "age": 34,
-      "position": "ST",
-      "avr_rating": 8.4,
-      "club": "Manchester United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Shaw (AM)",
-      "age": 21,
+      "name": "Jack Kane (AM)",
+      "age": 28,
       "position": "AM",
-      "avr_rating": 8.8,
-      "club": "Manchester United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Henderson (LB)",
-      "age": 21,
-      "position": "LB",
-      "avr_rating": 8.1,
-      "club": "Manchester United"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Declan Shaw (Owner)",
-      "age": 65
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Phil Henderson (Manager)",
-      "age": 45,
-      "nationality": "Netherlands",
-      "matches_played": 97,
-      "form": "LLLDL"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Manchester City",
-      "slug": "manchester-city",
-      "manager": "Phil Henderson (Manager)",
-      "owner": "Declan Shaw (Owner)",
-      "form": "WDDLL"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Rice (GK)",
-      "age": 26,
-      "position": "GK",
-      "avr_rating": 7.2,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Shaw (RB)",
-      "age": 32,
-      "position": "RB",
       "avr_rating": 8.7,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Rice (CF)",
-      "age": 22,
-      "position": "CF",
-      "avr_rating": 6.9,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Walker (RB)",
-      "age": 34,
-      "position": "RB",
-      "avr_rating": 6.2,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Walker (RW)",
-      "age": 31,
-      "position": "RW",
-      "avr_rating": 6.6,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Rice (CF)",
-      "age": 18,
-      "position": "CF",
-      "avr_rating": 6.9,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Bellingham (RB)",
-      "age": 32,
-      "position": "RB",
-      "avr_rating": 8.4,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Henderson (CF)",
-      "age": 24,
-      "position": "CF",
-      "avr_rating": 8.6,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Bellingham (CB)",
-      "age": 30,
-      "position": "CB",
-      "avr_rating": 6.2,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Shaw (AM)",
-      "age": 19,
-      "position": "AM",
-      "avr_rating": 6.8,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Rice (RB)",
-      "age": 26,
-      "position": "RB",
-      "avr_rating": 7.3,
-      "club": "Manchester City"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Declan Henderson (Owner)",
-      "age": 68
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Jordan Kane (Manager)",
-      "age": 60,
-      "nationality": "Brazil",
-      "matches_played": 281,
-      "form": "WLWWW"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Chelsea",
-      "slug": "chelsea",
-      "manager": "Jordan Kane (Manager)",
-      "owner": "Declan Henderson (Owner)",
-      "form": "WWWDW"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Henderson (GK)",
-      "age": 35,
-      "position": "GK",
-      "avr_rating": 6.4,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Kane (CM)",
-      "age": 21,
-      "position": "CM",
-      "avr_rating": 6.7,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Bellingham (CB)",
-      "age": 26,
-      "position": "CB",
-      "avr_rating": 6.9,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Kane (LW)",
-      "age": 20,
-      "position": "LW",
-      "avr_rating": 8.6,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Walker (AM)",
-      "age": 27,
-      "position": "AM",
-      "avr_rating": 7.1,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Walker (DM)",
-      "age": 34,
-      "position": "DM",
-      "avr_rating": 8.5,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Henderson (CM)",
-      "age": 19,
-      "position": "CM",
-      "avr_rating": 8.0,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Walker (DM)",
-      "age": 27,
-      "position": "DM",
-      "avr_rating": 7.5,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Rice (CF)",
-      "age": 23,
-      "position": "CF",
-      "avr_rating": 7.5,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Bellingham (RW)",
-      "age": 32,
-      "position": "RW",
-      "avr_rating": 6.9,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Henderson (ST)",
-      "age": 34,
-      "position": "ST",
-      "avr_rating": 9.0,
-      "club": "Chelsea"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Marcus Bellingham (Owner)",
-      "age": 72
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Jordan Walker (Manager)",
-      "age": 56,
-      "nationality": "Argentina",
-      "matches_played": 438,
-      "form": "LWWDD"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Liverpool",
-      "slug": "liverpool",
-      "manager": "Jordan Walker (Manager)",
-      "owner": "Marcus Bellingham (Owner)",
-      "form": "WDWWD"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Kane (GK)",
-      "age": 29,
-      "position": "GK",
-      "avr_rating": 7.1,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Rice (AM)",
-      "age": 23,
-      "position": "AM",
-      "avr_rating": 8.4,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Rice (RB)",
-      "age": 21,
-      "position": "RB",
-      "avr_rating": 6.1,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Kane (LB)",
-      "age": 29,
-      "position": "LB",
-      "avr_rating": 6.2,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Walker (DM)",
-      "age": 35,
-      "position": "DM",
-      "avr_rating": 8.8,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Rice (CF)",
-      "age": 28,
-      "position": "CF",
-      "avr_rating": 8.1,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Kane (CM)",
-      "age": 33,
-      "position": "CM",
-      "avr_rating": 6.1,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Henderson (LW)",
-      "age": 21,
-      "position": "LW",
-      "avr_rating": 8.9,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Kane (CB)",
-      "age": 29,
-      "position": "CB",
-      "avr_rating": 7.6,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Kane (RB)",
-      "age": 19,
-      "position": "RB",
-      "avr_rating": 8.6,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Walker (ST)",
-      "age": 24,
-      "position": "ST",
-      "avr_rating": 6.4,
-      "club": "Liverpool"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Harry Shaw (Owner)",
-      "age": 61
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Kyle Henderson (Manager)",
-      "age": 47,
-      "nationality": "Argentina",
-      "matches_played": 217,
-      "form": "DDWDW"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Tottenham Hotspur",
-      "slug": "tottenham-hotspur",
-      "manager": "Kyle Henderson (Manager)",
-      "owner": "Harry Shaw (Owner)",
-      "form": "WWWWW"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Bellingham (GK)",
-      "age": 31,
-      "position": "GK",
-      "avr_rating": 6.4,
-      "club": "Tottenham Hotspur"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Bellingham (LW)",
-      "age": 34,
-      "position": "LW",
-      "avr_rating": 7.4,
-      "club": "Tottenham Hotspur"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Henderson (LB)",
-      "age": 32,
-      "position": "LB",
-      "avr_rating": 7.3,
-      "club": "Tottenham Hotspur"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Rice (RB)",
-      "age": 27,
-      "position": "RB",
-      "avr_rating": 7.3,
-      "club": "Tottenham Hotspur"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Rice (LW)",
-      "age": 31,
-      "position": "LW",
-      "avr_rating": 7.2,
-      "club": "Tottenham Hotspur"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Bellingham (CF)",
-      "age": 28,
-      "position": "CF",
-      "avr_rating": 7.6,
-      "club": "Tottenham Hotspur"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Bellingham (CF)",
-      "age": 31,
-      "position": "CF",
-      "avr_rating": 8.6,
-      "club": "Tottenham Hotspur"
+      "club": "Arsenal"
     }
   },
   {
@@ -787,25 +91,685 @@
       "name": "Jude Rice (LB)",
       "age": 30,
       "position": "LB",
-      "avr_rating": 8.1,
-      "club": "Tottenham Hotspur"
+      "avr_rating": 6.2,
+      "club": "Arsenal"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Henderson (CM)",
+      "name": "Jordan Kane (LW)",
+      "age": 20,
+      "position": "LW",
+      "avr_rating": 7.9,
+      "club": "Arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Rice (LB)",
+      "age": 24,
+      "position": "LB",
+      "avr_rating": 7.3,
+      "club": "Arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Walker (DM)",
+      "age": 22,
+      "position": "DM",
+      "avr_rating": 8.3,
+      "club": "Arsenal"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Walker (RW)",
+      "age": 29,
+      "position": "RW",
+      "avr_rating": 8.3,
+      "club": "Arsenal"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Kyle Rice (Owner)",
+      "age": 58
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Declan Kane (Manager)",
+      "age": 47,
+      "nationality": "Netherlands",
+      "matches_played": 92
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Manchester United",
+      "slug": "manchester-united",
+      "manager": "Declan Kane (Manager)",
+      "owner": "Kyle Rice (Owner)",
+      "form": "DWWWW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (GK)",
+      "age": 23,
+      "position": "GK",
+      "avr_rating": 7.3,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Kane (CM)",
+      "age": 18,
+      "position": "CM",
+      "avr_rating": 8.6,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Kane (CB)",
+      "age": 34,
+      "position": "CB",
+      "avr_rating": 8.2,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Bellingham (DM)",
+      "age": 27,
+      "position": "DM",
+      "avr_rating": 8.3,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Kane (RW)",
+      "age": 29,
+      "position": "RW",
+      "avr_rating": 8.9,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Rice (LW)",
+      "age": 21,
+      "position": "LW",
+      "avr_rating": 7.5,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Henderson (CF)",
+      "age": 31,
+      "position": "CF",
+      "avr_rating": 6.8,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Shaw (DM)",
+      "age": 26,
+      "position": "DM",
+      "avr_rating": 6.8,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Rice (LW)",
+      "age": 25,
+      "position": "LW",
+      "avr_rating": 8.1,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Walker (DM)",
+      "age": 25,
+      "position": "DM",
+      "avr_rating": 6.3,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Shaw (RB)",
+      "age": 20,
+      "position": "RB",
+      "avr_rating": 6.1,
+      "club": "Manchester United"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Harry Kane (Owner)",
+      "age": 70
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Phil Henderson (Manager)",
+      "age": 40,
+      "nationality": "Argentina",
+      "matches_played": 297
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "manager": "Phil Henderson (Manager)",
+      "owner": "Harry Kane (Owner)",
+      "form": "WLDWW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Rice (GK)",
+      "age": 19,
+      "position": "GK",
+      "avr_rating": 6.2,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Rice (CB)",
+      "age": 20,
+      "position": "CB",
+      "avr_rating": 6.4,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Bellingham (AM)",
+      "age": 33,
+      "position": "AM",
+      "avr_rating": 9.0,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Kane (ST)",
+      "age": 25,
+      "position": "ST",
+      "avr_rating": 8.6,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Rice (CM)",
+      "age": 27,
+      "position": "CM",
+      "avr_rating": 6.7,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Henderson (LB)",
+      "age": 21,
+      "position": "LB",
+      "avr_rating": 7.4,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Rice (CM)",
+      "age": 25,
+      "position": "CM",
+      "avr_rating": 7.8,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Kane (CB)",
+      "age": 28,
+      "position": "CB",
+      "avr_rating": 8.4,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Kane (AM)",
+      "age": 29,
+      "position": "AM",
+      "avr_rating": 6.3,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Walker (CF)",
+      "age": 27,
+      "position": "CF",
+      "avr_rating": 6.0,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Shaw (AM)",
+      "age": 32,
+      "position": "AM",
+      "avr_rating": 8.4,
+      "club": "Manchester City"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Harry Walker (Owner)",
+      "age": 58
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Marcus Henderson (Manager)",
+      "age": 60,
+      "nationality": "Netherlands",
+      "matches_played": 478
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "manager": "Marcus Henderson (Manager)",
+      "owner": "Harry Walker (Owner)",
+      "form": "WWLDW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Walker (GK)",
+      "age": 28,
+      "position": "GK",
+      "avr_rating": 6.0,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Henderson (LW)",
+      "age": 26,
+      "position": "LW",
+      "avr_rating": 7.8,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Shaw (LB)",
+      "age": 19,
+      "position": "LB",
+      "avr_rating": 6.8,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Henderson (LB)",
+      "age": 34,
+      "position": "LB",
+      "avr_rating": 9.0,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Bellingham (RB)",
+      "age": 21,
+      "position": "RB",
+      "avr_rating": 7.3,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Rice (CB)",
+      "age": 18,
+      "position": "CB",
+      "avr_rating": 6.6,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Bellingham (RW)",
+      "age": 25,
+      "position": "RW",
+      "avr_rating": 6.2,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Rice (CF)",
+      "age": 32,
+      "position": "CF",
+      "avr_rating": 8.1,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (CM)",
       "age": 21,
       "position": "CM",
+      "avr_rating": 8.0,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Kane (RB)",
+      "age": 23,
+      "position": "RB",
+      "avr_rating": 8.5,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Rice (AM)",
+      "age": 27,
+      "position": "AM",
+      "avr_rating": 7.7,
+      "club": "Chelsea"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Declan Shaw (Owner)",
+      "age": 51
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Declan Bellingham (Manager)",
+      "age": 39,
+      "nationality": "Brazil",
+      "matches_played": 357
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "manager": "Declan Bellingham (Manager)",
+      "owner": "Declan Shaw (Owner)",
+      "form": "WWLDW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Shaw (GK)",
+      "age": 33,
+      "position": "GK",
+      "avr_rating": 6.8,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Shaw (LB)",
+      "age": 23,
+      "position": "LB",
+      "avr_rating": 6.4,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Shaw (LB)",
+      "age": 21,
+      "position": "LB",
+      "avr_rating": 8.6,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Henderson (CF)",
+      "age": 30,
+      "position": "CF",
+      "avr_rating": 8.4,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Rice (AM)",
+      "age": 30,
+      "position": "AM",
+      "avr_rating": 6.6,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Bellingham (ST)",
+      "age": 23,
+      "position": "ST",
+      "avr_rating": 6.8,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Kane (ST)",
+      "age": 27,
+      "position": "ST",
+      "avr_rating": 7.5,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Walker (DM)",
+      "age": 27,
+      "position": "DM",
       "avr_rating": 8.8,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Kane (DM)",
+      "age": 33,
+      "position": "DM",
+      "avr_rating": 7.6,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (ST)",
+      "age": 24,
+      "position": "ST",
+      "avr_rating": 8.7,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Kane (CF)",
+      "age": 29,
+      "position": "CF",
+      "avr_rating": 7.6,
+      "club": "Liverpool"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Marcus Walker (Owner)",
+      "age": 61
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Kyle Henderson (Manager)",
+      "age": 42,
+      "nationality": "Brazil",
+      "matches_played": 333
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Tottenham Hotspur",
+      "slug": "tottenham-hotspur",
+      "manager": "Kyle Henderson (Manager)",
+      "owner": "Marcus Walker (Owner)",
+      "form": "LDDWD"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Kane (GK)",
+      "age": 27,
+      "position": "GK",
+      "avr_rating": 6.0,
       "club": "Tottenham Hotspur"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jordan Rice (RW)",
-      "age": 27,
+      "name": "Jack Shaw (AM)",
+      "age": 32,
+      "position": "AM",
+      "avr_rating": 7.5,
+      "club": "Tottenham Hotspur"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Walker (RW)",
+      "age": 22,
+      "position": "RW",
+      "avr_rating": 6.1,
+      "club": "Tottenham Hotspur"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Walker (DM)",
+      "age": 34,
+      "position": "DM",
+      "avr_rating": 8.6,
+      "club": "Tottenham Hotspur"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Bellingham (RW)",
+      "age": 21,
+      "position": "RW",
+      "avr_rating": 6.2,
+      "club": "Tottenham Hotspur"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Rice (AM)",
+      "age": 25,
+      "position": "AM",
+      "avr_rating": 8.5,
+      "club": "Tottenham Hotspur"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Walker (RW)",
+      "age": 19,
       "position": "RW",
       "avr_rating": 8.1,
       "club": "Tottenham Hotspur"
@@ -814,28 +778,57 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Shaw (CF)",
-      "age": 34,
+      "name": "Jack Henderson (CB)",
+      "age": 25,
+      "position": "CB",
+      "avr_rating": 6.3,
+      "club": "Tottenham Hotspur"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Rice (RW)",
+      "age": 22,
+      "position": "RW",
+      "avr_rating": 6.8,
+      "club": "Tottenham Hotspur"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Bellingham (CF)",
+      "age": 24,
       "position": "CF",
-      "avr_rating": 6.1,
+      "avr_rating": 6.9,
+      "club": "Tottenham Hotspur"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Bellingham (RB)",
+      "age": 26,
+      "position": "RB",
+      "avr_rating": 6.8,
       "club": "Tottenham Hotspur"
     }
   },
   {
     "model": "clubs.owner",
     "fields": {
-      "name": "Jack Kane (Owner)",
+      "name": "Jack Walker (Owner)",
       "age": 64
     }
   },
   {
     "model": "clubs.manager",
     "fields": {
-      "name": "Jordan Kane (Manager)",
+      "name": "Jude Walker (Manager)",
       "age": 52,
-      "nationality": "Italy",
-      "matches_played": 480,
-      "form": "LWDDW"
+      "nationality": "France",
+      "matches_played": 407
     }
   },
   {
@@ -843,37 +836,37 @@
     "fields": {
       "name": "Newcastle United",
       "slug": "newcastle-united",
-      "manager": "Jordan Kane (Manager)",
-      "owner": "Jack Kane (Owner)",
-      "form": "LLWDW"
+      "manager": "Jude Walker (Manager)",
+      "owner": "Jack Walker (Owner)",
+      "form": "DLDWD"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jordan Walker (GK)",
-      "age": 22,
+      "name": "Jude Rice (GK)",
+      "age": 20,
       "position": "GK",
-      "avr_rating": 6.3,
+      "avr_rating": 6.9,
       "club": "Newcastle United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jack Bellingham (RB)",
-      "age": 18,
-      "position": "RB",
-      "avr_rating": 8.1,
+      "name": "Harry Shaw (CF)",
+      "age": 31,
+      "position": "CF",
+      "avr_rating": 6.7,
       "club": "Newcastle United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Declan Shaw (DM)",
-      "age": 29,
-      "position": "DM",
+      "name": "Kyle Kane (LW)",
+      "age": 22,
+      "position": "LW",
       "avr_rating": 7.6,
       "club": "Newcastle United"
     }
@@ -881,19 +874,29 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Henderson (LW)",
+      "name": "Kyle Bellingham (RB)",
       "age": 28,
-      "position": "LW",
-      "avr_rating": 8.8,
+      "position": "RB",
+      "avr_rating": 8.6,
       "club": "Newcastle United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Marcus Kane (CM)",
-      "age": 32,
-      "position": "CM",
+      "name": "Declan Bellingham (LB)",
+      "age": 20,
+      "position": "LB",
+      "avr_rating": 6.9,
+      "club": "Newcastle United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Walker (LB)",
+      "age": 21,
+      "position": "LB",
       "avr_rating": 8.7,
       "club": "Newcastle United"
     }
@@ -901,20 +904,10 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jude Kane (CB)",
-      "age": 20,
-      "position": "CB",
-      "avr_rating": 7.7,
-      "club": "Newcastle United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Rice (CB)",
-      "age": 33,
-      "position": "CB",
-      "avr_rating": 8.0,
+      "name": "Jordan Henderson (DM)",
+      "age": 22,
+      "position": "DM",
+      "avr_rating": 7.1,
       "club": "Newcastle United"
     }
   },
@@ -924,1140 +917,44 @@
       "name": "Marcus Bellingham (ST)",
       "age": 26,
       "position": "ST",
-      "avr_rating": 8.6,
-      "club": "Newcastle United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (RB)",
-      "age": 19,
-      "position": "RB",
-      "avr_rating": 7.2,
-      "club": "Newcastle United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Walker (CF)",
-      "age": 27,
-      "position": "CF",
-      "avr_rating": 6.4,
-      "club": "Newcastle United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Kane (AM)",
-      "age": 22,
-      "position": "AM",
-      "avr_rating": 6.9,
-      "club": "Newcastle United"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Harry Kane (Owner)",
-      "age": 53
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Harry Rice (Manager)",
-      "age": 49,
-      "nationality": "Brazil",
-      "matches_played": 441,
-      "form": "DDWWW"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Aston Villa",
-      "slug": "aston-villa",
-      "manager": "Harry Rice (Manager)",
-      "owner": "Harry Kane (Owner)",
-      "form": "LWDDW"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Rice (GK)",
-      "age": 33,
-      "position": "GK",
-      "avr_rating": 7.1,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Bellingham (LW)",
-      "age": 31,
-      "position": "LW",
-      "avr_rating": 7.0,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Henderson (CM)",
-      "age": 22,
-      "position": "CM",
-      "avr_rating": 7.6,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Walker (LW)",
-      "age": 35,
-      "position": "LW",
-      "avr_rating": 8.4,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Henderson (CB)",
-      "age": 18,
-      "position": "CB",
-      "avr_rating": 7.9,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Walker (DM)",
-      "age": 20,
-      "position": "DM",
-      "avr_rating": 7.8,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Henderson (CB)",
-      "age": 21,
-      "position": "CB",
-      "avr_rating": 7.8,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Kane (CM)",
-      "age": 33,
-      "position": "CM",
-      "avr_rating": 8.2,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Bellingham (LB)",
-      "age": 33,
-      "position": "LB",
-      "avr_rating": 8.2,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Henderson (LB)",
-      "age": 33,
-      "position": "LB",
       "avr_rating": 8.1,
-      "club": "Aston Villa"
+      "club": "Newcastle United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jack Henderson (AM)",
-      "age": 19,
-      "position": "AM",
-      "avr_rating": 7.6,
-      "club": "Aston Villa"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Jack Henderson (Owner)",
-      "age": 56
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Harry Kane (Manager)",
-      "age": 50,
-      "nationality": "Argentina",
-      "matches_played": 475,
-      "form": "DDWWL"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "West Ham United",
-      "slug": "west-ham-united",
-      "manager": "Harry Kane (Manager)",
-      "owner": "Jack Henderson (Owner)",
-      "form": "WDLLW"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Walker (GK)",
-      "age": 25,
-      "position": "GK",
-      "avr_rating": 7.0,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (ST)",
-      "age": 33,
-      "position": "ST",
+      "name": "Declan Kane (CB)",
+      "age": 34,
+      "position": "CB",
       "avr_rating": 8.9,
-      "club": "West Ham United"
+      "club": "Newcastle United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Declan Rice (CB)",
-      "age": 33,
-      "position": "CB",
-      "avr_rating": 8.7,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (ST)",
-      "age": 27,
-      "position": "ST",
-      "avr_rating": 6.8,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Henderson (LB)",
-      "age": 31,
-      "position": "LB",
-      "avr_rating": 7.3,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Kane (LB)",
-      "age": 23,
-      "position": "LB",
-      "avr_rating": 7.3,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Shaw (RW)",
-      "age": 31,
-      "position": "RW",
-      "avr_rating": 6.2,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Rice (AM)",
-      "age": 28,
-      "position": "AM",
-      "avr_rating": 8.3,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Rice (CB)",
-      "age": 27,
-      "position": "CB",
-      "avr_rating": 6.1,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Henderson (ST)",
-      "age": 33,
-      "position": "ST",
-      "avr_rating": 6.8,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Walker (CF)",
-      "age": 29,
-      "position": "CF",
-      "avr_rating": 8.1,
-      "club": "West Ham United"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Kyle Kane (Owner)",
-      "age": 57
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Phil Rice (Manager)",
-      "age": 40,
-      "nationality": "Belgium",
-      "matches_played": 167,
-      "form": "DWDLD"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Brighton & Hove Albion",
-      "slug": "brighton-hove-albion",
-      "manager": "Phil Rice (Manager)",
-      "owner": "Kyle Kane (Owner)",
-      "form": "LLWWD"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Shaw (GK)",
-      "age": 20,
-      "position": "GK",
-      "avr_rating": 6.3,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Bellingham (LB)",
-      "age": 18,
-      "position": "LB",
-      "avr_rating": 7.4,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Shaw (DM)",
-      "age": 19,
-      "position": "DM",
-      "avr_rating": 8.5,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Henderson (LB)",
+      "name": "Jordan Shaw (LW)",
       "age": 26,
-      "position": "LB",
-      "avr_rating": 7.9,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Walker (DM)",
-      "age": 35,
-      "position": "DM",
-      "avr_rating": 7.6,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Henderson (CM)",
-      "age": 34,
-      "position": "CM",
-      "avr_rating": 6.3,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Kane (AM)",
-      "age": 21,
-      "position": "AM",
-      "avr_rating": 6.4,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Kane (RB)",
-      "age": 31,
-      "position": "RB",
-      "avr_rating": 7.2,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Walker (LB)",
-      "age": 19,
-      "position": "LB",
+      "position": "LW",
       "avr_rating": 6.2,
-      "club": "Brighton & Hove Albion"
+      "club": "Newcastle United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jordan Henderson (RW)",
-      "age": 25,
-      "position": "RW",
-      "avr_rating": 6.5,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Rice (DM)",
-      "age": 34,
-      "position": "DM",
-      "avr_rating": 6.3,
-      "club": "Brighton & Hove Albion"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Marcus Henderson (Owner)",
-      "age": 51
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Declan Henderson (Manager)",
-      "age": 57,
-      "nationality": "Germany",
-      "matches_played": 483,
-      "form": "LWLWW"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Brentford",
-      "slug": "brentford",
-      "manager": "Declan Henderson (Manager)",
-      "owner": "Marcus Henderson (Owner)",
-      "form": "WLDWW"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Rice (GK)",
-      "age": 27,
-      "position": "GK",
-      "avr_rating": 6.5,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Henderson (LB)",
-      "age": 34,
-      "position": "LB",
-      "avr_rating": 7.2,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Bellingham (LB)",
-      "age": 30,
-      "position": "LB",
-      "avr_rating": 7.7,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Kane (RW)",
-      "age": 24,
-      "position": "RW",
-      "avr_rating": 7.7,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Walker (CB)",
-      "age": 29,
-      "position": "CB",
-      "avr_rating": 8.3,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (CB)",
-      "age": 25,
-      "position": "CB",
-      "avr_rating": 7.5,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Shaw (CF)",
-      "age": 18,
-      "position": "CF",
-      "avr_rating": 8.0,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Henderson (LB)",
-      "age": 20,
-      "position": "LB",
-      "avr_rating": 7.6,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Walker (RB)",
-      "age": 35,
-      "position": "RB",
-      "avr_rating": 8.8,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Kane (LB)",
-      "age": 20,
-      "position": "LB",
-      "avr_rating": 8.6,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Rice (AM)",
-      "age": 35,
-      "position": "AM",
-      "avr_rating": 7.9,
-      "club": "Brentford"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Phil Walker (Owner)",
-      "age": 52
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Jude Rice (Manager)",
-      "age": 52,
-      "nationality": "Netherlands",
-      "matches_played": 233,
-      "form": "WWLWL"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Wolverhampton Wanderers",
-      "slug": "wolverhampton-wanderers",
-      "manager": "Jude Rice (Manager)",
-      "owner": "Phil Walker (Owner)",
-      "form": "WDWDD"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Shaw (GK)",
-      "age": 21,
-      "position": "GK",
-      "avr_rating": 6.8,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Rice (AM)",
-      "age": 27,
-      "position": "AM",
-      "avr_rating": 8.3,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Rice (RW)",
-      "age": 18,
-      "position": "RW",
-      "avr_rating": 7.8,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Walker (CB)",
-      "age": 24,
-      "position": "CB",
-      "avr_rating": 7.5,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Walker (CM)",
-      "age": 25,
-      "position": "CM",
-      "avr_rating": 6.5,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Bellingham (RW)",
-      "age": 27,
-      "position": "RW",
-      "avr_rating": 7.3,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Bellingham (DM)",
-      "age": 32,
-      "position": "DM",
-      "avr_rating": 8.6,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Bellingham (LW)",
-      "age": 25,
-      "position": "LW",
-      "avr_rating": 7.1,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Shaw (ST)",
-      "age": 34,
-      "position": "ST",
-      "avr_rating": 8.9,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Shaw (AM)",
-      "age": 35,
-      "position": "AM",
-      "avr_rating": 8.2,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Kane (CM)",
-      "age": 27,
-      "position": "CM",
-      "avr_rating": 6.7,
-      "club": "Wolverhampton Wanderers"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Declan Shaw (Owner)",
-      "age": 54
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Kyle Kane (Manager)",
-      "age": 39,
-      "nationality": "Brazil",
-      "matches_played": 114,
-      "form": "LWDWL"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Crystal Palace",
-      "slug": "crystal-palace",
-      "manager": "Kyle Kane (Manager)",
-      "owner": "Declan Shaw (Owner)",
-      "form": "WWDLW"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Bellingham (GK)",
-      "age": 18,
-      "position": "GK",
-      "avr_rating": 6.1,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Henderson (RW)",
-      "age": 35,
-      "position": "RW",
-      "avr_rating": 6.5,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Shaw (CF)",
-      "age": 24,
-      "position": "CF",
-      "avr_rating": 8.3,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Shaw (RB)",
-      "age": 35,
-      "position": "RB",
-      "avr_rating": 7.5,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Bellingham (RW)",
-      "age": 32,
-      "position": "RW",
-      "avr_rating": 8.3,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Rice (DM)",
-      "age": 30,
-      "position": "DM",
-      "avr_rating": 8.8,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Rice (AM)",
-      "age": 35,
-      "position": "AM",
-      "avr_rating": 8.0,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Rice (LW)",
-      "age": 24,
-      "position": "LW",
-      "avr_rating": 8.6,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Rice (LB)",
-      "age": 25,
-      "position": "LB",
-      "avr_rating": 8.5,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Shaw (AM)",
-      "age": 22,
-      "position": "AM",
-      "avr_rating": 8.4,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Henderson (AM)",
+      "name": "Kyle Shaw (CB)",
       "age": 28,
-      "position": "AM",
-      "avr_rating": 8.8,
-      "club": "Crystal Palace"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Harry Rice (Owner)",
-      "age": 74
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Marcus Bellingham (Manager)",
-      "age": 44,
-      "nationality": "England",
-      "matches_played": 398,
-      "form": "LWWWD"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Fulham",
-      "slug": "fulham",
-      "manager": "Marcus Bellingham (Manager)",
-      "owner": "Harry Rice (Owner)",
-      "form": "DWDDW"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Rice (GK)",
-      "age": 24,
-      "position": "GK",
-      "avr_rating": 6.8,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Walker (CF)",
-      "age": 21,
-      "position": "CF",
-      "avr_rating": 7.0,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Walker (RB)",
-      "age": 33,
-      "position": "RB",
-      "avr_rating": 7.1,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Rice (CF)",
-      "age": 35,
-      "position": "CF",
-      "avr_rating": 6.7,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Bellingham (CM)",
-      "age": 27,
-      "position": "CM",
-      "avr_rating": 7.0,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Henderson (RB)",
-      "age": 31,
-      "position": "RB",
-      "avr_rating": 6.0,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Shaw (LW)",
-      "age": 22,
-      "position": "LW",
-      "avr_rating": 7.0,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Henderson (ST)",
-      "age": 22,
-      "position": "ST",
-      "avr_rating": 7.1,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Henderson (RW)",
-      "age": 31,
-      "position": "RW",
-      "avr_rating": 8.4,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Kane (AM)",
-      "age": 27,
-      "position": "AM",
-      "avr_rating": 8.7,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Shaw (RB)",
-      "age": 27,
-      "position": "RB",
-      "avr_rating": 6.7,
-      "club": "Fulham"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Declan Bellingham (Owner)",
-      "age": 51
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Phil Bellingham (Manager)",
-      "age": 43,
-      "nationality": "France",
-      "matches_played": 309,
-      "form": "LLWDW"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Everton",
-      "slug": "everton",
-      "manager": "Phil Bellingham (Manager)",
-      "owner": "Declan Bellingham (Owner)",
-      "form": "DWDDL"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Walker (GK)",
-      "age": 20,
-      "position": "GK",
-      "avr_rating": 6.2,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Bellingham (RW)",
-      "age": 33,
-      "position": "RW",
-      "avr_rating": 7.1,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Shaw (RB)",
-      "age": 31,
-      "position": "RB",
-      "avr_rating": 8.0,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Walker (CB)",
-      "age": 32,
       "position": "CB",
-      "avr_rating": 6.0,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Walker (DM)",
-      "age": 18,
-      "position": "DM",
-      "avr_rating": 7.7,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Shaw (RW)",
-      "age": 30,
-      "position": "RW",
-      "avr_rating": 8.9,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Shaw (LW)",
-      "age": 24,
-      "position": "LW",
-      "avr_rating": 8.4,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Walker (ST)",
-      "age": 25,
-      "position": "ST",
-      "avr_rating": 7.2,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (LW)",
-      "age": 24,
-      "position": "LW",
-      "avr_rating": 6.8,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Rice (RB)",
-      "age": 25,
-      "position": "RB",
-      "avr_rating": 7.5,
-      "club": "Everton"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Kane (RW)",
-      "age": 35,
-      "position": "RW",
-      "avr_rating": 8.3,
-      "club": "Everton"
+      "avr_rating": 6.6,
+      "club": "Newcastle United"
     }
   },
   {
     "model": "clubs.owner",
     "fields": {
-      "name": "Jack Rice (Owner)",
+      "name": "Declan Kane (Owner)",
       "age": 66
     }
   },
@@ -2067,8 +964,1095 @@
       "name": "Phil Kane (Manager)",
       "age": 36,
       "nationality": "Argentina",
-      "matches_played": 97,
+      "matches_played": 62
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "manager": "Phil Kane (Manager)",
+      "owner": "Declan Kane (Owner)",
       "form": "WWWDW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Henderson (GK)",
+      "age": 24,
+      "position": "GK",
+      "avr_rating": 7.0,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Bellingham (RB)",
+      "age": 31,
+      "position": "RB",
+      "avr_rating": 7.7,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Kane (LB)",
+      "age": 30,
+      "position": "LB",
+      "avr_rating": 7.4,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Shaw (CM)",
+      "age": 20,
+      "position": "CM",
+      "avr_rating": 8.5,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Shaw (DM)",
+      "age": 31,
+      "position": "DM",
+      "avr_rating": 8.7,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Walker (LB)",
+      "age": 28,
+      "position": "LB",
+      "avr_rating": 6.0,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Walker (CF)",
+      "age": 27,
+      "position": "CF",
+      "avr_rating": 8.7,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Henderson (ST)",
+      "age": 21,
+      "position": "ST",
+      "avr_rating": 7.2,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Bellingham (CB)",
+      "age": 35,
+      "position": "CB",
+      "avr_rating": 7.0,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Walker (DM)",
+      "age": 24,
+      "position": "DM",
+      "avr_rating": 8.6,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Henderson (CB)",
+      "age": 30,
+      "position": "CB",
+      "avr_rating": 6.2,
+      "club": "Aston Villa"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Declan Walker (Owner)",
+      "age": 51
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Harry Shaw (Manager)",
+      "age": 65,
+      "nationality": "Argentina",
+      "matches_played": 109
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "West Ham United",
+      "slug": "west-ham-united",
+      "manager": "Harry Shaw (Manager)",
+      "owner": "Declan Walker (Owner)",
+      "form": "WLDWW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Bellingham (GK)",
+      "age": 24,
+      "position": "GK",
+      "avr_rating": 6.2,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Shaw (ST)",
+      "age": 32,
+      "position": "ST",
+      "avr_rating": 8.5,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Shaw (CF)",
+      "age": 18,
+      "position": "CF",
+      "avr_rating": 8.7,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Walker (CB)",
+      "age": 25,
+      "position": "CB",
+      "avr_rating": 7.7,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Bellingham (RW)",
+      "age": 31,
+      "position": "RW",
+      "avr_rating": 6.3,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Rice (AM)",
+      "age": 31,
+      "position": "AM",
+      "avr_rating": 7.0,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Walker (LW)",
+      "age": 23,
+      "position": "LW",
+      "avr_rating": 6.6,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (LB)",
+      "age": 33,
+      "position": "LB",
+      "avr_rating": 6.7,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Walker (ST)",
+      "age": 28,
+      "position": "ST",
+      "avr_rating": 6.5,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Rice (CF)",
+      "age": 32,
+      "position": "CF",
+      "avr_rating": 8.6,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Shaw (AM)",
+      "age": 32,
+      "position": "AM",
+      "avr_rating": 7.3,
+      "club": "West Ham United"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Jack Henderson (Owner)",
+      "age": 50
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Jack Bellingham (Manager)",
+      "age": 48,
+      "nationality": "Belgium",
+      "matches_played": 370
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Brighton & Hove Albion",
+      "slug": "brighton-hove-albion",
+      "manager": "Jack Bellingham (Manager)",
+      "owner": "Jack Henderson (Owner)",
+      "form": "LLLWD"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Bellingham (GK)",
+      "age": 20,
+      "position": "GK",
+      "avr_rating": 6.4,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Rice (CB)",
+      "age": 33,
+      "position": "CB",
+      "avr_rating": 6.6,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Kane (RW)",
+      "age": 18,
+      "position": "RW",
+      "avr_rating": 7.0,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Henderson (CF)",
+      "age": 22,
+      "position": "CF",
+      "avr_rating": 8.1,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Walker (CB)",
+      "age": 29,
+      "position": "CB",
+      "avr_rating": 6.6,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Bellingham (LB)",
+      "age": 32,
+      "position": "LB",
+      "avr_rating": 8.0,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Walker (CM)",
+      "age": 23,
+      "position": "CM",
+      "avr_rating": 7.9,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Henderson (CM)",
+      "age": 20,
+      "position": "CM",
+      "avr_rating": 8.8,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (LW)",
+      "age": 26,
+      "position": "LW",
+      "avr_rating": 8.9,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Henderson (AM)",
+      "age": 35,
+      "position": "AM",
+      "avr_rating": 6.2,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Bellingham (RW)",
+      "age": 24,
+      "position": "RW",
+      "avr_rating": 8.1,
+      "club": "Brighton & Hove Albion"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Marcus Rice (Owner)",
+      "age": 57
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Jack Rice (Manager)",
+      "age": 53,
+      "nationality": "Belgium",
+      "matches_played": 96
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Brentford",
+      "slug": "brentford",
+      "manager": "Jack Rice (Manager)",
+      "owner": "Marcus Rice (Owner)",
+      "form": "DLDLW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Kane (GK)",
+      "age": 28,
+      "position": "GK",
+      "avr_rating": 6.3,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Bellingham (CM)",
+      "age": 19,
+      "position": "CM",
+      "avr_rating": 6.6,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Bellingham (CF)",
+      "age": 34,
+      "position": "CF",
+      "avr_rating": 6.9,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Rice (CB)",
+      "age": 34,
+      "position": "CB",
+      "avr_rating": 6.1,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Shaw (DM)",
+      "age": 35,
+      "position": "DM",
+      "avr_rating": 6.7,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Kane (LB)",
+      "age": 18,
+      "position": "LB",
+      "avr_rating": 7.4,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Rice (LB)",
+      "age": 33,
+      "position": "LB",
+      "avr_rating": 8.8,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Rice (CB)",
+      "age": 19,
+      "position": "CB",
+      "avr_rating": 6.7,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Walker (DM)",
+      "age": 33,
+      "position": "DM",
+      "avr_rating": 7.7,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Shaw (DM)",
+      "age": 24,
+      "position": "DM",
+      "avr_rating": 8.3,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Henderson (CM)",
+      "age": 19,
+      "position": "CM",
+      "avr_rating": 8.1,
+      "club": "Brentford"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Marcus Henderson (Owner)",
+      "age": 64
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Jude Henderson (Manager)",
+      "age": 36,
+      "nationality": "Italy",
+      "matches_played": 460
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Wolverhampton Wanderers",
+      "slug": "wolverhampton-wanderers",
+      "manager": "Jude Henderson (Manager)",
+      "owner": "Marcus Henderson (Owner)",
+      "form": "DLDWL"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Rice (GK)",
+      "age": 28,
+      "position": "GK",
+      "avr_rating": 6.9,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Rice (RB)",
+      "age": 18,
+      "position": "RB",
+      "avr_rating": 7.4,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Henderson (LW)",
+      "age": 24,
+      "position": "LW",
+      "avr_rating": 7.6,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (CF)",
+      "age": 19,
+      "position": "CF",
+      "avr_rating": 6.8,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Henderson (DM)",
+      "age": 26,
+      "position": "DM",
+      "avr_rating": 8.0,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Shaw (LB)",
+      "age": 26,
+      "position": "LB",
+      "avr_rating": 6.7,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Shaw (LB)",
+      "age": 32,
+      "position": "LB",
+      "avr_rating": 6.9,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Shaw (LB)",
+      "age": 29,
+      "position": "LB",
+      "avr_rating": 7.4,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Rice (CM)",
+      "age": 31,
+      "position": "CM",
+      "avr_rating": 8.5,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Shaw (ST)",
+      "age": 26,
+      "position": "ST",
+      "avr_rating": 6.4,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Henderson (DM)",
+      "age": 34,
+      "position": "DM",
+      "avr_rating": 7.0,
+      "club": "Wolverhampton Wanderers"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Harry Walker (Owner)",
+      "age": 65
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Kyle Rice (Manager)",
+      "age": 37,
+      "nationality": "England",
+      "matches_played": 167
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Crystal Palace",
+      "slug": "crystal-palace",
+      "manager": "Kyle Rice (Manager)",
+      "owner": "Harry Walker (Owner)",
+      "form": "WDDLD"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Rice (GK)",
+      "age": 21,
+      "position": "GK",
+      "avr_rating": 7.0,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (LW)",
+      "age": 27,
+      "position": "LW",
+      "avr_rating": 8.0,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Kane (ST)",
+      "age": 25,
+      "position": "ST",
+      "avr_rating": 8.6,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Rice (DM)",
+      "age": 29,
+      "position": "DM",
+      "avr_rating": 7.4,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Bellingham (CB)",
+      "age": 24,
+      "position": "CB",
+      "avr_rating": 7.6,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Rice (ST)",
+      "age": 27,
+      "position": "ST",
+      "avr_rating": 8.2,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Kane (DM)",
+      "age": 27,
+      "position": "DM",
+      "avr_rating": 6.4,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Rice (RB)",
+      "age": 33,
+      "position": "RB",
+      "avr_rating": 7.0,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Walker (LW)",
+      "age": 20,
+      "position": "LW",
+      "avr_rating": 8.2,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Bellingham (LW)",
+      "age": 21,
+      "position": "LW",
+      "avr_rating": 7.3,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Rice (RB)",
+      "age": 35,
+      "position": "RB",
+      "avr_rating": 6.6,
+      "club": "Crystal Palace"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Jordan Kane (Owner)",
+      "age": 66
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Marcus Walker (Manager)",
+      "age": 45,
+      "nationality": "England",
+      "matches_played": 155
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Fulham",
+      "slug": "fulham",
+      "manager": "Marcus Walker (Manager)",
+      "owner": "Jordan Kane (Owner)",
+      "form": "WWWLW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Kane (GK)",
+      "age": 18,
+      "position": "GK",
+      "avr_rating": 7.1,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Kane (ST)",
+      "age": 29,
+      "position": "ST",
+      "avr_rating": 7.4,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Rice (RW)",
+      "age": 20,
+      "position": "RW",
+      "avr_rating": 8.3,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Bellingham (AM)",
+      "age": 27,
+      "position": "AM",
+      "avr_rating": 7.8,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Shaw (AM)",
+      "age": 31,
+      "position": "AM",
+      "avr_rating": 7.1,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Walker (CM)",
+      "age": 24,
+      "position": "CM",
+      "avr_rating": 7.1,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Kane (ST)",
+      "age": 34,
+      "position": "ST",
+      "avr_rating": 7.2,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Walker (AM)",
+      "age": 20,
+      "position": "AM",
+      "avr_rating": 7.9,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Bellingham (CB)",
+      "age": 19,
+      "position": "CB",
+      "avr_rating": 6.9,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Walker (LW)",
+      "age": 19,
+      "position": "LW",
+      "avr_rating": 6.2,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Walker (CB)",
+      "age": 18,
+      "position": "CB",
+      "avr_rating": 6.6,
+      "club": "Fulham"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Marcus Walker (Owner)",
+      "age": 75
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Jordan Henderson (Manager)",
+      "age": 65,
+      "nationality": "Belgium",
+      "matches_played": 217
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Everton",
+      "slug": "everton",
+      "manager": "Jordan Henderson (Manager)",
+      "owner": "Marcus Walker (Owner)",
+      "form": "DWDLW"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Walker (GK)",
+      "age": 19,
+      "position": "GK",
+      "avr_rating": 7.3,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Shaw (RB)",
+      "age": 18,
+      "position": "RB",
+      "avr_rating": 8.8,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Henderson (RB)",
+      "age": 24,
+      "position": "RB",
+      "avr_rating": 8.6,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Shaw (RB)",
+      "age": 28,
+      "position": "RB",
+      "avr_rating": 8.1,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Henderson (AM)",
+      "age": 34,
+      "position": "AM",
+      "avr_rating": 6.1,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Kane (LB)",
+      "age": 29,
+      "position": "LB",
+      "avr_rating": 8.5,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jude Shaw (ST)",
+      "age": 27,
+      "position": "ST",
+      "avr_rating": 6.8,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Henderson (RW)",
+      "age": 19,
+      "position": "RW",
+      "avr_rating": 8.1,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Bellingham (RW)",
+      "age": 28,
+      "position": "RW",
+      "avr_rating": 7.2,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Kane (ST)",
+      "age": 30,
+      "position": "ST",
+      "avr_rating": 6.7,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Henderson (ST)",
+      "age": 24,
+      "position": "ST",
+      "avr_rating": 8.2,
+      "club": "Everton"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Declan Kane (Owner)",
+      "age": 66
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Jude Shaw (Manager)",
+      "age": 38,
+      "nationality": "England",
+      "matches_played": 439
     }
   },
   {
@@ -2076,37 +2060,37 @@
     "fields": {
       "name": "Nottingham Forest",
       "slug": "nottingham-forest",
-      "manager": "Phil Kane (Manager)",
-      "owner": "Jack Rice (Owner)",
-      "form": "DWWLL"
+      "manager": "Jude Shaw (Manager)",
+      "owner": "Declan Kane (Owner)",
+      "form": "WWDWD"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Bellingham (GK)",
-      "age": 31,
+      "name": "Marcus Bellingham (GK)",
+      "age": 20,
       "position": "GK",
-      "avr_rating": 7.1,
+      "avr_rating": 7.5,
       "club": "Nottingham Forest"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Phil Shaw (CM)",
-      "age": 27,
-      "position": "CM",
-      "avr_rating": 7.8,
+      "name": "Declan Walker (LB)",
+      "age": 34,
+      "position": "LB",
+      "avr_rating": 6.9,
       "club": "Nottingham Forest"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jordan Henderson (RW)",
+      "name": "Kyle Kane (ST)",
       "age": 24,
-      "position": "RW",
+      "position": "ST",
       "avr_rating": 6.3,
       "club": "Nottingham Forest"
     }
@@ -2114,39 +2098,29 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jude Walker (AM)",
-      "age": 23,
-      "position": "AM",
-      "avr_rating": 6.4,
-      "club": "Nottingham Forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Bellingham (AM)",
-      "age": 26,
-      "position": "AM",
-      "avr_rating": 8.3,
-      "club": "Nottingham Forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Walker (LW)",
-      "age": 33,
-      "position": "LW",
-      "avr_rating": 7.7,
-      "club": "Nottingham Forest"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jack Henderson (RW)",
-      "age": 29,
+      "name": "Harry Bellingham (RW)",
+      "age": 20,
       "position": "RW",
+      "avr_rating": 7.5,
+      "club": "Nottingham Forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Walker (CM)",
+      "age": 26,
+      "position": "CM",
+      "avr_rating": 8.6,
+      "club": "Nottingham Forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Rice (CB)",
+      "age": 28,
+      "position": "CB",
       "avr_rating": 8.8,
       "club": "Nottingham Forest"
     }
@@ -2154,58 +2128,67 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Kyle Henderson (DM)",
-      "age": 18,
+      "name": "Phil Walker (RW)",
+      "age": 30,
+      "position": "RW",
+      "avr_rating": 6.4,
+      "club": "Nottingham Forest"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Walker (DM)",
+      "age": 31,
       "position": "DM",
-      "avr_rating": 7.3,
+      "avr_rating": 8.2,
       "club": "Nottingham Forest"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jordan Henderson (DM)",
-      "age": 34,
+      "name": "Jude Kane (DM)",
+      "age": 35,
       "position": "DM",
-      "avr_rating": 6.7,
+      "avr_rating": 8.4,
       "club": "Nottingham Forest"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Kyle Walker (CB)",
-      "age": 33,
-      "position": "CB",
-      "avr_rating": 6.5,
+      "name": "Kyle Bellingham (RB)",
+      "age": 32,
+      "position": "RB",
+      "avr_rating": 8.3,
       "club": "Nottingham Forest"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jack Rice (CF)",
-      "age": 24,
-      "position": "CF",
-      "avr_rating": 7.3,
+      "name": "Jack Bellingham (ST)",
+      "age": 28,
+      "position": "ST",
+      "avr_rating": 7.0,
       "club": "Nottingham Forest"
     }
   },
   {
     "model": "clubs.owner",
     "fields": {
-      "name": "Phil Kane (Owner)",
-      "age": 71
+      "name": "Marcus Kane (Owner)",
+      "age": 75
     }
   },
   {
     "model": "clubs.manager",
     "fields": {
-      "name": "Marcus Rice (Manager)",
-      "age": 49,
+      "name": "Kyle Walker (Manager)",
+      "age": 56,
       "nationality": "Netherlands",
-      "matches_played": 159,
-      "form": "WWWWD"
+      "matches_played": 384
     }
   },
   {
@@ -2213,57 +2196,17 @@
     "fields": {
       "name": "Bournemouth",
       "slug": "bournemouth",
-      "manager": "Marcus Rice (Manager)",
-      "owner": "Phil Kane (Owner)",
-      "form": "WLWLW"
+      "manager": "Kyle Walker (Manager)",
+      "owner": "Marcus Kane (Owner)",
+      "form": "WLDLL"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Kyle Kane (GK)",
-      "age": 31,
-      "position": "GK",
-      "avr_rating": 6.8,
-      "club": "Bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Shaw (RW)",
+      "name": "Declan Rice (GK)",
       "age": 29,
-      "position": "RW",
-      "avr_rating": 8.5,
-      "club": "Bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Walker (CB)",
-      "age": 26,
-      "position": "CB",
-      "avr_rating": 7.5,
-      "club": "Bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Walker (CF)",
-      "age": 22,
-      "position": "CF",
-      "avr_rating": 7.9,
-      "club": "Bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Kane (RB)",
-      "age": 33,
-      "position": "RB",
+      "position": "GK",
       "avr_rating": 7.2,
       "club": "Bournemouth"
     }
@@ -2271,9 +2214,39 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Kyle Henderson (CF)",
-      "age": 27,
-      "position": "CF",
+      "name": "Declan Bellingham (AM)",
+      "age": 22,
+      "position": "AM",
+      "avr_rating": 8.1,
+      "club": "Bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Shaw (LB)",
+      "age": 21,
+      "position": "LB",
+      "avr_rating": 6.9,
+      "club": "Bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (ST)",
+      "age": 21,
+      "position": "ST",
+      "avr_rating": 6.4,
+      "club": "Bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Rice (DM)",
+      "age": 24,
+      "position": "DM",
       "avr_rating": 8.2,
       "club": "Bournemouth"
     }
@@ -2281,8 +2254,8 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jude Shaw (ST)",
-      "age": 28,
+      "name": "Kyle Shaw (ST)",
+      "age": 31,
       "position": "ST",
       "avr_rating": 7.0,
       "club": "Bournemouth"
@@ -2291,19 +2264,39 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Rice (RW)",
-      "age": 21,
-      "position": "RW",
-      "avr_rating": 6.0,
+      "name": "Jack Walker (CF)",
+      "age": 32,
+      "position": "CF",
+      "avr_rating": 6.7,
       "club": "Bournemouth"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Kyle Shaw (RW)",
+      "name": "Harry Bellingham (AM)",
       "age": 23,
-      "position": "RW",
+      "position": "AM",
+      "avr_rating": 7.5,
+      "club": "Bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Walker (ST)",
+      "age": 30,
+      "position": "ST",
+      "avr_rating": 7.9,
+      "club": "Bournemouth"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Rice (RB)",
+      "age": 33,
+      "position": "RB",
       "avr_rating": 8.2,
       "club": "Bournemouth"
     }
@@ -2311,38 +2304,27 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Phil Walker (CF)",
-      "age": 19,
-      "position": "CF",
-      "avr_rating": 8.4,
-      "club": "Bournemouth"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Shaw (DM)",
-      "age": 19,
-      "position": "DM",
-      "avr_rating": 8.0,
+      "name": "Marcus Bellingham (CM)",
+      "age": 26,
+      "position": "CM",
+      "avr_rating": 8.7,
       "club": "Bournemouth"
     }
   },
   {
     "model": "clubs.owner",
     "fields": {
-      "name": "Jude Henderson (Owner)",
-      "age": 55
+      "name": "Jack Henderson (Owner)",
+      "age": 57
     }
   },
   {
     "model": "clubs.manager",
     "fields": {
-      "name": "Marcus Kane (Manager)",
-      "age": 46,
-      "nationality": "Italy",
-      "matches_played": 77,
-      "form": "WLDWD"
+      "name": "Phil Henderson (Manager)",
+      "age": 64,
+      "nationality": "Netherlands",
+      "matches_played": 389
     }
   },
   {
@@ -2350,146 +2332,9 @@
     "fields": {
       "name": "Burnley",
       "slug": "burnley",
-      "manager": "Marcus Kane (Manager)",
-      "owner": "Jude Henderson (Owner)",
-      "form": "LLLLD"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Bellingham (GK)",
-      "age": 34,
-      "position": "GK",
-      "avr_rating": 6.6,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (ST)",
-      "age": 28,
-      "position": "ST",
-      "avr_rating": 6.1,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Bellingham (RW)",
-      "age": 23,
-      "position": "RW",
-      "avr_rating": 7.9,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Henderson (CB)",
-      "age": 22,
-      "position": "CB",
-      "avr_rating": 8.1,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jordan Rice (RW)",
-      "age": 22,
-      "position": "RW",
-      "avr_rating": 6.1,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Henderson (RW)",
-      "age": 32,
-      "position": "RW",
-      "avr_rating": 8.9,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Kane (RB)",
-      "age": 35,
-      "position": "RB",
-      "avr_rating": 6.6,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Rice (RB)",
-      "age": 18,
-      "position": "RB",
-      "avr_rating": 7.5,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Kane (RB)",
-      "age": 28,
-      "position": "RB",
-      "avr_rating": 6.8,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Walker (LW)",
-      "age": 29,
-      "position": "LW",
-      "avr_rating": 8.9,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Walker (DM)",
-      "age": 25,
-      "position": "DM",
-      "avr_rating": 6.9,
-      "club": "Burnley"
-    }
-  },
-  {
-    "model": "clubs.owner",
-    "fields": {
-      "name": "Marcus Bellingham (Owner)",
-      "age": 61
-    }
-  },
-  {
-    "model": "clubs.manager",
-    "fields": {
-      "name": "Jude Rice (Manager)",
-      "age": 40,
-      "nationality": "France",
-      "matches_played": 429,
-      "form": "DDWWL"
-    }
-  },
-  {
-    "model": "clubs.club",
-    "fields": {
-      "name": "Luton Town",
-      "slug": "luton-town",
-      "manager": "Jude Rice (Manager)",
-      "owner": "Marcus Bellingham (Owner)",
-      "form": "DDWWW"
+      "manager": "Phil Henderson (Manager)",
+      "owner": "Jack Henderson (Owner)",
+      "form": "DWDWL"
     }
   },
   {
@@ -2498,6 +2343,172 @@
       "name": "Declan Henderson (GK)",
       "age": 25,
       "position": "GK",
+      "avr_rating": 6.8,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Henderson (CM)",
+      "age": 20,
+      "position": "CM",
+      "avr_rating": 8.3,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Kane (LW)",
+      "age": 26,
+      "position": "LW",
+      "avr_rating": 8.3,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Walker (CF)",
+      "age": 35,
+      "position": "CF",
+      "avr_rating": 7.1,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Kane (RB)",
+      "age": 21,
+      "position": "RB",
+      "avr_rating": 7.4,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Henderson (LB)",
+      "age": 34,
+      "position": "LB",
+      "avr_rating": 7.9,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Shaw (RW)",
+      "age": 19,
+      "position": "RW",
+      "avr_rating": 8.0,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Walker (CF)",
+      "age": 33,
+      "position": "CF",
+      "avr_rating": 8.5,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Rice (LW)",
+      "age": 18,
+      "position": "LW",
+      "avr_rating": 6.8,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jordan Walker (DM)",
+      "age": 21,
+      "position": "DM",
+      "avr_rating": 8.9,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Kane (CM)",
+      "age": 26,
+      "position": "CM",
+      "avr_rating": 7.9,
+      "club": "Burnley"
+    }
+  },
+  {
+    "model": "clubs.owner",
+    "fields": {
+      "name": "Jack Kane (Owner)",
+      "age": 60
+    }
+  },
+  {
+    "model": "clubs.manager",
+    "fields": {
+      "name": "Jordan Shaw (Manager)",
+      "age": 46,
+      "nationality": "Italy",
+      "matches_played": 438
+    }
+  },
+  {
+    "model": "clubs.club",
+    "fields": {
+      "name": "Luton Town",
+      "slug": "luton-town",
+      "manager": "Jordan Shaw (Manager)",
+      "owner": "Jack Kane (Owner)",
+      "form": "WDDWD"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Kane (GK)",
+      "age": 19,
+      "position": "GK",
+      "avr_rating": 6.8,
+      "club": "Luton Town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Kane (RB)",
+      "age": 20,
+      "position": "RB",
+      "avr_rating": 8.9,
+      "club": "Luton Town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Shaw (RB)",
+      "age": 32,
+      "position": "RB",
+      "avr_rating": 6.9,
+      "club": "Luton Town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Bellingham (LB)",
+      "age": 34,
+      "position": "LB",
       "avr_rating": 6.3,
       "club": "Luton Town"
     }
@@ -2505,49 +2516,9 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Phil Shaw (LW)",
-      "age": 24,
-      "position": "LW",
-      "avr_rating": 8.2,
-      "club": "Luton Town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Henderson (ST)",
-      "age": 23,
-      "position": "ST",
-      "avr_rating": 8.4,
-      "club": "Luton Town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Bellingham (RW)",
+      "name": "Marcus Henderson (CB)",
       "age": 18,
-      "position": "RW",
-      "avr_rating": 7.8,
-      "club": "Luton Town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Jude Kane (LB)",
-      "age": 22,
-      "position": "LB",
-      "avr_rating": 7.4,
-      "club": "Luton Town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Bellingham (CM)",
-      "age": 33,
-      "position": "CM",
+      "position": "CB",
       "avr_rating": 9.0,
       "club": "Luton Town"
     }
@@ -2555,39 +2526,19 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Kyle Bellingham (CF)",
-      "age": 21,
-      "position": "CF",
-      "avr_rating": 8.9,
+      "name": "Harry Kane (ST)",
+      "age": 31,
+      "position": "ST",
+      "avr_rating": 8.2,
       "club": "Luton Town"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Bellingham (LW)",
-      "age": 24,
-      "position": "LW",
-      "avr_rating": 8.6,
-      "club": "Luton Town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Kane (CM)",
-      "age": 25,
-      "position": "CM",
-      "avr_rating": 8.1,
-      "club": "Luton Town"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Kane (LW)",
-      "age": 24,
-      "position": "LW",
+      "name": "Kyle Kane (RW)",
+      "age": 23,
+      "position": "RW",
       "avr_rating": 7.1,
       "club": "Luton Town"
     }
@@ -2595,28 +2546,57 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Harry Walker (CM)",
-      "age": 26,
+      "name": "Kyle Walker (CM)",
+      "age": 19,
       "position": "CM",
-      "avr_rating": 6.3,
+      "avr_rating": 8.0,
+      "club": "Luton Town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Jack Kane (RB)",
+      "age": 25,
+      "position": "RB",
+      "avr_rating": 7.8,
+      "club": "Luton Town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Rice (LW)",
+      "age": 32,
+      "position": "LW",
+      "avr_rating": 8.3,
+      "club": "Luton Town"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Bellingham (AM)",
+      "age": 18,
+      "position": "AM",
+      "avr_rating": 8.5,
       "club": "Luton Town"
     }
   },
   {
     "model": "clubs.owner",
     "fields": {
-      "name": "Jack Walker (Owner)",
-      "age": 54
+      "name": "Jude Walker (Owner)",
+      "age": 70
     }
   },
   {
     "model": "clubs.manager",
     "fields": {
-      "name": "Jordan Rice (Manager)",
-      "age": 43,
-      "nationality": "Portugal",
-      "matches_played": 203,
-      "form": "DDLLD"
+      "name": "Marcus Shaw (Manager)",
+      "age": 39,
+      "nationality": "Argentina",
+      "matches_played": 353
     }
   },
   {
@@ -2624,77 +2604,27 @@
     "fields": {
       "name": "Sheffield United",
       "slug": "sheffield-united",
-      "manager": "Jordan Rice (Manager)",
-      "owner": "Jack Walker (Owner)",
-      "form": "LLWLD"
+      "manager": "Marcus Shaw (Manager)",
+      "owner": "Jude Walker (Owner)",
+      "form": "WWWLW"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Declan Kane (GK)",
-      "age": 23,
+      "name": "Jack Kane (GK)",
+      "age": 22,
       "position": "GK",
-      "avr_rating": 7.1,
+      "avr_rating": 6.8,
       "club": "Sheffield United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jack Shaw (ST)",
-      "age": 24,
-      "position": "ST",
-      "avr_rating": 6.6,
-      "club": "Sheffield United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Kyle Shaw (CF)",
-      "age": 23,
+      "name": "Jordan Shaw (CF)",
+      "age": 22,
       "position": "CF",
-      "avr_rating": 8.2,
-      "club": "Sheffield United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Declan Kane (DM)",
-      "age": 23,
-      "position": "DM",
-      "avr_rating": 7.7,
-      "club": "Sheffield United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Marcus Rice (DM)",
-      "age": 30,
-      "position": "DM",
-      "avr_rating": 6.1,
-      "club": "Sheffield United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Harry Henderson (CB)",
-      "age": 18,
-      "position": "CB",
-      "avr_rating": 8.7,
-      "club": "Sheffield United"
-    }
-  },
-  {
-    "model": "clubs.player",
-    "fields": {
-      "name": "Phil Rice (LW)",
-      "age": 28,
-      "position": "LW",
       "avr_rating": 8.9,
       "club": "Sheffield United"
     }
@@ -2702,19 +2632,29 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Declan Walker (DM)",
-      "age": 31,
-      "position": "DM",
-      "avr_rating": 6.5,
+      "name": "Phil Bellingham (CM)",
+      "age": 24,
+      "position": "CM",
+      "avr_rating": 8.4,
       "club": "Sheffield United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jordan Bellingham (LW)",
-      "age": 24,
-      "position": "LW",
+      "name": "Jack Henderson (CF)",
+      "age": 20,
+      "position": "CF",
+      "avr_rating": 7.6,
+      "club": "Sheffield United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Kyle Shaw (CB)",
+      "age": 27,
+      "position": "CB",
       "avr_rating": 8.1,
       "club": "Sheffield United"
     }
@@ -2722,20 +2662,60 @@
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Kyle Shaw (CM)",
-      "age": 35,
-      "position": "CM",
-      "avr_rating": 6.6,
+      "name": "Harry Kane (LB)",
+      "age": 24,
+      "position": "LB",
+      "avr_rating": 8.7,
       "club": "Sheffield United"
     }
   },
   {
     "model": "clubs.player",
     "fields": {
-      "name": "Jack Kane (ST)",
-      "age": 18,
-      "position": "ST",
+      "name": "Phil Bellingham (LW)",
+      "age": 27,
+      "position": "LW",
+      "avr_rating": 7.3,
+      "club": "Sheffield United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Marcus Shaw (AM)",
+      "age": 20,
+      "position": "AM",
       "avr_rating": 6.4,
+      "club": "Sheffield United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Declan Walker (CF)",
+      "age": 30,
+      "position": "CF",
+      "avr_rating": 6.3,
+      "club": "Sheffield United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Phil Rice (CB)",
+      "age": 34,
+      "position": "CB",
+      "avr_rating": 8.6,
+      "club": "Sheffield United"
+    }
+  },
+  {
+    "model": "clubs.player",
+    "fields": {
+      "name": "Harry Bellingham (LW)",
+      "age": 34,
+      "position": "LW",
+      "avr_rating": 8.4,
       "club": "Sheffield United"
     }
   }

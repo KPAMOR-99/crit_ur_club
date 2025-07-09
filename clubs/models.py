@@ -16,18 +16,15 @@ class Manager(models.Model):
 
 class Club(models.Model):
     name = models.CharField(max_length=100, primary_key=True)
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField(unique=True, blank=True)  
     manager = models.ForeignKey(Manager, on_delete=models.CASCADE)
     owner = models.ForeignKey(Owner, on_delete=models.CASCADE)
     form = models.CharField(max_length=5)
-
     
     def save(self, *args, **kwargs):
-        if self.slug == 'temp-slug': self.slug = slugify(self.name)
-        super().save(*args, **kwargs)                 
-    
-    def get_absolute_url(self):
-        return reverse('club_detailed', kwargs={'club_slug': self.slug})
+        if not self.slug:
+            self.slug = slugify(self.name)
+        super().save(*args, **kwargs)
 
 
 class Player(models.Model):
