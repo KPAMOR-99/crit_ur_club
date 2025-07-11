@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="{% static 'clubs/style.css' %}">
     <title>{% block title %}Crit_ur_club{% endblock %}</title>
 </head>
+
 <body>
+    {% block content %}
     <header>
         <h1>Welcome to Crit_ur_club</h1>
         <p style="text-align: center;">Click on a club to leave or read criticism about its performance.</p>
     </header>
     <main>
-        {% block content %}
+       
         <!-- Default content goes here -->
-        {% endblock %}
+      
     </main>
+    {% endblock %}
     <footer>
         <p style="text-align: center;">&copy; 2025 Crit_ur_club</p>
     </footer>

@@ -70,7 +70,7 @@ class Player(models.Model):
     
 class Criticism(models.Model):
     comment = models.TextField()
-    time = models.DateTimeField()
+    time = models.DateTimeField(auto_now_add=True) # automatially sets date and time whenever an object is created
     likes = models.PositiveIntegerField(default=0)
 
     # inorder to track who has commented, foriegn key to django's default user model 

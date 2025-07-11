@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'clubs/style.css' %}">
+{% extends 'base.html' %}
 
-    <title>{{ club.manager }}</title>
-</head>
-<body>
+{% block title %}
+{{ club.manager }}
+{% endblock %}
+
+{% block content %}
     <div class="container">
         <h1>Manager Profile</h1>
 
@@ -22,30 +18,33 @@
 
         <hr>
 
+
         <section class="feedback-form">
-            <h3>Give Your Feedback on the Coach</h3>
+            <h2>Leave Your Criticism</h2>
             <form method="post">
-                <h2>Leave Your Criticism</h2>
+                {% csrf_token %}
                 <form method="post">
                     {% csrf_token %}
-                    {% form.as_p %}
+                    {{ form.as_p }}
                     <button type="submit">Submit Criticism</button>
                 </form>
-                <button type="submit">Submit Feedback</button>
+
             </form>
         </section>
 
         <hr>
 
         <section class="feedback-display">
-            <h3>Recent Comments</h3>
-            <div class="comment">
-                <p><strong>Fan1</strong>: {{ manager.name }}'s tactics have improved this season!</p>
-            </div>
-            <div class="comment">
-                <p><strong>Fan2</strong>: Still needs to rotate players better.</p>
-            </div>
+            <h2>Criticism from Fans</h2>
+            <ul>
+                {% for comment in criticisms %}
+                <li>
+                    <strong>{{ comment.user }}:</strong> {{ comment.comment }}
+                </li>
+                {% empty %}
+                <li>No criticisms yet. Be the first to leave one!</li>
+                {% endfor %}
+            </ul>
         </section>
     </div>
-</body>
-</html>
+{% endblock %}

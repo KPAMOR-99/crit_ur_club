@@ -3,6 +3,7 @@ from .models import Club, Manager, Owner, Player, Criticism
 from .forms import CriticismForm
 
 
+
 # i might need to add some functions that validate the data collected from the db in the models
 
 def clubs_home(request):
@@ -31,6 +32,7 @@ def club_detailed(request, club_slug):
     }
     return render(request, 'clubs/club_detailed.html', context)
 
+
 def club_manager(request, club_slug, manager_slug):
     club = get_object_or_404(Club, slug= club_slug)
     manager = get_object_or_404(Manager, slug=manager_slug)
@@ -45,7 +47,7 @@ def club_manager(request, club_slug, manager_slug):
             criticism.save()
             return redirect('club_manager', club_slug=club.slug, manager_slug=manager.slug)
     else:
-        form = CriticismForm()
+        form = CriticismForm() # supposed to render an empty form
 
     # fetch all crticisms for manager
     criticisms = Criticism.objects.filter(manager=manager)
@@ -55,7 +57,7 @@ def club_manager(request, club_slug, manager_slug):
     context = {
         'club': club,
         'manager':manager, 
-        'forms': form,
+        'form': form,
         'criticisms': criticisms,
         
     }
