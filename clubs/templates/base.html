@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'clubs/style.css' %}">
+    <title>{% block title %}Crit_ur_club{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Crit_ur_club</h1>
+        <p style="text-align: center;">Click on a club to leave or read criticism about its performance.</p>
+    </header>
+    <main>
+        {% block content %}
+        <!-- Default content goes here -->
+        {% endblock %}
+    </main>
+    <footer>
+        <p style="text-align: center;">&copy; 2025 Crit_ur_club</p>
+    </footer>
+</body>
+</html>

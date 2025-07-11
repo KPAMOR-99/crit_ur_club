@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'clubs/style.css' %}">
+    <title>{{ owner.name }} - Owner Details</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Owner Profile</h1>
+
+        <section class="owner-info">
+            <h2>Owner: {{ owner.name }}</h2>
+            <p><strong>Age:</strong> {{ owner.age }}</p>
+            <p><strong>Club:</strong> {{ club.name }}</p>
+        </section>
+
+        <hr>
+
+        <section class="feedback-form">
+            <h3>Give Your Feedback on the Owner</h3>
+            <form method="post">
+                {% csrf_token %}
+                <textarea name="comment" rows="5" cols="50" placeholder="Write your criticism or praise here..."></textarea>
+                <br>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="feedback-display">
+            <h3>Recent Comments</h3>
+            <div class="comment">
+                <p><strong>Fan1:</strong> {{ owner.name }} has been a great supporter of the club!</p>
+            </div>
+            <div class="comment">
+                <p><strong>Fan2:</strong> Needs to invest more in the team.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,27 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'clubs/style.css' %}">
-   
+<!-- this serves as my home page but for now it doesnt show up automatically untill i add /clubs to the link  -->
 
-    <title>crit_ur_club</title>
-</head>
-<body>
-    <h1>Welcome to Crit_ur_club</h1>
-    <p style="text-align: center;">Click on a club to leave or read criticism about its performance.</p>
-    <ul>
-      
-        {% for club in all_clubs %}
-        <li>
-          <a href="{% url 'club_detailed' club_slug=club.slug %}">{{ club.name }}</a>
-        </li>
-        {% endfor %}
+{% extends '../base.html' %}
 
-      </li>
-    </ul>
-    
-</body>
-</html>
+{% block title %} 
+      crit_ur_club
+{% endblock %}
+
+{% block content %}
+  <h1>Welcome to Crit_ur_club</h1>
+  <p style="text-align: center;">Click on a club to leave or read criticism about its performance.</p>
+  <ul>
+
+    {% for club in all_clubs %}
+    <li>
+      <a href="{% url 'club_detailed' club_slug=club.slug %}">{{ club.name }}</a>
+    </li>
+    {% endfor %}
+
+    </li>
+  </ul>
+
+{% endblock %}

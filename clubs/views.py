@@ -1,10 +1,14 @@
-from django.shortcuts import render, get_object_or_404, Http404
-from django.urls import reverse
+from django.shortcuts import render, get_object_or_404
 from .models import Club, Manager, Owner, Player
 
 
+# i might need to add some functions that validate the data collected from the db in the models
+
 def clubs_home(request):
+    # this displays list of allc lubs in the clubs_home.html page
     all_clubs = Club.objects.all()
+
+    # context contains stuff collected from the db to be passed into the render method
     context = {
         'all_clubs': all_clubs
     }
@@ -29,9 +33,6 @@ def club_manager(request, club_slug, manager_slug):
     club = get_object_or_404(Club, slug= club_slug)
     manager = get_object_or_404(Manager, slug=manager_slug)
 
-    if manager != club.manager:
-        raise Http404("manager does not belong to this club")
-    
     context = {
         'club': club,
         'manager':manager
@@ -45,8 +46,6 @@ def club_owner(request, club_slug, owner_slug):
     club = get_object_or_404(Club, slug=club_slug)
     owner = get_object_or_404(Owner, slug=owner_slug)
     
-    if owner != club.owner:
-        raise Http404("Owner does not belong to this club.")
     context = {
         'club': club,
         'owner': owner,

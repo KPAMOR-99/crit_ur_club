@@ -1,8 +1,8 @@
-# Register your models here.
-
 from django.contrib import admin
-from .models import Owner, Manager, Club, Player
+from .models import Owner, Manager, Club, Player, Criticism
 
+
+# registered my models here
 @admin.register(Owner)
 class OwnerAdmin(admin.ModelAdmin):
       list_display = ('name', 'age')
@@ -19,4 +19,6 @@ class PlayerAdmin(admin.ModelAdmin):
 class ManagerAdmin(admin.ModelAdmin):
     list_display = ('name', 'age', 'nationality', 'matches_played')
 
-
+@admin.register(Criticism)
+class CriticismAdmin(admin.ModelAdmin):
+     list_display = ('comment', 'time', 'likes')

@@ -1,16 +1,47 @@
-<h1>
-    {{ player.name }} -- {{ club.name }}
-</h1>
+{% extends 'base.html' %}
 
-<p>
-    <strong>Age: </strong>  {{ player.age }}
-</p>
-<p>
-    <strong>position: </strong>  {{ player.position }}
-</p>
-<p>
-    <strong>Average rating : </strong>  {{ player.avr_rating }}
-</p>
-<p>
-    <strong>form: </strong>  {{ player.form }}
-</p>
+{% block title %}
+    {{ player.name }} - {{ club.name }}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ player.name }} -- {{ club.name }}</h1>
+
+    <p>
+        <strong>Age: </strong> {{ player.age }}
+    </p>
+    <p>
+        <strong>Position: </strong> {{ player.position }}
+    </p>
+    <p>
+        <strong>Average Rating: </strong> {{ player.avr_rating }}
+    </p>
+    <p>
+        <strong>Form: </strong> {{ player.form }}
+    </p>
+
+    <hr>
+
+    <h2>Leave Your Criticism</h2>
+    <form method="post">
+        {% csrf_token %}
+        <textarea name="criticism" rows="5" cols="50" placeholder="Write your criticism here..."></textarea>
+        <br>
+        <button type="submit">Submit Criticism</button>
+    </form>
+
+    <hr>
+
+    <h2>Criticism from Fans</h2>
+    <ul>
+        {% for comment in criticisms %}
+            <li>
+                <strong>{{ comment.user }}:</strong> {{ comment.text }}
+            </li>
+        {% empty %}
+            <li>No criticisms yet. Be the first to leave one!</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
