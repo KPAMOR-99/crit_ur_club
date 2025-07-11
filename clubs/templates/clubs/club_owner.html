@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="{% static 'clubs/style.css' %}">
     <title>{{ owner.name }} - Owner Details</title>
 </head>
+
 <body>
     <div class="container">
         <h1>Owner Profile</h1>
@@ -23,8 +25,12 @@
             <h3>Give Your Feedback on the Owner</h3>
             <form method="post">
                 {% csrf_token %}
-                <textarea name="comment" rows="5" cols="50" placeholder="Write your criticism or praise here..."></textarea>
-                <br>
+                <h2>Leave Your Criticism</h2>
+                <form method="post">
+                    {% csrf_token %}
+                    {% form.as_p %}
+                    <button type="submit">Submit Criticism</button>
+                </form>
                 <button type="submit">Submit Feedback</button>
             </form>
         </section>
@@ -32,14 +38,18 @@
         <hr>
 
         <section class="feedback-display">
-            <h3>Recent Comments</h3>
-            <div class="comment">
-                <p><strong>Fan1:</strong> {{ owner.name }} has been a great supporter of the club!</p>
-            </div>
-            <div class="comment">
-                <p><strong>Fan2:</strong> Needs to invest more in the team.</p>
-            </div>
+            <h2>Criticism from Fans</h2>
+            <ul>
+                {% for comment in criticisms %}
+                <li>
+                    <strong>{{ comment.user }}:</strong> {{ comment.comment }}
+                </li>
+                {% empty %}
+                <li>No criticisms yet. Be the first to leave one!</li>
+                {% endfor %}
+            </ul>
         </section>
     </div>
 </body>
+
 </html>

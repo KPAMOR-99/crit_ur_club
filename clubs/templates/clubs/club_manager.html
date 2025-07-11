@@ -25,9 +25,12 @@
         <section class="feedback-form">
             <h3>Give Your Feedback on the Coach</h3>
             <form method="post">
-                <!-- No real form logic yet, just placeholder -->
-                <textarea name="comment" rows="5" cols="50" placeholder="Write your criticism or praise here..."></textarea>
-                <br>
+                <h2>Leave Your Criticism</h2>
+                <form method="post">
+                    {% csrf_token %}
+                    {% form.as_p %}
+                    <button type="submit">Submit Criticism</button>
+                </form>
                 <button type="submit">Submit Feedback</button>
             </form>
         </section>

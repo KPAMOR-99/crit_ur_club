@@ -26,8 +26,7 @@
     <h2>Leave Your Criticism</h2>
     <form method="post">
         {% csrf_token %}
-        <textarea name="criticism" rows="5" cols="50" placeholder="Write your criticism here..."></textarea>
-        <br>
+        {% form.as_p %}
         <button type="submit">Submit Criticism</button>
     </form>
 
@@ -37,7 +36,7 @@
     <ul>
         {% for comment in criticisms %}
             <li>
-                <strong>{{ comment.user }}:</strong> {{ comment.text }}
+                <strong>{{ comment.user }}:</strong> {{ comment.comment }}
             </li>
         {% empty %}
             <li>No criticisms yet. Be the first to leave one!</li>
