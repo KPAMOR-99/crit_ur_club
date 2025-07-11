@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Owner, Manager, Club, Player, Criticism
 
 
-# registered my models here
+# registered my models here so that i it will be dsplayed in my admin page in my browser
 @admin.register(Owner)
 class OwnerAdmin(admin.ModelAdmin):
       list_display = ('name', 'age')
@@ -21,4 +21,4 @@ class ManagerAdmin(admin.ModelAdmin):
 
 @admin.register(Criticism)
 class CriticismAdmin(admin.ModelAdmin):
-     list_display = ('comment', 'time', 'likes')
+     list_display = ('comment', 'time', 'likes', 'player', 'manager', 'owner')
